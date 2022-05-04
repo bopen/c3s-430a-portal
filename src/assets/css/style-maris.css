@@ -1,3 +1,7 @@
+.logo img{
+    max-height: 35pt;
+}
+
 .container-themes {
     display: flex;
     justify-content: space-around;
