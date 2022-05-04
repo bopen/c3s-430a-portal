@@ -1,0 +1,169 @@
+.logo img{
+    max-height: 35pt;
+}
+
+.container-themes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-themes .column {
+    border-radius: 20px;
+    position: relative;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.container-themes .column h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0px 10px;
+}
+
+.container-themes .img-health {
+    background: url(/grfx/img-health.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-agriculture {
+    background: url(/grfx/img-agriculture.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-forestry {
+    background: url(/grfx/img-forestry.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-energy {
+    background: url(/grfx/img-energy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-insurance-and-disaster-risk-reduction {
+    background: url(/grfx/img-insurance.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-physical-climate-extremes {
+    background: url(/grfx/img-climate-extremes.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-coastal {
+    background: url(/grfx/img-coastal.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-themes .img-tourism {
+    background: url(/grfx/img-tourism.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-themes .column:hover,
+.not-active-yet {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.secundary-button {
+    background: #8A9C3A;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+button>a,
+button>a:focus,
+button>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+}
+
+hr {
+    background: #005C96;
+    height: 4px;
+}
+
+.alert.warning {
+    background-color: #ff9800;
+    border-radius: 5px;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 0.83;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+.logo .text {
+    position: absolute;
+    z-index: 999;
+    top: 30%;
+    color: red;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* toolbox app embed fixes */
+.app-title {
+    display: none;
+}
+
+.__react_component_tooltip p {
+    color: white;
+}
+
+
+.fkJcKE {
+    max-width: 100% !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .container-themes .column {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-themes .column {
+        width: 100%;
+    }
+    .container-themes {
+        display: block;
+        margin: 20px;
+    }
+}
+
+/* App loading icon centered */
+.pre-app-loading {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}

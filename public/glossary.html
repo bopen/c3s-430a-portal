@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        ECDE Glossary - European Climate Data Explorer
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <style>
+    .header {
+        position: absolute;
+        width: 100%;
+        z-index: 99
+    }
+
+    .logo {
+        margin-top: 8px
+    }
+
+    .sticky-header {
+        position: fixed !important;
+        top: 0
+    }
+
+    .top-page-area .header {
+        position: relative
+    }
+
+    .top-menu {
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 65px;
+        position: relative;
+        z-index: 99
+    }
+
+    .top-menu .fa-bars {
+        color: #005C96;
+        font-size: 28px
+    }
+
+    .top-menu-right-section {
+        margin-top: 20px
+    }
+
+    .top-menu-wrapper {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .top-menu-right-section a,
+    .personal-menu-action {
+        color: #3a3a3a
+    }
+
+    .action-selected,
+    .action-selected a {
+        color: #0170B7
+    }
+
+    .top-menu-nav {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 2px
+    }
+
+    .top-menu-nav-item {
+        display: inline-block;
+        margin-left: 10px;
+        position: relative;
+        cursor: pointer
+    }
+
+    .help-menu {
+        margin-right: 10px
+    }
+
+    .login-container,
+    .help-container {
+        display: none
+    }
+
+    .top-menu-nav-item:hover .login>.login-container,
+    .help-menu:hover>.help-container {
+        display: block
+    }
+
+    .top-menu-nav-item:hover #user-name,
+    .top-menu-nav-item:hover>.login #personal-menu .personal-menu-action,
+    .top-menu-nav-item:hover>.help-link,
+    .top-menu-right-section a:hover {
+        color: #0170B7
+    }
+
+    .top-menu-nav-item:hover .help-link>.angle-down-icon,
+    .top-menu-nav-item:hover .personal-menu-action>.angle-down-icon {
+        border-top: 4px solid #0170B7
+    }
+
+    #portal-personaltools,
+    #help-items {
+        width: 100%;
+        min-width: 230px;
+        background-color: #F7F7F7;
+        border-bottom: 5px solid #005C96;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 10px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4)
+    }
+
+    #portal-personaltools li,
+    #help-items li {
+        display: block
+    }
+
+    #portal-personaltools li:not(:last-child),
+    #help-items li:not(:last-child) {
+        padding-bottom: .3em
+    }
+
+    .help-main-nav-link {
+        padding-bottom: .3em;
+        display: block
+    }
+
+    #portal-personaltools a:hover {
+        color: #0170B7
+    }
+
+    .angle-down-icon {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #fff;
+        margin-bottom: 2px
+    }
+
+    .top-menu-nav-item .angle-down-icon {
+        border-top: 4px solid #3a3a3a
+    }
+
+    .mobile-menu {
+        display: none
+    }
+
+    .mobile-menu .fa-times {
+        color: #005C96;
+        font-size: 28px
+    }
+
+    .search-box {
+        display: inline-block;
+        position: relative;
+        right: 20px
+    }
+
+    .search-box:after {
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        content: '';
+        background-color: #3a3a3a;
+        position: absolute;
+        right: -7px;
+        top: 50%;
+        height: 80%;
+        width: 2px
+    }
+
+    .search-box .line {
+        -webkit-transition: .3s width ease-in-out;
+        -moz-transition: .3s width ease-in-out;
+        -o-transition: .3s width ease-in-out;
+        transition: .3s width ease-in-out;
+        background-color: darkgrey;
+        bottom: -5px;
+        display: block;
+        height: 2px;
+        position: absolute;
+        width: 0
+    }
+
+    .search-box input {
+        -webkit-transition: width .4s ease-in-out;
+        -moz-transition: width .4s ease-in-out;
+        -o-transition: width .4s ease-in-out;
+        transition: width .4s ease-in-out;
+        background-color: transparent;
+        border: none;
+        height: 25px;
+        width: 50%
+    }
+
+    .search-box input:focus {
+        width: 80%
+    }
+
+    .search-box input:focus+.line {
+        background-color: #005C96;
+        width: 100%
+    }
+
+    .search-submit {
+        background-color: transparent;
+        border: none
+    }
+
+    .search-box .search-submit i {
+        font-size: 18px
+    }
+
+    .search-box .search-submit i:hover {
+        color: #005C96
+    }
+
+    ::-webkit-input-placeholder {
+        color: #3a3a3a;
+        font-style: italic
+    }
+
+    :-moz-placeholder {
+        color: #3a3a3a;
+        font-style: italic
+    }
+
+    ::-moz-placeholder {
+        color: #3a3a3a;
+        font-style: italic
+    }
+
+    :-ms-input-placeholder {
+        color: #3a3a3a;
+        font-style: italic
+    }
+
+    .header ul {
+        list-style: none
+    }
+
+    .header a {
+        text-decoration: none
+    }
+
+    .header a:hover {
+        text-decoration: none
+    }
+
+    .header .main-nav-menu {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -moz-box;
+        display: flex;
+        position: relative;
+        background-color: #005C96;
+        box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4)
+    }
+
+    .header .main-nav-menu .fa-database {
+        display: inline;
+        margin-right: 5px;
+        line-height: 18px;
+        color: #005C96
+    }
+
+    .header .main-nav-item {
+        flex-grow: 1;
+        position: relative;
+        text-align: center
+    }
+
+    .header .main-nav-item>span {
+        display: block
+    }
+
+    .header .main-nav-item:hover>span {
+        background: #8A9C3A
+    }
+
+    .header .main-nav-item:not(:last-child) {
+        border-right: 1px solid #014673
+    }
+
+    .header .main-nav-link {
+        display: inline-block;
+        padding: 15px 0;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        cursor: pointer
+    }
+
+    .header .sub-menu {
+        min-width: 200px;
+        text-align: left
+    }
+
+    .header .main-nav-item:hover>.sub-menu-wrapper {
+        display: block
+    }
+
+    .header .sub-menu-wrapper {
+        position: absolute;
+        left: 0;
+        height: auto;
+        background-color: #fff;
+        z-index: 10;
+        padding: 15px;
+        border-bottom: 5px solid #8A9C3A;
+        box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+        display: none
+    }
+
+    .header .sub-menu-item {
+        padding: 13px 0
+    }
+
+    .header .sub-menu-item:first-of-type {
+        padding-top: 0
+    }
+
+    .header .sub-menu-item:last-of-type {
+        padding-bottom: 0
+    }
+
+    .header .sub-menu-item:not(:last-of-type) {
+        border-bottom: 1px solid #ddd
+    }
+
+    .header .sub-menu-link {
+        color: #005C96;
+        font-size: 14px;
+        text-transform: uppercase
+    }
+
+    .header .sub-sub-menu-item {
+        display: block;
+        padding-top: 8px
+    }
+
+    .header .sub-sub-menu-link {
+        color: #3a3a3a;
+        font-family: OpenSansR;
+        font-size: 13px;
+        display: block
+    }
+
+    .header .sub-menu-link:hover,
+    .header .sub-sub-menu-link:hover {
+        color: #6B7427
+    }
+
+    .header .toggle-down {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        cursor: pointer;
+        display: inline-block
+    }
+
+    .header #main-nav-item-1 .sub-menu-wrapper {
+        min-width: 480px
+    }
+
+    .header #main-nav-item-1 .sub-menu-wrapper,
+    .header #main-nav-item-2 .sub-menu-wrapper {
+        column-count: auto !important
+    }
+
+    .header #main-nav-item-1 .sub-menu>.sub-menu-item:first-child>ul,
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:first-child>ul,
+    .header #main-nav-item-1 .sub-menu>.sub-menu-item:nth-child(2)>ul,
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:nth-child(2)>ul {
+        column-count: 2
+    }
+
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:nth-child(2) {
+        padding-top: 0;
+        border-left: 1px solid #ddd;
+        padding-left: 4%;
+        float: left;
+        width: 48%
+    }
+
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:first-child {
+        float: left;
+        width: 48%
+    }
+
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:last-of-type {
+        clear: both
+    }
+
+    .header #main-nav-item-2 .sub-menu>.sub-menu-item:last-of-type ul {
+        column-count: 2
+    }
+
+    .header .mobile-clearfix {
+        display: none
+    }
+
+    .header #main-nav-item-3 .sub-menu-wrapper {
+        column-count: auto !important;
+        min-width: 500px
+    }
+
+    .header #main-nav-item-3 .sub-menu {
+        float: left;
+        width: 50%
+    }
+
+    .header #main-nav-item-3 .sub-menu:first-child {
+        border-right: 1px solid #ddd
+    }
+
+    .header #main-nav-item-3 .sub-menu:last-child>.sub-menu-item {
+        padding-left: 15px
+    }
+</style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/cca-search.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/compiled-less.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style-maris.css?v=aa3f0d6e20" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+</head>
+
+<body dir="ltr"
+    class="cover-layout-empty-layout template-view portaltype-collective-cover-content site-cca section-knowledge subsection-c-a-indicators subsection-c-a-indicators-c-a-indicators icons-on userrole-anonymous">
+    <div class="top-page-area">
+        <div class="edit-bar-wrapper">
+            <div class="content-container"> </div>
+        </div>
+        <div class="header">
+            <div class="top-menu nav-down">
+    <div class="content-container top-menu-wrapper">
+        <div class="logo"><a href="/index.html"><img
+                    src="https://climate-adapt.eea.europa.eu/++theme++climateadaptv2/static/images/climate-adapt-logo.svg"
+                    class = "not-active-yet"
+                    alt="Climate-ADAPT Logo"> </a>
+            <div class="text">Beta</div>
+        </div>
+        <div class="top-menu-right-section not-active-yet">
+            <div class="top-menu-content not-active-yet">
+                <div class="search-box">
+                    <form action="#">
+                        <input type="text" name="SearchableText" placeholder="Search all site ..." disabled>
+                        <div class="line"></div>
+                        <button class="search-submit" aria-label="Search on Climate-ADAPT" disabled>
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <ul class="top-menu-nav not-active-yet">
+                    <li class="top-menu-nav-item help-menu">
+                        <a class="help-link">
+                            <i class="fa fa-question-circle"></i>
+                            Help
+                        </a>
+                    </li>
+                    <li class="top-menu-nav-item">
+                        <div class="login">
+                            <div id="personal-menu">
+                                <a class="personal-menu-action">
+                                    <i class="fa fa-user"></i>
+                                    <span class="login-text">My Climate-ADAPT</span>
+
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-menu">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-container">
+    <ul id="navbar" class="main-nav main-nav-menu">
+        <li class="main-nav-item not-active-yet" id="main-nav-item-0">
+            <span>
+                <a class="main-nav-link"> <span>About</span></a>
+            </span>
+        </li>
+        <li class="main-nav-item not-active-yet" id="main-nav-item-1">
+            <span>
+                <a class="main-nav-link">
+                    <span>EU policy</span>
+                </a>
+            </span>
+        </li>
+        <li class="main-nav-item not-active-yet" id="main-nav-item-2">
+            <span>
+                <a class="main-nav-link">
+                    <span>Countries, Transnational regions, Cities</span>
+                </a>
+            </span>
+        </li>
+        <li class="main-nav-item  not-active-yet" id="main-nav-item-3">
+            <span>
+                <a class="main-nav-link">
+
+                    <span>Knowledge</span>
+                </a>
+            </span>
+        </li>
+        <li class="main-nav-item not-active-yet" id="main-nav-item-4">
+            <span>
+                <a class="main-nav-link" href="#">
+                    <span>Networks</span>
+                </a>
+            </span>
+        </li>
+    </ul>
+</div>
+        </div>
+    </div>
+
+    <div class="content-container site-container">
+        <div id="portal-columns">
+            <div id="portal-column-content" class="cell width-full position-0">
+
+                <div id="viewlet-above-content">
+                    <div id="portal-breadcrumbs">
+                        <span id="breadcrumbs-you-are-here">You are here:</span>
+                        <span id="breadcrumbs-home">
+                            <a href="/">Home</a>
+                            <span class="breadcrumbSeparator">/</span>
+                        </span>
+                        <span id="breadcrumbs-1" dir="ltr">
+                            <a href="#">Knowledge</a>
+                            <span class="breadcrumbSeparator"> /</span>
+                        </span>
+                        <span id="breadcrumbs-2" dir="ltr">
+                            <a href="../index.html">European Climate Data Explorer</a>
+                            <span class="breadcrumbSeparator"> /</span>
+                        </span>
+                        <span id="breadcrumbs-4" dir="ltr">
+                            <span id="breadcrumbs-current">
+                                ECDE Glossary
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div id="content">
+                        <div class="row">
+                            <div class="column col-md-12" data-panel="">
+                                <div class="tile tile-default" >
+                                    <div class="cover-richtext-tile tile-content">
+                                        <h1>
+                                            ECDE Glossary
+                                        </h1>
+                                        <div>
+                                            <table class="plain">
+<thead>
+        <tr>    
+            
+            <th>
+                Term
+            </th>    
+            
+            <th>
+                Explanation
+            </th>    
+            
+            <th>
+                Source: Formal
+            </th>    
+            
+            <th>
+                Source: Informal
+            </th>    
+             
+        </tr>
+    </thead>
+
+    <tbody>
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            Air temperature
+                        </td>
+        
+                        <td >
+                            The temperature of the air above the ground in a shaded ventilated environment.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://codes.wmo.int/common/quantity-kind/airTemperature">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            Apparent temperature
+                        </td>
+        
+                        <td >
+                            The apparent temperature is a measure of the temperature percieved by humans. At high temperatures it is a measure of the relative discomfort due to combined heat and high humidity and is calculated from a combination of air temperature and dew point temperature.  At low temperatures it is calcuated as a combination of air temperature and wind speed and is known as wind chill.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://journals.ametsoc.org/view/journals/apme/23/12/1520-0450_1984_023_1674_ausoat_2_0_co_2.xml">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            CMIP5
+                        </td>
+        
+                        <td >
+                            Climate modelling groups coordinate their model updates and simulations around the schedule of the Intergovernmental Panel on Climate Change (IPCC) assessment reports. A Coupled Model Intercomparison Project (CMIP) is a coordinated set of simulations run by many different models. The 2013 IPCC fifth assessment report (AR5) featured climate model simulations from CMIP5.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.wcrp-climate.org/wgcm-cmip/wgcm-cmip5">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.carbonbrief.org/cmip6-the-next-generation-of-climate-models-explained">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            Dew point temperature
+                        </td>
+        
+                        <td >
+                            The temperature to which air must be cooled to become saturated with water vapour.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="http://codes.wmo.int/common/quantity-kind/dewPointTemperature">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            ECMWF
+                        </td>
+        
+                        <td >
+                            European Centre for Medium-Range Weather Forecasts
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="http://www.ecmwf.int">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            ERA5
+                        </td>
+        
+                        <td >
+                            ERA5 combines vast amounts of historical weather observations into global estimates using advanced modelling and data assimilation systems.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            GCM
+                        </td>
+        
+                        <td >
+                            Global Climate Model. Climate models use equations to represent the processes and interactions that drive the Earth’s climate. These cover the atmosphere, oceans, land and ice-covered regions of the planet.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.gfdl.noaa.gov/climate-modeling/">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.carbonbrief.org/qa-how-do-climate-models-work">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            mean
+                        </td>
+        
+                        <td >
+                            The mean is the average of a set of values, it is the sum of the values divided by the number of values.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://en.wikipedia.org/wiki/Mean">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            multi-model ensemble
+                        </td>
+        
+                        <td >
+                            When different Global Climate Models (GCMs) are set up to run simulations which all follow the same instructions for starting conditions, historical data and projected data, that suite of simulations is known as a multi-model ensemble.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.1098/rsta.2007.2076">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.carbonbrief.org/qa-how-do-climate-models-work">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            NUTS
+                        </td>
+        
+                        <td >
+                            The EUROSTAT NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of the EU and the UK. NUTS-0: Countries, NUTS-1: major socio-economic regions with a populations between 3 million and 7 million, NUTS-2: basic regions for the application of regional policies with populations between 800 000 and 3 million, and NUTS-3: small regions for specific diagnoses with populations between 150 000 and 800 000.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://ec.europa.eu/eurostat/web/nuts/background">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            percentile
+                        </td>
+        
+                        <td >
+                            In statistics, a percentile (or centile) is a value below which a given percentage of the values in the data distribution lie.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://en.wikipedia.org/wiki/Percentile">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            RCP2.6
+                        </td>
+        
+                        <td >
+                            RCP2.5 has an emission pathway that is representative of scenarios that lead to very low greenhouse gas concentration levels. Radiative forcing peaks at around 3.1 W/m2 in the mid 21st century and declines to 2.6 W/m2 by the year 2100.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.1007/s10584-011-0148-z">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://skepticalscience.com//rcp.php">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            RCP4.5
+                        </td>
+        
+                        <td >
+                            RCP4.5 is a stabilisation scenario in which total radiative forcing stabilises at 4.5 W/m2 shortly after the year 2100.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.1007/s10584-011-0148-z">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://skepticalscience.com//rcp.php">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            RCP8.5
+                        </td>
+        
+                        <td >
+                            RCP8.5 is characterised by increasing greenhouse gas emissions over time, it is representative of scenarios that lead to high greenhouse gas concentration levels and has a radiative forcing of 8.5 W/m2 in the year 2100.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.1007/s10584-011-0148-z">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://skepticalscience.com//rcp.php">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            relative humidity
+                        </td>
+        
+                        <td >
+                            The amount of water vapour in air as a percentage of the amount of water vapour needed for saturation at the same temperature.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://glossary.ametsoc.org/wiki/Relative_humidity">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            running average
+                        </td>
+        
+                        <td >
+                            A running (or moving) average is applied to timeseries data to smooth out short-term fluctuations and highlight longer-term trends. The points inside a time window are averaged and the window “runs” along the time axis.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://en.wikipedia.org/wiki/Moving_average">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            Scenario
+                        </td>
+        
+                        <td >
+                            CMIP5 scenarios are called representative concentration pathways (RCPs). They are representative in that they are one of several different scenarios that have similar radiative forcing and emissions characteristics.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.1038/nature08823">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://skepticalscience.com//rcp.php">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            SD
+                        </td>
+        
+                        <td >
+                            Standard Deviation. The standard deviation is a measure of the amount of variation in a set of values. A low standard deviation indicates that the values tend to be close to the mean, while a high standard deviation indicates that the values are spread out over a wider range.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://en.wikipedia.org/wiki/Standard_deviation">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            diapause
+                        </td>
+        
+                        <td >
+                            Diapause is a period of suspended or arrested development during an insect's life cycle, usually as a result of environmental factors.
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://www.amentsoc.org/insects/glossary/terms/diapause">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                        </td>
+        
+            </tr>    
+        
+            <tr>
+        
+                        <td style="white-space: nowrap">
+                            glacial isostatic adjustment
+                        </td>
+        
+                        <td >
+                            Glacial isostatic adjustment is the ongoing movement of land once burdened by ice-age glaciers
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://doi.org/10.5194/esurf-6-401-2018">Source</a></span>
+                            
+                        </td>
+        
+                        <td >
+                            
+                                <span class="link-external"><a target="_blank" href="https://oceanservice.noaa.gov/facts/glacial-adjustment.html">Source</a></span>
+                            
+                        </td>
+        
+            </tr>    
+         
+    </tbody>
+</table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="footer-nav-wrapper">
+    <div class="content-container">
+        <nav class="footer-nav" role="navigation">
+            <ul>
+                <li class="footer-nav-item not-active-yet">
+                    <a href="/" class="footer-nav-link">Home</a>
+                </li>
+                <li class="footer-nav-item not-active-yet">
+                    <a href="#" class="footer-nav-link" target="_blank">Contact</a>
+                </li>
+                <li class="footer-nav-item not-active-yet">
+                    <a href="#" class="footer-nav-link">SITE MAP</a>
+                </li>
+                <li class="footer-nav-item not-active-yet">
+                    <a href="#" class="footer-nav-link">Privacy and Legal Notice</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+        <div class="content-container">
+    <div class="row footer-content">
+        <div class="col-md-6 col-xs-12">
+            <p class="site-info">The European Climate Adaptation Platform Climate-ADAPT is a partnership between the <a
+                    href="https://ec.europa.eu/" target="_blank">European Commission</a> and the <a
+                    href="https://www.eea.europa.eu/" target="_blank">European Environment Agency.</a></p>
+            <div class="footer-logos-wrapper">
+                <a href="https://ec.europa.eu/" rel="noopener" target="_blank">
+                    <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/ec_logo.svg"
+                    alt="European Commission Logo" title="European Commission" width="160" height="40" class=" lazyloaded"
+                    src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/ec_logo.svg">
+                </a>
+                <a href="https://www.eea.europa.eu/" rel="noopener" target="_blank">
+                    <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/EEA-logo.png"
+                    alt="EEA Logo" title="European Environment Agency" width="114" height="40" class=" lazyloaded"
+                    src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/EEA-logo.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="eu-systems col-md-6 col-xs-12">
+            <div class="eu-systems-wrapper">
+                <p>Other European <br> Information Systems:</p>
+                <ul class="footer-logos">
+                    <li class="footer-logo-item">
+                        <a href="https://biodiversity.europa.eu/" rel="noopener" target="_blank">
+                            <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/bise-logo.svg"
+                            alt="BISE Logo" title="Biodiversity Information System for Europe" width="105" height="35"
+                            class=" lazyloaded" src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/bise-logo.svg">
+                        </a>
+                    </li>
+                    <li class="footer-logo-item">
+                        <a href="https://water.europa.eu/" rel="noopener" target="_blank">
+                            <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/wise-logo.png"
+                                alt="WISE Logo" title="Water Information System for Europe" class=" lazyloaded"
+                                src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/wise-logo.png">
+                        </a>
+                    </li>
+                    <li class="footer-logo-item">
+                        <a href="https://climate.copernicus.eu/" rel="noopener" target="_blank">
+                            <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/c3s-logo.png"
+                                alt="Copernicus Climate Logo" title="Climate Change Service" class=" lazyloaded"
+                                src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/c3s-logo.png">
+                        </a>
+                    </li>
+                    <li class="footer-logo-item">
+                        <a href="https://drmkc.jrc.ec.europa.eu/" rel="noopener" target="_blank">
+                            <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/drmkc-logo.png"
+                                alt="DRMKC Logo" title="Disaster Risk Management Knowledge Centre" class=" lazyloaded"
+                                src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/drmkc-logo.png">
+                        </a>
+                    </li>
+                    <li class="footer-logo-item">
+                        <a href="https://forest.eea.europa.eu/" rel="noopener" target="_blank">
+                            <img data-src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/forest.svg"
+                                alt="FISE Logo" title="Forest Information System for Europe" style="height:36px"
+                                class=" lazyloaded"
+                                src="https://climate-adapt.eea.europa.eu/cca/++theme++climateadaptv2/static/images/forest.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <i>Page generated: 5/4/2022, 1:11:28 PM</i>
+</div>
+
+    </footer>
+
+    
+
+</body>
+
+</html>
