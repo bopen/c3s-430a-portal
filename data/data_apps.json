@@ -311,6 +311,27 @@
                     "indicator": "period_with_high_amount_of_natural_snow"
                 }
             }
+        },
+        {
+            "description": "<p><strong>Context</strong>\nHDD CDD context.</p>\n<p><strong>Definition</strong>\nHDD CDD definition.</p>\n<p><strong>Data Sources</strong>\nHDD CDD Data Sources.</p>\n<p><strong>Supporting Information</strong>\nHDD CDD supporting information</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
+            "description_detail": "HDD - CDD description detail.",
+            "detail": "app-heating-cooling-degree-days",
+            "indicator_title": "HDD - CDD",
+            "overview": "app-heating-cooling-degree-days/",
+            "page_title": "Period with high amount of natural snow",
+            "page_url": "tourism-high-amount-of-natural-snow",
+            "identifier": "C3S_434_023",
+            "theme": ["Energy"],
+            "hazard_category": "Heat and cold",
+            "hazards": ["Heat and cold"],
+            "vars": {
+                "detail": {
+                    "indicator": "hdd_cdd"
+                },
+                "overview": {
+                    "indicator": "hdd_cdd"
+                }
+            }
         }
     ]
 }
