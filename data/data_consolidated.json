@@ -512,12 +512,12 @@
     },
     "C3S_434_023": {
       "description": "<p><strong>Context</strong>\nHDD CDD context.</p>\n<p><strong>Definition</strong>\nHDD CDD definition.</p>\n<p><strong>Data Sources</strong>\nHDD CDD Data Sources.</p>\n<p><strong>Supporting Information</strong>\nHDD CDD supporting information</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
-      "description_detail": "<p><strong>Context</strong>\nHDD CDD context.</p>\n<p><strong>Definition</strong>\nHDD CDD definition.</p>\n<p><strong>Data Sources</strong>\nHDD CDD Data Sources.</p>\n<p><strong>Supporting Information</strong>\nHDD CDD supporting information</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
+      "description_detail": "HDD - CDD description detail.",
       "detail": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
-      "indicator_title": "HDD CDD Indicator Title",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
-      "page_title": "HDD CDD page title",
-      "page_url": "hdd-cdd-page-url",
+      "indicator_title": "HDD - CDD",
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days//master/configuration.json?configuration_version=3.0",
+      "page_title": "HDD CDD title",
+      "page_url": "hdd_cdd",
       "identifier": "C3S_434_023",
       "theme": [
         "Energy"
@@ -534,10 +534,9 @@
           "indicator": "hdd_cdd"
         }
       },
-      "overviewpage": "hdd-cdd-overview.html",
-      "detailpage": "hdd-cdd-detail.html",
-      "units": "(days)",
-      "css_version": "cb65990da8"
+      "overviewpage": "hdd_cdd.html",
+      "detailpage": "hdd_cdd-detail.html",
+      "css_version": "aa3f0d6e20"
     }
   },
   "toolbox_embed_version": "latest",
@@ -630,6 +629,10 @@
         {
           "title": "Climatological Heatwave (High Temperature), 1971-2099",
           "url": "energy/climatological-heat-waves-in-europe.html"
+        },
+        {
+          "title": "HDD CDD title",
+          "url": "energy/hdd_cdd.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -802,6 +805,12 @@
           {
             "title": "Biologically Effective Degree Days, 2011-2099",
             "url": "agriculture/biologically-effective-degree-days.html"
+          }
+        ],
+        "Heat and cold": [
+          {
+            "title": "HDD CDD title",
+            "url": "energy/hdd_cdd.html"
           }
         ]
       },
