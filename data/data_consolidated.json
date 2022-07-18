@@ -512,7 +512,7 @@
     },
     "C3S_434_023": {
       "description": "<p><strong>Context</strong>\nHDD CDD context.</p>\n<p><strong>Definition</strong>\nHDD CDD definition.</p>\n<p><strong>Data Sources</strong>\nHDD CDD Data Sources.</p>\n<p><strong>Supporting Information</strong>\nHDD CDD supporting information</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
-      "description_detail": "HDD - CDD description detail.",
+      "description_detail": "HDD - CDD description detail.</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
       "detail": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
       "indicator_title": "HDD - CDD",
       "overview": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days//master/configuration.json?configuration_version=3.0",
