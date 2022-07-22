@@ -295,7 +295,8 @@ function createHTMLfiles(dataset) {
                 element.hasOwnProperty(dataset.identifier)
             )[dataset.identifier];
         } catch (error) {
-            console.error(error);
+            console.error(`Cannot find ${dataset.identifier}`);
+            console.trace(error);
         }
 
         if (git_consolidated_data) {

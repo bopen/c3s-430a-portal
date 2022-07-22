@@ -167,3 +167,13 @@ hr {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Fullscreen support */
+body.fullscreen .content-container {
+    max-width: 100%;
+}
+body.fullscreen .top-page-area,
+body.fullscreen #viewlet-above-content,
+body.fullscreen footer {
+    padding: 0 2em;
+}

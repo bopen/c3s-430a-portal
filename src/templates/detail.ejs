@@ -2,25 +2,28 @@
 <html lang="en">
 
 <head>
-    <title><%= theme %> - <%= page_title %> - Explore index</title>
+    <title>
+        <%= theme %> - <%= page_title %> - Explore index
+    </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <%- include('./partials/style') %>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="description" content="" />
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/cca-search.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/compiled-less.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/style-maris.css?v=<%= css_version %>"" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+            as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/cca-search.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/compiled-less.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/style-maris.css?v=<%= css_version %>"" />
 
     <link rel=" shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
 </head>
 
 <body dir="ltr"
@@ -37,7 +40,7 @@
     <div class="content-container site-container">
         <div id="portal-columns">
             <div id="portal-column-content" class="cell width-full position-0">
-                        
+
                 <div id="viewlet-above-content">
                     <div id="portal-breadcrumbs">
                         <span id="breadcrumbs-you-are-here">You are here:</span>
@@ -54,11 +57,15 @@
                             <span class="breadcrumbSeparator"> /</span>
                         </span>
                         <span id="breadcrumbs-3" dir="ltr">
-                            <a href="../<%= theme.toLowerCase() %>.html"><%= theme %></a>
+                            <a href="../<%= theme.toLowerCase() %>.html">
+                                <%= theme %>
+                            </a>
                             <span class="breadcrumbSeparator"> /</span>
                         </span>
                         <span id="breadcrumbs-4" dir="ltr">
-                            <a href="../<%= theme.toLowerCase() %>/<%= overviewpage %>"><%= page_title %></a>
+                            <a href="../<%= theme.toLowerCase() %>/<%= overviewpage %>">
+                                <%= page_title %>
+                            </a>
                             <span class="breadcrumbSeparator"> /</span>
                         </span>
                         <span id="breadcrumbs-4" dir="ltr">
@@ -66,20 +73,14 @@
                         </span>
                     </div>
                 </div>
-  
+
                 <div class="">
-                    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
-                        <dt>Info</dt>
-                        <dd></dd>
-                    </dl>
-
-
 
                     <div id="content">
 
                         <div class="row">
                             <div class="column col-md-12" data-panel="">
-                                <div class="tile tile-default" >
+                                <div class="tile tile-default">
                                     <div class="cover-richtext-tile tile-content">
                                         <h1>
                                             <%= page_title %> - Explore index
@@ -91,27 +92,12 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- <div class="row">
-                            <div class="column col-md-16 " data-panel="">
-                                <div class="tile tile-default">
-                                    <div class="cover-richtext-tile tile-content">
-                                        <div class="alert warning">
-                                            Optimization in progress. NUTS level 0 will work smoothly,
-                                            NUTS level 1 and 2 might take up to 30 seconds to load timeseries.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
 
                         <div class="row">
                             <div class="column col-md-12" data-panel="">
-                                <h2 style="float: left; position: relative;"><%= indicator_title %>  - Explore index</h2>
-                                <button class="standard-button primary-button"
-                                    onclick="window.location = '<%= overviewpage %>'"
-                                    style="float: right; position: relative;" ;>
-                                    Go back
+                                <button class="standard-button primary-button fullscreen-cmd"
+                                    style="float: right; position: relative;" href="" data-fullscreen="false">
+                                    Fullscreen
                                 </button>
                             </div>
                         </div>
@@ -120,7 +106,7 @@
 
                         <div class="row">
                             <div class="column col-md-12" data-panel="">
-                                
+
                                 <div class="t-ct">
                                     <div id="toolbox-app">
                                         <div class="pre-app-loading">
@@ -134,8 +120,8 @@
                                 </div>
 
                                 <script type="text/javascript">
-                                    window.cds_toolbox = { 
-                                        cds_public_path: 'https://cds.climate.copernicus.eu/toolbox/' 
+                                    window.cds_toolbox = {
+                                        cds_public_path: 'https://cds.climate.copernicus.eu/toolbox/'
                                     };
                                     const pageURL = window.location.origin + window.location.pathname;
                                 </script>
@@ -145,19 +131,19 @@
 
                                 <script type="text/javascript">
                                     const WORKFLOW = '<%= detail %>';
-                                    const WORKFLOWPARAMS = <%- JSON.stringify(vars.detail) %>;
-                                
+                                    const WORKFLOWPARAMS = <%- JSON.stringify(vars.detail || {}) %>;
+
                                     (function () {
                                         document.addEventListener('DOMContentLoaded', function () {
                                             window.cds_toolbox.runApp(
-                                                'toolbox-app', 
-                                                WORKFLOW, 
+                                                'toolbox-app',
+                                                WORKFLOW,
                                                 {
                                                     workflowParams: WORKFLOWPARAMS,
                                                 }
                                             );
                                         }, false);
-                                    }) ();
+                                    })();
                                 </script>
                             </div>
                         </div>
@@ -173,4 +159,5 @@
         <%- include('./partials/footer') %>
     </footer>
 </body>
+
 </html>
