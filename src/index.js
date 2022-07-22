@@ -356,7 +356,7 @@ function createThemePages(data) {
             ) {
                 theme.apps.push({
                     title: dataset.page_title,
-                    url: `${theme.theme_title.toLowerCase()}/${overviewFileName(dataset)}`,
+                    url: `${theme.theme_title.toLowerCase()}/${detailFileName(dataset)}`,
                 });
             }
         }

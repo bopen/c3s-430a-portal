@@ -543,23 +543,23 @@
       "apps": [
         {
           "title": "Climatic Suitability for the Tiger Mosquito - Season Length, 1971-2099",
-          "url": "health/climatic-suitability-of-tiger-mosquito--season-length.html"
+          "url": "health/climatic-suitability-of-tiger-mosquito--season-length-detail.html"
         },
         {
           "title": "Climatic Suitability for the Tiger Mosquito - Suitability Index, 1971-2099",
-          "url": "health/climatic-suitability-of-tiger-mosquito--suitability.html"
+          "url": "health/climatic-suitability-of-tiger-mosquito--suitability-detail.html"
         },
         {
           "title": "Health Heatwave (High Temperature and Humidity), 1971-2099",
-          "url": "health/health-heat-waves-in-europe.html"
+          "url": "health/health-heat-waves-in-europe-detail.html"
         },
         {
           "title": "Thermal Comfort Indices - Mean Radiant Temperature, 1979-2020",
-          "url": "health/thermal-comfort-indices--mean-radiant-temperature.html"
+          "url": "health/thermal-comfort-indices--mean-radiant-temperature-detail.html"
         },
         {
           "title": "Thermal Comfort Indices - Universal Thermal Climate Index, 1979-2020",
-          "url": "health/thermal-comfort-indices--universal-thermal-climate-index.html"
+          "url": "health/thermal-comfort-indices--universal-thermal-climate-index-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -570,35 +570,35 @@
       "apps": [
         {
           "title": "Biologically Effective Degree Days, 2011-2099",
-          "url": "agriculture/biologically-effective-degree-days.html"
+          "url": "agriculture/biologically-effective-degree-days-detail.html"
         },
         {
           "title": "Climatological Heatwave (High Temperature), 1971-2099",
-          "url": "agriculture/climatological-heat-waves-in-europe.html"
+          "url": "agriculture/climatological-heat-waves-in-europe-detail.html"
         },
         {
           "title": "Daily Maximum Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-maximum-temperature.html"
+          "url": "agriculture/average-maximum-temperature-detail.html"
         },
         {
           "title": "Daily Mean Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-mean-temperature.html"
+          "url": "agriculture/average-mean-temperature-detail.html"
         },
         {
           "title": "Daily Minimum Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-minimum-temperature.html"
+          "url": "agriculture/average-minimum-temperature-detail.html"
         },
         {
           "title": "Frost Days, 2011-2099",
-          "url": "agriculture/frost-days.html"
+          "url": "agriculture/frost-days-detail.html"
         },
         {
           "title": "Precipitation Sum, 2011-2099",
-          "url": "agriculture/projected-change-in-precipitation-sum.html"
+          "url": "agriculture/projected-change-in-precipitation-sum-detail.html"
         },
         {
           "title": "Tropical Nights, 2011-2099",
-          "url": "agriculture/tropical-nights.html"
+          "url": "agriculture/tropical-nights-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -609,11 +609,11 @@
       "apps": [
         {
           "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-          "url": "forestry/high-fire-danger.html"
+          "url": "forestry/high-fire-danger-detail.html"
         },
         {
           "title": "Fire Weather Index - Monthly Mean, 1979-2020",
-          "url": "forestry/fire-weather-index.html"
+          "url": "forestry/fire-weather-index-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -624,11 +624,11 @@
       "apps": [
         {
           "title": "Climatological Heatwave (High Temperature), 1971-2099",
-          "url": "energy/climatological-heat-waves-in-europe.html"
+          "url": "energy/climatological-heat-waves-in-europe-detail.html"
         },
         {
           "title": "HDD CDD title",
-          "url": "energy/hdd_cdd.html"
+          "url": "energy/hdd_cdd-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -639,15 +639,15 @@
       "apps": [
         {
           "title": "Days with a High Amount of Natural Snow, 2011-2099",
-          "url": "tourism/tourism-high-amount-of-natural-snow.html"
+          "url": "tourism/tourism-high-amount-of-natural-snow-detail.html"
         },
         {
           "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-          "url": "tourism/high-fire-danger.html"
+          "url": "tourism/high-fire-danger-detail.html"
         },
         {
           "title": "Total Winter Snow, 2011-2099",
-          "url": "tourism/tourism-snow-precipitation.html"
+          "url": "tourism/tourism-snow-precipitation-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
@@ -658,11 +658,11 @@
       "apps": [
         {
           "title": "Annual Highest High Water, 2070-2100",
-          "url": "coastal/marine-sea-level--annual-highest-high-water-level.html"
+          "url": "coastal/marine-sea-level--annual-highest-high-water-level-detail.html"
         },
         {
           "title": "Mean Relative Sea Level, 2070-2100",
-          "url": "coastal/marine-sea-level--mean-sea-level.html"
+          "url": "coastal/marine-sea-level--mean-sea-level-detail.html"
         }
       ],
       "css_version": "aa3f0d6e20"
