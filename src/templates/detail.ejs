@@ -86,11 +86,17 @@
                                             <%= page_title %> - Explore index
                                         </h1>
                                         <div>
-                                            <%- description_general %>
+                                            <details class="collapsible" open>
+                                                <summary>Background Information</summary>
+                                                <%- description_general %>
+                                            </details>
                                         </div>
                                         <hr>
                                         <div>
-                                            <%- description_vis_nav %>
+                                            <details class="collapsible">
+                                                <summary>Visualisation and Navigation</summary>
+                                                <%- description_vis_nav %>
+                                            </details>
                                         </div>
                                     </div>
                                 </div>
