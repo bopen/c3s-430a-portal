@@ -1,3 +1,6 @@
 grfx/Thumbs.db
-node_modules
-public
+
+yarn-error.log
+node_modules/
+
+public/
