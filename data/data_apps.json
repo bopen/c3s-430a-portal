@@ -323,15 +323,7 @@
             "identifier": "C3S_434_023",
             "theme": ["Energy"],
             "hazard_category": "Heat and cold",
-            "hazards": ["Heat and cold"],
-            "vars": {
-                "detail": {
-                    "indicator": "hdd_cdd"
-                },
-                "overview": {
-                    "indicator": "hdd_cdd"
-                }
-            }
+            "hazards": ["Heat and cold"]
         }
     ]
 }

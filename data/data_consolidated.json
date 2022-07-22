@@ -526,16 +526,12 @@
       "hazards": [
         "Heat and cold"
       ],
-      "vars": {
-        "detail": {
-          "indicator": "hdd_cdd"
-        },
-        "overview": {
-          "indicator": "hdd_cdd"
-        }
-      },
       "overviewpage": "hdd_cdd.html",
       "detailpage": "hdd_cdd-detail.html",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
       "css_version": "aa3f0d6e20"
     }
   },
