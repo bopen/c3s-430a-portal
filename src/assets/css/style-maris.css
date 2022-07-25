@@ -177,6 +177,17 @@ body.fullscreen #viewlet-above-content,
 body.fullscreen footer {
     padding: 0 2em;
 }
+body.fullscreen .header > .content-container,
+body.fullscreen .header .top-menu-right-section,
+body.fullscreen footer .eu-systems,
+body.fullscreen footer .site-info,
+body.fullscreen .ss-generation-info {
+    display: none;
+}
+body.fullscreen footer .footer-credits {
+    /* override bootstrap cols */
+    width: 100%;
+}
 /* end of Fullscreen support */
 .collapsible {
     margin-bottom: 1rem;
