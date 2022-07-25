@@ -169,6 +169,12 @@ hr {
 }
 
 /* Fullscreen support */
+.btn-hidden {
+    display: none;
+}
+body.fullscreen .fs-only {
+    display: block;
+}
 body.fullscreen .content-container {
     max-width: 100%;
 }
@@ -181,7 +187,8 @@ body.fullscreen .header > .content-container,
 body.fullscreen .header .top-menu-right-section,
 body.fullscreen footer .eu-systems,
 body.fullscreen footer .site-info,
-body.fullscreen .ss-generation-info {
+body.fullscreen .ss-generation-info,
+body.fullscreen .hidden-fs {
     display: none;
 }
 body.fullscreen footer .footer-credits {

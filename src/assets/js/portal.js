@@ -1,16 +1,25 @@
 (function () {
-  const fullscreenBtn = document.querySelector(".fullscreen-cmd");
-  fullscreenBtn?.addEventListener("click", (ev) => {
-    ev.preventDefault();
-    const btn = ev.target;
-    if (btn.getAttribute("data-fullscreen") === "false") {
-      document.querySelector("body").classList.add("fullscreen");
-      btn.setAttribute("data-fullscreen", "true");
-      btn.innerText = "Exit fullscreen";
-    } else {
-      document.querySelector("body").classList.remove("fullscreen");
-      btn.setAttribute("data-fullscreen", "false");
-      btn.innerText = "Fullscreen";
-    }
+  const buttons = document
+    .querySelectorAll(".fullscreen-cmd");
+  buttons.forEach(function (fullscreenBtn) {
+    fullscreenBtn?.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      const element = ev.target;
+      if (element.getAttribute("data-fullscreen") === "false") {
+        document.querySelector("body").classList.add("fullscreen");
+        buttons.forEach(function (button) {
+          button.setAttribute("data-fullscreen", "true");
+          button.innerText = "Exit fullscreen";
+        });
+        document.querySelector(".general-info").open = false;
+      } else {
+        document.querySelector("body").classList.remove("fullscreen");
+        buttons.forEach(function (button) {
+          button.setAttribute("data-fullscreen", "false");
+          button.innerText = "Fullscreen";
+        });
+        document.querySelector(".general-info").open = true;
+      }
+    });
   });
 })();

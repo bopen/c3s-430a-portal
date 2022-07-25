@@ -85,14 +85,18 @@
                                         <h1>
                                             <%= page_title %> - Explore index
                                         </h1>
+                                        <button class="btn-hidden fs-only standard-button primary-button fullscreen-cmd" style="float: right; position: relative;" href=""
+                                            data-fullscreen="false">
+                                            Fullscreen
+                                        </button>
                                         <div>
-                                            <details class="collapsible" open>
+                                            <details class="general-info collapsible" open>
                                                 <summary>Background Information</summary>
                                                 <%- description_general %>
                                             </details>
                                         </div>
                                         <div>
-                                            <details class="collapsible">
+                                            <details class="vis-nav collapsible">
                                                 <summary>Visualisation and Navigation</summary>
                                                 <%- description_vis_nav %>
                                             </details>
@@ -104,7 +108,7 @@
 
                         <div class="row">
                             <div class="column col-md-12" data-panel="">
-                                <button class="standard-button primary-button fullscreen-cmd"
+                                <button class="hidden-fs standard-button primary-button fullscreen-cmd"
                                     style="float: right; position: relative;" href="" data-fullscreen="false">
                                     Fullscreen
                                 </button>
