@@ -170,7 +170,7 @@ function createOverviewPage(overview_data) {
         //add to themed list.
         hazard_list[dataset["hazard_category"]][hazard].push({
           title: dataset.page_title,
-          url: dataset.theme[0].toLowerCase() + "/" + overviewFileName(dataset),
+          url: dataset.theme[0].toLowerCase() + "/" + detailFileName(dataset),
         });
       }
     }
