@@ -95,6 +95,12 @@
       "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-detail-web/master/configuration.json?configuration_version=3.0",
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-overview-web/master/configuration.json?configuration_version=3.0",
       "PageTitle": "Climatological Heatwave (High Temperature), 1971-2099"
+    },
+    {
+      "id": "C3S_434_023",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
+      "PageTitle": "HDD CDD page title"
     }
   ],
   "Coastal": [

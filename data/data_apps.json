@@ -1,316 +1,329 @@
 {
-    "indicators": [
-        {
-            "description": "The daily maximum temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily maximum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily maximum temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily maximum temperature, maximum daily maximum temperature and minimum daily maximum temperature statistics are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
-            "description_detail": "The climate anomaly in monthly average of daily maximum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily maximum temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of temperature responses to the scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
-            "indicator_title": "Climate Anomaly in Monthly Average of Daily Maximum Temperature",
-            "page_title": "Monthly statistics for daily maximum temperature",
-            "theme": ["Agriculture"],
-            "identifier": "C3S_434_013",
-            "detail": "hidden-app-agriculture-tmax-detail-web",
-            "overview": "hidden-app-agriculture-tmax-overview-web",
-            "page_url": "average-maximum-temperature",
-            "hazard_category": "Heat and cold",
-            "hazards": ["Extreme heat"]
+  "indicators": [
+    {
+      "description": "The daily maximum temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily maximum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily maximum temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily maximum temperature, maximum daily maximum temperature and minimum daily maximum temperature statistics are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
+      "description_detail": "The climate anomaly in monthly average of daily maximum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily maximum temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of temperature responses to the scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
+      "indicator_title": "Climate Anomaly in Monthly Average of Daily Maximum Temperature",
+      "page_title": "Monthly statistics for daily maximum temperature",
+      "theme": ["Agriculture"],
+      "identifier": "C3S_434_013",
+      "detail": "hidden-app-agriculture-tmax-detail-web",
+      "overview": "hidden-app-agriculture-tmax-overview-web",
+      "page_url": "average-maximum-temperature",
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"]
+    },
+    {
+      "description": "The daily minimum temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily minimum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily minimum temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily minimum temperature, maximum daily minimum temperature and minimum daily minimum temperature are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
+      "description_detail": "The climate anomaly in monthly average of daily minimum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily minimum temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the range of temperature responses to the scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>. ",
+      "detail": "hidden-app-agriculture-tmin-detail-web",
+      "indicator_title": "Climate Anomaly in Monthly Average of Daily Minimum Temperature",
+      "overview": "hidden-app-agriculture-tmin-overview-web",
+      "page_title": "Monthly statistics for daily minimum temperature",
+      "page_url": "average-minimum-temperature",
+      "identifier": "C3S_434_014",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Cold spells and frost"]
+    },
+    {
+      "description": "The daily mean temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily mean air temperature at a height of 2m above the surface (K) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily mean temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily mean temperature are also available via the \"Explore in Detail\" button as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
+      "description_detail": "The climate anomaly in monthly average of daily mean air temperature at a height of 2m above the surface (K) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 CMIP5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily mean temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of temperature responses to the chosen scenario conditions across an ensemble of 5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
+      "detail": "hidden-app-agriculture-tmean-detail-web",
+      "indicator_title": "Climate Anomaly in Monthly Average of Daily Mean Temperature",
+      "overview": "hidden-app-agriculture-tmean-overview-web",
+      "page_title": "Monthly statistics for daily mean temperature",
+      "page_url": "average-mean-temperature",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "identifier": "C3S_434_015",
+      "hazards": ["Mean air temperature"]
+    },
+    {
+      "description": "Season Length",
+      "description_detail": "Season length",
+      "detail": "hidden-app-health-mosquito-detail-web",
+      "indicator_title": "Climatic suitability for the tiger mosquito - season length",
+      "overview": "hidden-app-health-mosquito-overview-web",
+      "identifier": "C3S_434_002",
+      "page_title": "Climatic suitability for the tiger mosquito - season length",
+      "page_url": "climatic-suitability-of-tiger-mosquito--season-length",
+      "theme": ["Health"],
+      "hazard_category": "Other",
+      "hazards": ["Other"],
+      "vars": {
+        "detail": {
+          "indicator": "Length of season"
         },
-        {
-            "description": "The daily minimum temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily minimum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily minimum temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily minimum temperature, maximum daily minimum temperature and minimum daily minimum temperature are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
-            "description_detail": "The climate anomaly in monthly average of daily minimum air temperature at a height of 2m above the surface (&deg;C) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily minimum temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the range of temperature responses to the scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>. ",
-            "detail": "hidden-app-agriculture-tmin-detail-web",
-            "indicator_title": "Climate Anomaly in Monthly Average of Daily Minimum Temperature",
-            "overview": "hidden-app-agriculture-tmin-overview-web",
-            "page_title": "Monthly statistics for daily minimum temperature",
-            "page_url": "average-minimum-temperature",
-            "identifier": "C3S_434_014",
-            "theme": ["Agriculture"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Cold spells and frost"]
-        },
-        {
-            "description": "The daily mean temperature indicator provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.<br><br>The climate anomaly in monthly average of daily mean air temperature at a height of 2m above the surface (K) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period. The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>Monthly average daily mean temperature anomalies are presented as 30-year means for each month of the year for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for average daily mean temperature are also available via the \"Explore in Detail\" button as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
-            "description_detail": "The climate anomaly in monthly average of daily mean air temperature at a height of 2m above the surface (K) is calculated relative to the 1981-2010 reference period from an ensemble average of 5 CMIP5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates a warmer temperature than the reference period while a negative anomaly indicates a cooler temperature than the reference period.<br><br>The daily mean temperature anomaly statistics for the chosen scenario and time period are plotted as area means for each European NUTS region. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of temperature responses to the chosen scenario conditions across an ensemble of 5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\" target=\"_blank\">Climate Data Store</a>.",
-            "detail": "hidden-app-agriculture-tmean-detail-web",
-            "indicator_title": "Climate Anomaly in Monthly Average of Daily Mean Temperature",
-            "overview": "hidden-app-agriculture-tmean-overview-web",
-            "page_title": "Monthly statistics for daily mean temperature",
-            "page_url": "average-mean-temperature",
-            "theme": ["Agriculture"],
-            "hazard_category": "Heat and cold",
-            "identifier": "C3S_434_015",
-            "hazards": ["Mean air temperature"]
-        },
-        {
-            "description": "Season Length",
-            "description_detail": "Season length",
-            "detail": "hidden-app-health-mosquito-detail-web",
-            "indicator_title": "Climatic suitability for the tiger mosquito - season length",
-            "overview": "hidden-app-health-mosquito-overview-web",
-            "identifier": "C3S_434_002",
-            "page_title": "Climatic suitability for the tiger mosquito - season length",
-            "page_url": "climatic-suitability-of-tiger-mosquito--season-length",
-            "theme": ["Health"],
-            "hazard_category": "Other",
-            "hazards": ["Other"],
-            "vars": {
-                "detail": {
-                    "indicator": "Length of season"
-                },
-                "overview": {
-                    "indicator": "season_length"
-                }
-            }
-        },
-        {
-            "description": "Suitability Index",
-            "description_detail": "Suitability Index",
-            "detail": "hidden-app-health-mosquito-detail-web",
-            "indicator_title": "Climatic suitability for the tiger mosquito - suitability",
-            "overview": "hidden-app-health-mosquito-overview-web",
-            "identifier": "C3S_434_003",
-            "page_title": "Climatic suitability for the tiger mosquito - suitability index",
-            "page_url": "climatic-suitability-of-tiger-mosquito--suitability",
-            "theme": ["Health"],
-            "hazard_category": "Other",
-            "hazards": ["Other"],
-            "vars": {
-                "detail": {
-                    "indicator": "Suitability"
-                },
-                "overview": {
-                    "indicator": "suitability"
-                }
-            }
-        },
-        {
-            "description": "Fire Weather Index (this option will be overwritten)",
-            "description_detail": "Fire Weather Index Detail (this option will be overwritten)",
-            "detail": "hidden-app-fireweatherindex-detail-web",
-            "identifier": "C3S_434_004",
-            "indicator_title": "Fire Weather Index",
-            "overview": "hidden-app-fireweatherindex-overview-web",
-            "page_title": "Fire Weather Index",
-            "page_url": "fire-weather-index",
-            "theme": ["Forestry"],
-            "hazard_category": "Wet and dry",
-            "hazards": ["Fire weather"]
-        },
-        {
-            "description": "High Fire Danger index (this option will be overwritten)",
-            "description_detail": "High Fire Danger (this option will be overwritten)",
-            "detail": "hidden-app-firedangerindex-detail-web",
-            "identifier": "C3S_434_020",
-            "indicator_title": "High Fire Danger Index",
-            "overview": "hidden-app-firedangerindex-overview-web",
-            "page_title": "High Fire Danger Index",
-            "page_url": "high-fire-danger",
-            "theme": ["Forestry", "Tourism"],
-            "hazard_category": "Wet and dry",
-            "hazards": ["Fire weather"]
-        },
-        {
-            "description": "A heat wave is a prolonged period of extremely high temperature for a particular region.  Heat waves have consequences for health, agriculture, power, wildfire and infrastructure. The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. <br><br>A climate heat wave is considered to be a period of at least 3 consecutive days on which the daily maximal temperature exceeds the 99th percentile of the daily maximal temperatures of the May to September season for the control period of 1971 to 2000.<br><br>Health heat waves are calculated for the summer period between June and August. Health heat waves are days in which the maximal apparent temperature (Tappmax) exceeds the 90th percentile of Tappmax for each month and the minimum temperature (Tmin) exceeds the 90th percentile of Tmin for each month for at least 2 days.  The apparent temperature is a measure of relative discomfort due to combined heat and high humidity.<br><br>The annual number of heat wave days are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a time series covering the period from 1986 to 2085. Finally, the time series are averaged over the model ensemble.<br><br>The heat wave statistics are calculated using a bias-adjusted EURO-CORDEX dataset for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP4.5 (medium emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.1&deg;x0.1&deg;. <br><br>30-year smoothed averages of the number of heat wave days are presented as 10-year means for either the climatological or heath definition of heat waves for 2 CMIP5 scenarios; RCP4.5 with medium greenhouse gas emissions or RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of heat wave days are also available via the \"Explore in Detail\" button as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. The annual number of heat wave days are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a time series covering the period from 1986 to 2085.  Finally, the time series are averaged over the model ensemble.<br>The heat wave statistics are calculated using bias-adjusted EURO-CORDEX data for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP4.5 (medium emissions) and RCP8.5 (high emissions).<br><br>The map shows the 30-year smoothed average of the number of heat wave days centred at a given year for the chosen heat wave definition and scenario plotted as area means for each European NUTS region. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. The time series plot shows the range of heat wave responses to the chosen scenario conditions across the EURO-CORDEX model ensemble. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-health-heatwave-detail-web",
-            "indicator_title": "Number of Heat Wave Days",
-            "overview": "hidden-app-health-heatwave-overview-web",
-            "page_title": "Heat waves in Europe",
-            "page_url": "health-heat-waves-in-europe",
-            "identifier": "C3S_434_016",
-            "theme": ["Health"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Extreme heat"],
-            "vars": {
-                "detail": {
-                    "hdef": "health_related"
-                },
-                "overview": {
-                    "hdef": "health_related"
-                }
-            }
-        },
-        {
-            "description": "A heat wave is a prolonged period of extremely high temperature for a particular region.  Heat waves have consequences for health, agriculture, power, wildfire and infrastructure. The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. <br><br>The climatological definition of a heat wave relies on the results of the EURO-CORDEX project. A climatological heat wave is considered to be a period of at least three consecutive days on which the daily maximal temperature exceeds the 99th percentile of the daily maximal temperatures of the May to September season of the control period of 1971 to 2000. The health-related definition of a heat wave relies on the results of the EURO-heat project. For the summer period of June to August a health heat wave is defined as days in which the maximal apparent temperature (Tappmax) exceeds the threshold (90th percentile of Tappmax for each month) and the minimum temperature (Tmin) exceeds its threshold(90th percentile of Tmin for each month) for at least two days. The apparent temperature is a measure of relative discomfort due to combined heat and high humidity and is calculated as a combination of air and dew point temperature. The statistics are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a timeseries covering the period from 1986 to 2085. Finally, the timeseries are averaged for the model ensemble. The heat wave statistics are calculated using a bias-adjusted EURO-CORDEX dataset. The horizontal resolution of the data is 0.1&deg;x0.1&deg;. <br><br>A climatological definition and a heath definition of the number of heat wave days is presented for 2 CMIP5 scenarios; RCP4.5 and RCP8.5.<br><br>Annual statistics for the number of heat wave days are also available for CMIP5 scenarios RCP4.5 and RCP8.5 as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 via the \"Explore in Detail\" button.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "",
-            "detail": "hidden-app-health-heatwave-detail-web",
-            "exclude": false,
-            "indicator_title": "Number of Heat Wave Days",
-            "overview": "hidden-app-health-heatwave-overview-web",
-            "page_title": "Heat waves in Europe",
-            "page_url": "climatological-heat-waves-in-europe",
-            "theme": ["Agriculture", "Energy"],
-            "identifier": "C3S_434_017",
-            "hazard_category": "Heat and cold",
-            "hazards": ["Extreme heat"],
-            "vars": {
-                "detail": {
-                    "hdef": "climatological_related"
-                },
-                "overview": {
-                    "hdef": "climatological_related"
-                }
-            }
-        },
-        {
-            "description": "The mean radiant temperature (MRT) and the Universal Thermal Climate Index (UTCI) are widely used as human biometeorology parameters to assess the linkages between outdoor environment and human well?being. These thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.<br><br>The universal thermal climate index (UTCI) (&deg;C) is an equivalent temperature (&deg;C), it is a measure of the human physiological response to the thermal environment. The universal thermal climate index (UTCI) describes the synergistic heat exchanges between the thermal environment and the human body, namely its energy budget, physiology and clothing. UTCI takes into consideration the clothing adaptation of the population in response to actual environmental temperature. There are four variables required to calculate the UTCI: 2m air temperature, 2m dew point temperature (or relative humidity), wind speed at 10m above ground level and mean radiant temperature (MRT).<br><br>The universal thermal climate index (UTCI) is computed using data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. The horizontal resolution of the data is 0.25&deg;x0.25&deg;. <br><br>There are 10 UTCI thermal stress categories that correspond to specific human physiological responses to the thermal environment. The categories relate to UTCI values as follows:<br>above +46: extreme heat stress; +38 to +46: very strong heat stress; +32 to +38: strong heat stress; +26 to +32: moderate heat stress; +9 to +26: no thermal stress; +9 to 0: slight cold stress; 0 to -13: moderate cold stress; -13 to -27: strong cold stress; -27 to -40: very strong cold stress; below -40: extreme cold stress.<br><br>The universal thermal climate index (UTCI) based on the ERA5-HEAT dataset is presented for each month and year from 1979-2019. UTCI statistics are also available via the \"Explore in Detail\" button for each month and year from 1979-2019 as national and sub-national area-means for NUTS levels 0, 1 and 2 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "The universal thermal climate index (UTCI) (&deg;C) is an equivalent temperature (&deg;C), it is a measure of the human physiological response to the thermal environment. The universal thermal climate index (UTCI) describes the synergistic heat exchanges between the thermal environment and the human body, namely its energy budget, physiology and clothing.<br><br>The universal thermal climate index (UTCI) is computed using data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. <br><br>There are 10 UTCI thermal stress categories that correspond to specific human physiological responses to the thermal environment. The categories relate to UTCI values as follows:<br>above +46: extreme heat stress; +38 to +46: very strong heat stress; +32 to +38: strong heat stress; +26 to +32: moderate heat stress; +9 to +26: no thermal stress; +9 to 0: slight cold stress; 0 to -13: moderate cold stress; -13 to -27: strong cold stress; -27 to -40: very strong cold stress; below -40: extreme cold stress.<br><br>The universal thermal climate index (UTCI) for each month and year from 1979 to 2019 is plotted on a map showing the European NUTS regions. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, and NUTS-2: basic regions.<br><br>The NUTS regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name. Click on a region to request a time series plot. The time series plot shows the area mean UTCI for the chosen NUTS region for each month of the chosen year. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-universalthermalclimateindex-detail-web",
-            "indicator_title": "Universal Thermal Climate Index",
-            "overview": "hidden-app-universalthermalclimateindex-overview-web",
-            "page_title": "Thermal comfort indices - Universal thermal climate index",
-            "page_url": "thermal-comfort-indices--universal-thermal-climate-index",
-            "identifier": "C3S_434_008",
-            "theme": ["Health"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Extreme heat"]
-        },
-        {
-            "description": "The mean radiant temperature (MRT) and the Universal Thermal Climate Index (UTCI) are widely used as human biometeorology parameters to assess the linkages between outdoor environment and human well?being. These thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.<br><br>The mean radiant temperature (&deg;C) is a numerical representation of how human beings experience radiation. The mean radiant temperature (MRT) is based on the principle that the net exchange of radiant energy between objects is approximately proportional to their temperature difference multiplied by their ability to emit and absorb heat (emissivity). In this context the MRT applies to a person in an outdoor environment and is a function of the direct, diffuse and reflected thermal and solar radiation they experience. <br><br>The mean radiant temperature (MRT) is computed using solar and thermal data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. The horizontal resolution of the data is 0.25&deg;x0.25&deg;. <br><br>The mean radiant temperature (MRT) is presented for each year of the ERA5-HEAT dataset is presented for each month and year from 1979-2019. MRT statistics are also available via the \"Explore in Detail\" button for each month and year from 1979-2019 as national and sub-national area-means for NUTS levels 0, 1 and 2 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "The mean radiant temperature (&deg;C) is a numerical representation of how human beings experience radiation. The mean radiant temperature (MRT) applies to a person in an outdoor environment and is a function of the direct, diffuse and reflected thermal and solar radiation they experience. <br><br>The mean radiant temperature (MRT) is computed using solar and thermal data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. <br><br>The mean radiant temperature for each month and year from 1979 to 2019 is plotted on a map showing the European NUTS regions. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, and NUTS-2: basic regions.<br><br>The NUTS regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name. Click on a region to request a time series plot. The time series plot shows the area mean MRT for the chosen NUTS region. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-meanradianttemperature-detail-web",
-            "indicator_title": "Mean radiant temperature",
-            "overview": "hidden-app-meanradianttemperature-overview-web",
-            "identifier": "C3S_434_007",
-            "page_title": "Thermal comfort indices - Mean radiant temperature",
-            "page_url": "thermal-comfort-indices--mean-radiant-temperature",
-            "theme": ["Health"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Mean air temperature"]
-        },
-        {
-            "description": "The precipitation sum provides information on possible water shortage or excess. <br><br>The climate anomalies of the sum of monthly precipitation and annual precipitation (%) are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more precipitation than the reference period while a negative anomaly indicates less precipitation than the reference period.<br><br>Monthly and annual anomalies of the precipitation sum are presented as 30 year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions. <br><br>Statistics for the precipitation sum are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "The climate anomalies of the sum of monthly precipitation and annual precipitation (%) are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more precipitation than the reference period while a negative anomaly indicates less precipitation than the reference period.<br><br>The climate anomalies of the sum of monthly precipitation and annual precipitation for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of precipitation responses to the scenario conditions across a 5-model ensemble of CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-agriculture-precip-detail-web",
-            "indicator_title": "Climate Anomaly in Precipitation Sum",
-            "overview": "hidden-app-agriculture-precip-overview-web",
-            "page_title": "Precipitation Sum",
-            "page_url": "projected-change-in-precipitation-sum",
-            "theme": ["Agriculture"],
-            "identifier": "C3S_434_012",
-            "hazard_category": "Wet and dry",
-            "hazards": ["Mean precipitation"]
-        },
-        {
-            "description": "The number of frost days provides information on frost damage.<br><br>A frost day is when the daily minimum temperature is less than 0&deg;C. The climate anomaly in the number of frost days is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more frost days than the reference period while a negative anomaly indicates fewer frost days than the reference period.<br><br>Monthly and annual anomalies of the number of frost days are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of frost days are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "A frost day is when the daily minimum temperature is less than 0&deg;C.<br><br>The climate anomaly in the number of frost days is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more frost days than the reference period while a negative anomaly indicates fewer frost days than the reference period.<br><br>The climate anomalies of the monthly and annual number of frost days for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of frost day responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-agriculture-frostdays-detail-web",
-            "indicator_title": "Climate Anomaly in the Number of Frost Days",
-            "overview": "hidden-app-agriculture-frostdays-overview-web",
-            "page_title": "Frost Days",
-            "identifier": "C3S_434_010",
-            "page_url": "frost-days",
-            "theme": ["Agriculture"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Cold spells and frost"]
-        },
-        {
-            "description": "The number of tropical nights provides an indication of the occurrence of various pests.<br><br>On a tropical night the minimum temperature remains above 20&deg;C. The climate anomaly in the number of tropical nights is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more tropical nights than the reference period while a negative anomaly indicates fewer tropical nights than the reference period.<br><br>Monthly and annual anomalies of the number of tropical nights are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of tropical nights are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "On a tropical night the minimum temperature remains above 20&deg;C. <br><br>The climate anomaly in the number of tropical nights is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more tropical nights than the reference period while a negative anomaly indicates fewer tropical nights than the reference period.<br><br>The climate anomalies of the monthly and annual number of tropical nights for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of tropical night responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>",
-            "detail": "hidden-app-agriculture-tropicalnights-detail-web",
-            "indicator_title": "Climate Anomaly in the Number of Tropical Nights",
-            "overview": "hidden-app-agriculture-tropicalnights-overview-web",
-            "page_title": "Tropical Nights",
-            "identifier": "C3S_434_011",
-            "page_url": "tropical-nights",
-            "theme": ["Agriculture"],
-            "hazard_category": "Heat and cold",
-            "hazards": ["Extreme heat"]
-        },
-        {
-            "description": "The biologically effective degree days indicator provides information about the growing season.<br><br>The biologically effective degree days (&deg;C) indicator is the sum of daily mean temperatures above 10&deg;C and less than 30&deg;C for a given period. The climate anomalies of monthly and annual biologically effective degree days are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates higher biological effectiveness than the reference period while a negative anomaly indicates lower biological effectiveness than the reference period.<br><br>Monthly and annual anomalies of biologically effective degree days are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for biologically effective degree days are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "description_detail": "The biologically effective degree days (&deg;C) indicator is the sum of daily mean temperatures above 10&deg;C and less than 30&deg;C for a given period.<br><br>The climate anomalies of monthly and annual biologically effective degree days are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates higher biological effectiveness than the reference period while a negative anomaly indicates lower biological effectiveness than the reference period.<br><br>The climate anomalies of the monthly and annual biologically effective degree days for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of biologically effective degree day responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
-            "detail": "hidden-app-agriculture-bedd-detail-web",
-            "indicator_title": "Climate Anomaly in Biologically Effective Degree Days",
-            "overview": "hidden-app-agriculture-bedd-overview-web",
-            "page_title": "Biologically effective degree days",
-            "page_url": "biologically-effective-degree-days",
-            "theme": ["Agriculture"],
-            "identifier": "C3S_434_009",
-            "hazard_category": "Heat and cold",
-            "hazards": ["Mean air temperature"]
-        },
-        {
-            "description": "Annual highest high water level overview - Description not available yet.",
-            "description_detail": "Annual highest high water level detail - Description not available yet.",
-            "detail": "hidden-app-marine-sealevel-detail-web",
-            "indicator_title": "Annual highest high water level",
-            "overview": "hidden-app-marine-sealevel-overview-web",
-            "page_title": "Marine Sea Level - Annual highest high water level",
-            "page_url": "marine-sea-level--annual-highest-high-water-level",
-            "identifier": "C3S_434_018",
-            "theme": ["Coastal"],
-            "hazard_category": "Coastal",
-            "hazards": ["Coastal flooding"],
-            "vars": {
-                "detail": {
-                    "indicator": "annual_highest_high_water_level"
-                },
-                "overview": {
-                    "indicator": "annual_highest_high_water_level"
-                }
-            }
-        },
-        {
-            "description": "Mean sea level overview - Description not available yet.",
-            "description_detail": "Mean sea level detail - Description not available yet.",
-            "detail": "hidden-app-marine-sealevel-detail-web",
-            "indicator_title": "Mean sea level",
-            "overview": "hidden-app-marine-sealevel-overview-web",
-            "page_title": "Marine Sea Level - Mean sea level",
-            "page_url": "marine-sea-level--mean-sea-level",
-            "identifier": "C3S_434_019",
-            "theme": ["Coastal"],
-            "hazard_category": "Coastal",
-            "hazards": ["Relative sea level"],
-            "vars": {
-                "detail": {
-                    "indicator": "mean_sea_level"
-                },
-                "overview": {
-                    "indicator": "mean_sea_level"
-                }
-            }
-        },
-        {
-            "description": "Total snow precipitation (November to April) overview (There's only a 'detail' workflow available for this indicator) - Description not available yet.",
-            "description_detail": "Total snow precipitation (November to April) detail - Description not available yet.",
-            "detail": "hidden-app-tourism-snow-detail-web",
-            "indicator_title": "Total snow precipitation",
-            "overview": "hidden-app-tourism-snow-overview-web",
-            "page_title": "Total snow precipitation",
-            "page_url": "tourism-snow-precipitation",
-            "identifier": "C3S_434_021",
-            "theme": ["Tourism"],
-            "hazard_category": "Snow and ice",
-            "hazards": ["Snow and land ice"],
-            "vars": {
-                "detail": {
-                    "indicator": "total_snow_precipitation_from_november_to_april"
-                },
-                "overview": {
-                    "indicator": "total_snow_precipitation_from_november_to_april"
-                }
-            }
-        },
-        {
-            "description": "Period with high amount of natural snow overview (There's only a 'detail' workflow available for this indicator) - Description not available yet.",
-            "description_detail": "Period with high amount of natural snow detail - Description not available yet.",
-            "detail": "hidden-app-tourism-snow-detail-web",
-            "indicator_title": "Period with high amount of natural snow",
-            "overview": "hidden-app-tourism-snow-overview-web",
-            "page_title": "Period with high amount of natural snow",
-            "page_url": "tourism-high-amount-of-natural-snow",
-            "identifier": "C3S_434_022",
-            "theme": ["Tourism"],
-            "hazard_category": "Snow and ice",
-            "hazards": ["Snow and land ice"],
-            "vars": {
-                "detail": {
-                    "indicator": "period_with_high_amount_of_natural_snow"
-                },
-                "overview": {
-                    "indicator": "period_with_high_amount_of_natural_snow"
-                }
-            }
+        "overview": {
+          "indicator": "season_length"
         }
-    ]
+      }
+    },
+    {
+      "description": "Suitability Index",
+      "description_detail": "Suitability Index",
+      "detail": "hidden-app-health-mosquito-detail-web",
+      "indicator_title": "Climatic suitability for the tiger mosquito - suitability",
+      "overview": "hidden-app-health-mosquito-overview-web",
+      "identifier": "C3S_434_003",
+      "page_title": "Climatic suitability for the tiger mosquito - suitability index",
+      "page_url": "climatic-suitability-of-tiger-mosquito--suitability",
+      "theme": ["Health"],
+      "hazard_category": "Other",
+      "hazards": ["Other"],
+      "vars": {
+        "detail": {
+          "indicator": "Suitability"
+        },
+        "overview": {
+          "indicator": "suitability"
+        }
+      }
+    },
+    {
+      "description": "Fire Weather Index (this option will be overwritten)",
+      "description_detail": "Fire Weather Index Detail (this option will be overwritten)",
+      "detail": "hidden-app-fireweatherindex-detail-web",
+      "identifier": "C3S_434_004",
+      "indicator_title": "Fire Weather Index",
+      "overview": "hidden-app-fireweatherindex-overview-web",
+      "page_title": "Fire Weather Index",
+      "page_url": "fire-weather-index",
+      "theme": ["Forestry"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Fire weather"]
+    },
+    {
+      "description": "High Fire Danger index (this option will be overwritten)",
+      "description_detail": "High Fire Danger (this option will be overwritten)",
+      "detail": "hidden-app-firedangerindex-detail-web",
+      "identifier": "C3S_434_020",
+      "indicator_title": "High Fire Danger Index",
+      "overview": "hidden-app-firedangerindex-overview-web",
+      "page_title": "High Fire Danger Index",
+      "page_url": "high-fire-danger",
+      "theme": ["Forestry", "Tourism"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Fire weather"]
+    },
+    {
+      "description": "A heat wave is a prolonged period of extremely high temperature for a particular region.  Heat waves have consequences for health, agriculture, power, wildfire and infrastructure. The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. <br><br>A climate heat wave is considered to be a period of at least 3 consecutive days on which the daily maximal temperature exceeds the 99th percentile of the daily maximal temperatures of the May to September season for the control period of 1971 to 2000.<br><br>Health heat waves are calculated for the summer period between June and August. Health heat waves are days in which the maximal apparent temperature (Tappmax) exceeds the 90th percentile of Tappmax for each month and the minimum temperature (Tmin) exceeds the 90th percentile of Tmin for each month for at least 2 days.  The apparent temperature is a measure of relative discomfort due to combined heat and high humidity.<br><br>The annual number of heat wave days are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a time series covering the period from 1986 to 2085. Finally, the time series are averaged over the model ensemble.<br><br>The heat wave statistics are calculated using a bias-adjusted EURO-CORDEX dataset for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP4.5 (medium emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.1&deg;x0.1&deg;. <br><br>30-year smoothed averages of the number of heat wave days are presented as 10-year means for either the climatological or heath definition of heat waves for 2 CMIP5 scenarios; RCP4.5 with medium greenhouse gas emissions or RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of heat wave days are also available via the \"Explore in Detail\" button as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. The annual number of heat wave days are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a time series covering the period from 1986 to 2085.  Finally, the time series are averaged over the model ensemble.<br>The heat wave statistics are calculated using bias-adjusted EURO-CORDEX data for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP4.5 (medium emissions) and RCP8.5 (high emissions).<br><br>The map shows the 30-year smoothed average of the number of heat wave days centred at a given year for the chosen heat wave definition and scenario plotted as area means for each European NUTS region. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. The time series plot shows the range of heat wave responses to the chosen scenario conditions across the EURO-CORDEX model ensemble. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-health-heatwave-detail-web",
+      "indicator_title": "Number of Heat Wave Days",
+      "overview": "hidden-app-health-heatwave-overview-web",
+      "page_title": "Heat waves in Europe",
+      "page_url": "health-heat-waves-in-europe",
+      "identifier": "C3S_434_016",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "vars": {
+        "detail": {
+          "hdef": "health_related"
+        },
+        "overview": {
+          "hdef": "health_related"
+        }
+      }
+    },
+    {
+      "description": "A heat wave is a prolonged period of extremely high temperature for a particular region.  Heat waves have consequences for health, agriculture, power, wildfire and infrastructure. The annual number of heat wave days is based on two definitions, one used in the climate community and another used in the health community, both of which are presented here. <br><br>The climatological definition of a heat wave relies on the results of the EURO-CORDEX project. A climatological heat wave is considered to be a period of at least three consecutive days on which the daily maximal temperature exceeds the 99th percentile of the daily maximal temperatures of the May to September season of the control period of 1971 to 2000. The health-related definition of a heat wave relies on the results of the EURO-heat project. For the summer period of June to August a health heat wave is defined as days in which the maximal apparent temperature (Tappmax) exceeds the threshold (90th percentile of Tappmax for each month) and the minimum temperature (Tmin) exceeds its threshold(90th percentile of Tmin for each month) for at least two days. The apparent temperature is a measure of relative discomfort due to combined heat and high humidity and is calculated as a combination of air and dew point temperature. The statistics are averaged for 30 years as a smoothed average from 1971 to 2100. This results in a timeseries covering the period from 1986 to 2085. Finally, the timeseries are averaged for the model ensemble. The heat wave statistics are calculated using a bias-adjusted EURO-CORDEX dataset. The horizontal resolution of the data is 0.1&deg;x0.1&deg;. <br><br>A climatological definition and a heath definition of the number of heat wave days is presented for 2 CMIP5 scenarios; RCP4.5 and RCP8.5.<br><br>Annual statistics for the number of heat wave days are also available for CMIP5 scenarios RCP4.5 and RCP8.5 as national and sub-national area-means for NUTS levels 0, 1, 2 and 3 via the \"Explore in Detail\" button.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "",
+      "detail": "hidden-app-health-heatwave-detail-web",
+      "exclude": false,
+      "indicator_title": "Number of Heat Wave Days",
+      "overview": "hidden-app-health-heatwave-overview-web",
+      "page_title": "Heat waves in Europe",
+      "page_url": "climatological-heat-waves-in-europe",
+      "theme": ["Agriculture", "Energy"],
+      "identifier": "C3S_434_017",
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "vars": {
+        "detail": {
+          "hdef": "climatological_related"
+        },
+        "overview": {
+          "hdef": "climatological_related"
+        }
+      }
+    },
+    {
+      "description": "The mean radiant temperature (MRT) and the Universal Thermal Climate Index (UTCI) are widely used as human biometeorology parameters to assess the linkages between outdoor environment and human well?being. These thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.<br><br>The universal thermal climate index (UTCI) (&deg;C) is an equivalent temperature (&deg;C), it is a measure of the human physiological response to the thermal environment. The universal thermal climate index (UTCI) describes the synergistic heat exchanges between the thermal environment and the human body, namely its energy budget, physiology and clothing. UTCI takes into consideration the clothing adaptation of the population in response to actual environmental temperature. There are four variables required to calculate the UTCI: 2m air temperature, 2m dew point temperature (or relative humidity), wind speed at 10m above ground level and mean radiant temperature (MRT).<br><br>The universal thermal climate index (UTCI) is computed using data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. The horizontal resolution of the data is 0.25&deg;x0.25&deg;. <br><br>There are 10 UTCI thermal stress categories that correspond to specific human physiological responses to the thermal environment. The categories relate to UTCI values as follows:<br>above +46: extreme heat stress; +38 to +46: very strong heat stress; +32 to +38: strong heat stress; +26 to +32: moderate heat stress; +9 to +26: no thermal stress; +9 to 0: slight cold stress; 0 to -13: moderate cold stress; -13 to -27: strong cold stress; -27 to -40: very strong cold stress; below -40: extreme cold stress.<br><br>The universal thermal climate index (UTCI) based on the ERA5-HEAT dataset is presented for each month and year from 1979-2019. UTCI statistics are also available via the \"Explore in Detail\" button for each month and year from 1979-2019 as national and sub-national area-means for NUTS levels 0, 1 and 2 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "The universal thermal climate index (UTCI) (&deg;C) is an equivalent temperature (&deg;C), it is a measure of the human physiological response to the thermal environment. The universal thermal climate index (UTCI) describes the synergistic heat exchanges between the thermal environment and the human body, namely its energy budget, physiology and clothing.<br><br>The universal thermal climate index (UTCI) is computed using data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. <br><br>There are 10 UTCI thermal stress categories that correspond to specific human physiological responses to the thermal environment. The categories relate to UTCI values as follows:<br>above +46: extreme heat stress; +38 to +46: very strong heat stress; +32 to +38: strong heat stress; +26 to +32: moderate heat stress; +9 to +26: no thermal stress; +9 to 0: slight cold stress; 0 to -13: moderate cold stress; -13 to -27: strong cold stress; -27 to -40: very strong cold stress; below -40: extreme cold stress.<br><br>The universal thermal climate index (UTCI) for each month and year from 1979 to 2019 is plotted on a map showing the European NUTS regions. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, and NUTS-2: basic regions.<br><br>The NUTS regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name. Click on a region to request a time series plot. The time series plot shows the area mean UTCI for the chosen NUTS region for each month of the chosen year. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-universalthermalclimateindex-detail-web",
+      "indicator_title": "Universal Thermal Climate Index",
+      "overview": "hidden-app-universalthermalclimateindex-overview-web",
+      "page_title": "Thermal comfort indices - Universal thermal climate index",
+      "page_url": "thermal-comfort-indices--universal-thermal-climate-index",
+      "identifier": "C3S_434_008",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"]
+    },
+    {
+      "description": "The mean radiant temperature (MRT) and the Universal Thermal Climate Index (UTCI) are widely used as human biometeorology parameters to assess the linkages between outdoor environment and human well?being. These thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.<br><br>The mean radiant temperature (&deg;C) is a numerical representation of how human beings experience radiation. The mean radiant temperature (MRT) is based on the principle that the net exchange of radiant energy between objects is approximately proportional to their temperature difference multiplied by their ability to emit and absorb heat (emissivity). In this context the MRT applies to a person in an outdoor environment and is a function of the direct, diffuse and reflected thermal and solar radiation they experience. <br><br>The mean radiant temperature (MRT) is computed using solar and thermal data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. The horizontal resolution of the data is 0.25&deg;x0.25&deg;. <br><br>The mean radiant temperature (MRT) is presented for each year of the ERA5-HEAT dataset is presented for each month and year from 1979-2019. MRT statistics are also available via the \"Explore in Detail\" button for each month and year from 1979-2019 as national and sub-national area-means for NUTS levels 0, 1 and 2 for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "The mean radiant temperature (&deg;C) is a numerical representation of how human beings experience radiation. The mean radiant temperature (MRT) applies to a person in an outdoor environment and is a function of the direct, diffuse and reflected thermal and solar radiation they experience. <br><br>The mean radiant temperature (MRT) is computed using solar and thermal data from the ECMWF ERA5 reanalysis and is part of the ERA5-HEAT (Human thErmAl comforT) dataset. <br><br>The mean radiant temperature for each month and year from 1979 to 2019 is plotted on a map showing the European NUTS regions. The NUTS classification (Nomenclature of Territorial Units for Statistics) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, and NUTS-2: basic regions.<br><br>The NUTS regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name. Click on a region to request a time series plot. The time series plot shows the area mean MRT for the chosen NUTS region. Hover the mouse over the plot to view the time series data values.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-meanradianttemperature-detail-web",
+      "indicator_title": "Mean radiant temperature",
+      "overview": "hidden-app-meanradianttemperature-overview-web",
+      "identifier": "C3S_434_007",
+      "page_title": "Thermal comfort indices - Mean radiant temperature",
+      "page_url": "thermal-comfort-indices--mean-radiant-temperature",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"]
+    },
+    {
+      "description": "The precipitation sum provides information on possible water shortage or excess. <br><br>The climate anomalies of the sum of monthly precipitation and annual precipitation (%) are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more precipitation than the reference period while a negative anomaly indicates less precipitation than the reference period.<br><br>Monthly and annual anomalies of the precipitation sum are presented as 30 year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions. <br><br>Statistics for the precipitation sum are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "The climate anomalies of the sum of monthly precipitation and annual precipitation (%) are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more precipitation than the reference period while a negative anomaly indicates less precipitation than the reference period.<br><br>The climate anomalies of the sum of monthly precipitation and annual precipitation for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of precipitation responses to the scenario conditions across a 5-model ensemble of CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-agriculture-precip-detail-web",
+      "indicator_title": "Climate Anomaly in Precipitation Sum",
+      "overview": "hidden-app-agriculture-precip-overview-web",
+      "page_title": "Precipitation Sum",
+      "page_url": "projected-change-in-precipitation-sum",
+      "theme": ["Agriculture"],
+      "identifier": "C3S_434_012",
+      "hazard_category": "Wet and dry",
+      "hazards": ["Mean precipitation"]
+    },
+    {
+      "description": "The number of frost days provides information on frost damage.<br><br>A frost day is when the daily minimum temperature is less than 0&deg;C. The climate anomaly in the number of frost days is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more frost days than the reference period while a negative anomaly indicates fewer frost days than the reference period.<br><br>Monthly and annual anomalies of the number of frost days are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of frost days are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "A frost day is when the daily minimum temperature is less than 0&deg;C.<br><br>The climate anomaly in the number of frost days is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more frost days than the reference period while a negative anomaly indicates fewer frost days than the reference period.<br><br>The climate anomalies of the monthly and annual number of frost days for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of frost day responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-agriculture-frostdays-detail-web",
+      "indicator_title": "Climate Anomaly in the Number of Frost Days",
+      "overview": "hidden-app-agriculture-frostdays-overview-web",
+      "page_title": "Frost Days",
+      "identifier": "C3S_434_010",
+      "page_url": "frost-days",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Cold spells and frost"]
+    },
+    {
+      "description": "The number of tropical nights provides an indication of the occurrence of various pests.<br><br>On a tropical night the minimum temperature remains above 20&deg;C. The climate anomaly in the number of tropical nights is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates more tropical nights than the reference period while a negative anomaly indicates fewer tropical nights than the reference period.<br><br>Monthly and annual anomalies of the number of tropical nights are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for the number of tropical nights are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "On a tropical night the minimum temperature remains above 20&deg;C. <br><br>The climate anomaly in the number of tropical nights is calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates more tropical nights than the reference period while a negative anomaly indicates fewer tropical nights than the reference period.<br><br>The climate anomalies of the monthly and annual number of tropical nights for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of tropical night responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>",
+      "detail": "hidden-app-agriculture-tropicalnights-detail-web",
+      "indicator_title": "Climate Anomaly in the Number of Tropical Nights",
+      "overview": "hidden-app-agriculture-tropicalnights-overview-web",
+      "page_title": "Tropical Nights",
+      "identifier": "C3S_434_011",
+      "page_url": "tropical-nights",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"]
+    },
+    {
+      "description": "The biologically effective degree days indicator provides information about the growing season.<br><br>The biologically effective degree days (&deg;C) indicator is the sum of daily mean temperatures above 10&deg;C and less than 30&deg;C for a given period. The climate anomalies of monthly and annual biologically effective degree days are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). The horizontal resolution of the data is 0.5&deg;x0.5&deg;. <br><br>A positive anomaly indicates higher biological effectiveness than the reference period while a negative anomaly indicates lower biological effectiveness than the reference period.<br><br>Monthly and annual anomalies of biologically effective degree days are presented as 30-year means for 2 CMIP5 scenarios; RCP2.6 with low greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.<br><br>Statistics for biologically effective degree days are also available via the \"Explore in Detail\" button as national and sub-national area-means for which time series data can be plotted. <br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "description_detail": "The biologically effective degree days (&deg;C) indicator is the sum of daily mean temperatures above 10&deg;C and less than 30&deg;C for a given period.<br><br>The climate anomalies of monthly and annual biologically effective degree days are calculated relative to the 1981-2010 reference period from an ensemble average of 5 global climate model (GCM) simulations for 2 CMIP5 scenarios with different possible future greenhouse gas emissions; RCP2.6 (low emissions) and RCP8.5 (high emissions). <br><br>A positive anomaly indicates higher biological effectiveness than the reference period while a negative anomaly indicates lower biological effectiveness than the reference period.<br><br>The climate anomalies of the monthly and annual biologically effective degree days for the chosen scenario and time period are plotted as area means for each European NUTS region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level; NUTS-0: Countries, NUTS-1: major socio-economic regions, NUTS-2: basic regions, and NUTS-3: small regions.<br><br>The map of NUTS regions facilitates dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot. <br><br>The time series plot shows the ensemble mean and range of biologically effective degree day responses to the chosen scenario conditions across an ensemble of 5 CMIP5 climate models. Hover the mouse over the plot to view the time series data values. Click on the plot to reveal the action buttons for features such as \"zoom\" and \"download plot as a png\".<br><br>This indicator is expressed as an anomaly from a reference period so a reference climatology is also provided which displays the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.<br><br>The data was collated on behalf of the Copernicus Climate Change Service (C3S). Further information about this indicator can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.",
+      "detail": "hidden-app-agriculture-bedd-detail-web",
+      "indicator_title": "Climate Anomaly in Biologically Effective Degree Days",
+      "overview": "hidden-app-agriculture-bedd-overview-web",
+      "page_title": "Biologically effective degree days",
+      "page_url": "biologically-effective-degree-days",
+      "theme": ["Agriculture"],
+      "identifier": "C3S_434_009",
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"]
+    },
+    {
+      "description": "Annual highest high water level overview - Description not available yet.",
+      "description_detail": "Annual highest high water level detail - Description not available yet.",
+      "detail": "hidden-app-marine-sealevel-detail-web",
+      "indicator_title": "Annual highest high water level",
+      "overview": "hidden-app-marine-sealevel-overview-web",
+      "page_title": "Marine Sea Level - Annual highest high water level",
+      "page_url": "marine-sea-level--annual-highest-high-water-level",
+      "identifier": "C3S_434_018",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Coastal flooding"],
+      "vars": {
+        "detail": {
+          "indicator": "annual_highest_high_water_level"
+        },
+        "overview": {
+          "indicator": "annual_highest_high_water_level"
+        }
+      }
+    },
+    {
+      "description": "Mean sea level overview - Description not available yet.",
+      "description_detail": "Mean sea level detail - Description not available yet.",
+      "detail": "hidden-app-marine-sealevel-detail-web",
+      "indicator_title": "Mean sea level",
+      "overview": "hidden-app-marine-sealevel-overview-web",
+      "page_title": "Marine Sea Level - Mean sea level",
+      "page_url": "marine-sea-level--mean-sea-level",
+      "identifier": "C3S_434_019",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Relative sea level"],
+      "vars": {
+        "detail": {
+          "indicator": "mean_sea_level"
+        },
+        "overview": {
+          "indicator": "mean_sea_level"
+        }
+      }
+    },
+    {
+      "description": "Total snow precipitation (November to April) overview (There's only a 'detail' workflow available for this indicator) - Description not available yet.",
+      "description_detail": "Total snow precipitation (November to April) detail - Description not available yet.",
+      "detail": "hidden-app-tourism-snow-detail-web",
+      "indicator_title": "Total snow precipitation",
+      "overview": "hidden-app-tourism-snow-overview-web",
+      "page_title": "Total snow precipitation",
+      "page_url": "tourism-snow-precipitation",
+      "identifier": "C3S_434_021",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and land ice"],
+      "vars": {
+        "detail": {
+          "indicator": "total_snow_precipitation_from_november_to_april"
+        },
+        "overview": {
+          "indicator": "total_snow_precipitation_from_november_to_april"
+        }
+      }
+    },
+    {
+      "description": "Period with high amount of natural snow overview (There's only a 'detail' workflow available for this indicator) - Description not available yet.",
+      "description_detail": "Period with high amount of natural snow detail - Description not available yet.",
+      "detail": "hidden-app-tourism-snow-detail-web",
+      "indicator_title": "Period with high amount of natural snow",
+      "overview": "hidden-app-tourism-snow-overview-web",
+      "page_title": "Period with high amount of natural snow",
+      "page_url": "tourism-high-amount-of-natural-snow",
+      "identifier": "C3S_434_022",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and land ice"],
+      "vars": {
+        "detail": {
+          "indicator": "period_with_high_amount_of_natural_snow"
+        },
+        "overview": {
+          "indicator": "period_with_high_amount_of_natural_snow"
+        }
+      }
+    },
+    {
+      "description_general": "HDD - CDD description detail.</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
+      "description_vis_nav": "HDD - CDD description detail.</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
+      "detail": "app-heating-cooling-degree-days",
+      "indicator_title": "HDD - CDD",
+      "overview": "app-heating-cooling-degree-days",
+      "page_title": "HDD CDD title",
+      "page_url": "hdd_cdd",
+      "identifier": "C3S_434_023",
+      "theme": ["Energy"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Heat and cold"]
+    }
+  ]
 }

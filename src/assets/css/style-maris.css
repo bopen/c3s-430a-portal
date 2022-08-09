@@ -167,3 +167,41 @@ hr {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Fullscreen support */
+.btn-hidden {
+    display: none;
+}
+body.fullscreen .fs-only {
+    display: block;
+}
+body.fullscreen .content-container {
+    max-width: 100%;
+}
+body.fullscreen .top-page-area,
+body.fullscreen #viewlet-above-content,
+body.fullscreen footer {
+    padding: 0 2em;
+}
+body.fullscreen .header > .content-container,
+body.fullscreen .header .top-menu-right-section,
+body.fullscreen footer .eu-systems,
+body.fullscreen footer .site-info,
+body.fullscreen .ss-generation-info,
+body.fullscreen .hidden-fs {
+    display: none;
+}
+body.fullscreen footer .footer-credits {
+    /* override bootstrap cols */
+    width: 100%;
+}
+/* end of Fullscreen support */
+.collapsible {
+    margin-bottom: 1rem;
+}
+
+.collapsible summary {
+    display: list-item;
+    cursor: pointer;
+    font-weight: 700;
+}

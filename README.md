@@ -5,7 +5,8 @@ Toolbox: [Toolbox Editor (shared ecde space)](https://cds.climate.copernicus.eu/
 <!-- Oud: [Toolbox Editor (user: 40366)](https://cds.climate.copernicus.eu/toolbox-editor/40366) -->
 
 **Dev (website)**  
-Requirements:  
+Requirements:
+
 - NodeJS (min v12)
 - Yarn  
   
@@ -15,7 +16,7 @@ Requirements:
 
 `src` contains templates, data and generator script \
 `public` contains the generated website \
-`data` contains the JSON data required for generating the website (we use texts & titles from the [C3S_434 github repo](https://raw.githubusercontent.com/cedadev/c3s_434_ecde_page_text/main/content/json/Consolidated.json)) 
+`data` contains the JSON data required for generating the website (we use texts & titles from the [C3S_434 github repo](https://raw.githubusercontent.com/cedadev/c3s_434_ecde_page_text/main/content/json/Consolidated.json))
   
 <!-- **Useful links:**
 - [Climate Adapt Indicators - Display Characteristics](https://docs.google.com/spreadsheets/d/1MgG4EkD4U7mcx9XlWXUWNZym_-tEWLzZ0_p_990TISw/edit)
