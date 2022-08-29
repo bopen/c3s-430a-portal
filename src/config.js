@@ -16,7 +16,7 @@ const config = {
     git_md:
       "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/markdown/consolidated/%TITLE%.md",
     git_json:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/json/Consolidated.json",
+      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/json/Consolidated_430a.json",
     git_glossary_json:
       "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/json/Glossary.json",
   },
