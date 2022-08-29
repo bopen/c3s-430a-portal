@@ -324,6 +324,18 @@
       "theme": ["Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Heat and cold"]
+    },
+    {
+      "description_general": "",
+      "description_vis_nav": "",
+      "detail": "app-heating-cooling-degree-days",
+      "indicator_title": "Mean Temperature indicator title",
+      "page_title": "Mean temperature page title",
+      "page_url": "app-heating-cooling-degree-days",
+      "identifier": "C3S2_430a_001",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Heat and cold"]
     }
   ]
 }
