@@ -331,7 +331,7 @@
       "detail": "ecde-app-mean-temperature",
       "indicator_title": "Mean Temperature indicator title",
       "page_title": "Mean temperature page title",
-      "page_url": "aecde-app-mean-temperature",
+      "page_url": "ecde-app-mean-temperature",
       "identifier": "C3S2_430a_001",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
