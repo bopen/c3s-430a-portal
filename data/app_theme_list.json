@@ -44,8 +44,8 @@
     },
     {
       "id": "C3S2_430a_001",
-      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
-      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json?configuration_version=3.0",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
       "PageTitle": "Mean temperature page title"
     }
   ],
