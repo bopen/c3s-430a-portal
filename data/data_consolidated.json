@@ -16,7 +16,7 @@
       ],
       "overviewpage": "average-maximum-temperature.html",
       "detailpage": "average-maximum-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe daily maximum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily maximum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily maximum air temperature.  e.g. the annual maximum of daily maximum temperature is the hotest day of the year.</p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily maximum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
+      "description_general": "<p><strong>Context</strong>\nThe daily maximum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily maximum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily maximum air temperature.  e.g. the annual maximum of daily maximum temperature is the hotest day of the year. </p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily maximum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
       "description_vis_nav": "<p>The projected change in daily maximum temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
       "units": "(°C)",
       "vars": {
@@ -41,7 +41,7 @@
       ],
       "overviewpage": "average-minimum-temperature.html",
       "detailpage": "average-minimum-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe daily minimum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily minimum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily minimum air temperature. e.g. the annual maximum of daily minimum temperature is the warmest night of the year.</p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily minimum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
+      "description_general": "<p><strong>Context</strong>\nThe daily minimum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily minimum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily minimum air temperature. e.g. the annual maximum of daily minimum temperature is the warmest night of the year. </p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily minimum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
       "description_vis_nav": "<p>The projected change in daily minimum temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
       "units": "(°C)",
       "vars": {
@@ -361,7 +361,7 @@
       "overviewpage": "tropical-nights.html",
       "detailpage": "tropical-nights-detail.html",
       "description_general": "<p><strong>Context</strong>\nThe number of tropical nights provides an indication of the likely occurrence of various pests.</p>\n<p><strong>Definition</strong>\nOn a tropical night the minimum temperature remains above 20°C.</p>\n<p><strong>Data Sources</strong>\nThe number of tropical nights index is calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981-2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates more tropical nights than the reference period while a negative value indicates fewer tropical nights than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change of the monthly and annual number of tropical nights for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of tropical night responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
+      "description_vis_nav": "<p>The projected change of the monthly and annual number of tropical nights for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of tropical night responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
       "units": "(days)",
       "vars": {
         "detail": {},
@@ -533,6 +533,31 @@
         "overview": {}
       },
       "css_version": "ec476a3554"
+    },
+    "C3S2_430a_001": {
+      "description_general": "<p>Temperature is an essential climate variable making the Daily Mean Temperature a fundamental index for following climate variability and change. This Index is the main one in the Mean temperature Hazard type of the Heat and Cold category of the classification. \nA higher Index value indicates a warmer climate. Change (i.e difference relative to an average over a 30-year reference period) in annual mean temperature is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong>\nDaily mean temperature (°C) is the mean of temperature values during a day. \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong>\nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°X0.25°C, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: \n    - The Index based interactive EEA report: Heat and cold-mean air temperature (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-2014-mean\">link</a>).\n    - The EEA Indicators: Global and European temperatures (<a href=\"https://www.eea.europa.eu/ims/global-and-european-temperatures\">link</a>), </p>\n",
+      "description_vis_nav": "<p>The projected change in daily mean temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json",
+      "indicator_title": "Projected change in monthly, seasonal and annual mean 2m air temperature",
+      "page_title": "Mean Temperature, 2011-2099",
+      "page_url": "app-heating-cooling-degree-days",
+      "identifier": "C3S2_430a_001",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Heat and cold"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "app-heating-cooling-degree-days.html",
+      "detailpage": "app-heating-cooling-degree-days-detail.html",
+      "units": "(°C)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
     }
   },
   "toolbox_embed_version": "latest",
@@ -591,6 +616,10 @@
         {
           "title": "Frost Days, 2011-2099",
           "url": "agriculture/frost-days-detail.html"
+        },
+        {
+          "title": "Mean Temperature, 2011-2099",
+          "url": "agriculture/app-heating-cooling-degree-days-detail.html"
         },
         {
           "title": "Precipitation Sum, 2011-2099",
@@ -760,53 +789,57 @@
         "Extreme heat": [
           {
             "title": "Daily Maximum Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-maximum-temperature.html"
+            "url": "agriculture/average-maximum-temperature-detail.html"
           },
           {
             "title": "Health Heatwave (High Temperature and Humidity), 1971-2099",
-            "url": "health/health-heat-waves-in-europe.html"
+            "url": "health/health-heat-waves-in-europe-detail.html"
           },
           {
             "title": "Climatological Heatwave (High Temperature), 1971-2099",
-            "url": "agriculture/climatological-heat-waves-in-europe.html"
+            "url": "agriculture/climatological-heat-waves-in-europe-detail.html"
           },
           {
             "title": "Thermal Comfort Indices - Universal Thermal Climate Index, 1979-2020",
-            "url": "health/thermal-comfort-indices--universal-thermal-climate-index.html"
+            "url": "health/thermal-comfort-indices--universal-thermal-climate-index-detail.html"
           },
           {
             "title": "Tropical Nights, 2011-2099",
-            "url": "agriculture/tropical-nights.html"
+            "url": "agriculture/tropical-nights-detail.html"
           }
         ],
         "Cold spells and frost": [
           {
             "title": "Daily Minimum Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-minimum-temperature.html"
+            "url": "agriculture/average-minimum-temperature-detail.html"
           },
           {
             "title": "Frost Days, 2011-2099",
-            "url": "agriculture/frost-days.html"
+            "url": "agriculture/frost-days-detail.html"
           }
         ],
         "Mean air temperature": [
           {
             "title": "Daily Mean Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-mean-temperature.html"
+            "url": "agriculture/average-mean-temperature-detail.html"
           },
           {
             "title": "Thermal Comfort Indices - Mean Radiant Temperature, 1979-2020",
-            "url": "health/thermal-comfort-indices--mean-radiant-temperature.html"
+            "url": "health/thermal-comfort-indices--mean-radiant-temperature-detail.html"
           },
           {
             "title": "Biologically Effective Degree Days, 2011-2099",
-            "url": "agriculture/biologically-effective-degree-days.html"
+            "url": "agriculture/biologically-effective-degree-days-detail.html"
           }
         ],
         "Heat and cold": [
           {
             "title": "HDD CDD title",
-            "url": "energy/hdd_cdd.html"
+            "url": "energy/hdd_cdd-detail.html"
+          },
+          {
+            "title": "Mean Temperature, 2011-2099",
+            "url": "agriculture/app-heating-cooling-degree-days-detail.html"
           }
         ]
       },
@@ -814,11 +847,11 @@
         "Other": [
           {
             "title": "Climatic Suitability for the Tiger Mosquito - Season Length, 1971-2099",
-            "url": "health/climatic-suitability-of-tiger-mosquito--season-length.html"
+            "url": "health/climatic-suitability-of-tiger-mosquito--season-length-detail.html"
           },
           {
             "title": "Climatic Suitability for the Tiger Mosquito - Suitability Index, 1971-2099",
-            "url": "health/climatic-suitability-of-tiger-mosquito--suitability.html"
+            "url": "health/climatic-suitability-of-tiger-mosquito--suitability-detail.html"
           }
         ]
       },
@@ -826,17 +859,17 @@
         "Fire weather": [
           {
             "title": "Fire Weather Index - Monthly Mean, 1979-2020",
-            "url": "forestry/fire-weather-index.html"
+            "url": "forestry/fire-weather-index-detail.html"
           },
           {
             "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-            "url": "forestry/high-fire-danger.html"
+            "url": "forestry/high-fire-danger-detail.html"
           }
         ],
         "Mean precipitation": [
           {
             "title": "Precipitation Sum, 2011-2099",
-            "url": "agriculture/projected-change-in-precipitation-sum.html"
+            "url": "agriculture/projected-change-in-precipitation-sum-detail.html"
           }
         ]
       },
@@ -844,13 +877,13 @@
         "Coastal flooding": [
           {
             "title": "Annual Highest High Water, 2070-2100",
-            "url": "coastal/marine-sea-level--annual-highest-high-water-level.html"
+            "url": "coastal/marine-sea-level--annual-highest-high-water-level-detail.html"
           }
         ],
         "Relative sea level": [
           {
             "title": "Mean Relative Sea Level, 2070-2100",
-            "url": "coastal/marine-sea-level--mean-sea-level.html"
+            "url": "coastal/marine-sea-level--mean-sea-level-detail.html"
           }
         ]
       },
@@ -858,11 +891,11 @@
         "Snow and land ice": [
           {
             "title": "Total Winter Snow, 2011-2099",
-            "url": "tourism/tourism-snow-precipitation.html"
+            "url": "tourism/tourism-snow-precipitation-detail.html"
           },
           {
             "title": "Days with a High Amount of Natural Snow, 2011-2099",
-            "url": "tourism/tourism-high-amount-of-natural-snow.html"
+            "url": "tourism/tourism-high-amount-of-natural-snow-detail.html"
           }
         ]
       }
