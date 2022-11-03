@@ -335,7 +335,15 @@
       "identifier": "C3S2_430a_001",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
-      "hazards": ["Heat and cold"]
+      "hazards": ["Mean air temperature"]
+    },
+    {
+      "detail": "ecde-app-growing-degree-days",
+      "page_url": "ecde-app-growing-degree-days",
+      "identifier": "C3S2_430a_002",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"]
     }
   ]
 }

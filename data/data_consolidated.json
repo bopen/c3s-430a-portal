@@ -535,24 +535,49 @@
       "css_version": "ec476a3554"
     },
     "C3S2_430a_001": {
-      "description_general": "<p>Temperature is an essential climate variable making the Daily Mean Temperature a fundamental index for following climate variability and change. This Index is the main one in the Mean temperature Hazard type of the Heat and Cold category of the classification. \nA higher Index value indicates a warmer climate. Change (i.e difference relative to an average over a 30-year reference period) in annual mean temperature is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong>\nDaily mean temperature (°C) is the mean of temperature values during a day. \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong>\nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°X0.25°C, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: \n    - The Index based interactive EEA report: Heat and cold-mean air temperature (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-2014-mean\">link</a>).\n    - The EEA Indicators: Global and European temperatures (<a href=\"https://www.eea.europa.eu/ims/global-and-european-temperatures\">link</a>), </p>\n",
-      "description_vis_nav": "<p>The projected change in daily mean temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json",
+      "description_general": "<p>Temperature is an essential climate variable making the Daily Mean Temperature a fundamental index for following climate variability and change. This Index is the main one in the Mean temperature Hazard type of the Heat and Cold category of the classification. \nA higher Index value indicates a warmer climate. Change (i.e difference relative to an average over a 30-year reference period) in annual mean temperature is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong>\nDaily mean temperature (°C) is the mean of temperature values during a day. \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong>\nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and cold-mean air temperature (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-2014-mean\">link</a>).</li>\n<li>The EEA Indicators: Global and European temperatures (<a href=\"https://www.eea.europa.eu/ims/global-and-european-temperatures\">link</a>), </li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json",
       "indicator_title": "Projected change in monthly, seasonal and annual mean 2m air temperature",
-      "page_title": "Mean Temperature, 2011-2099",
-      "page_url": "app-heating-cooling-degree-days",
+      "page_title": "Mean Temperature, 1950 - 2100",
+      "page_url": "ecde-app-mean-temperature",
       "identifier": "C3S2_430a_001",
       "theme": [
         "Agriculture"
       ],
       "hazard_category": "Heat and cold",
       "hazards": [
-        "Heat and cold"
+        "Mean air temperature"
       ],
       "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
-      "overviewpage": "app-heating-cooling-degree-days.html",
-      "detailpage": "app-heating-cooling-degree-days-detail.html",
+      "overviewpage": "ecde-app-mean-temperature.html",
+      "detailpage": "ecde-app-mean-temperature-detail.html",
       "units": "(°C)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_002": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-growing-degree-days/master/configuration.json",
+      "page_url": "ecde-app-growing-degree-days",
+      "identifier": "C3S2_430a_002",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Mean air temperature"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-growing-degree-days.html",
+      "detailpage": "ecde-app-growing-degree-days-detail.html",
+      "page_title": "Growing Degree Days, 1950 - 2100",
+      "description_general": "<p>The Growing Degree Days index is relevant to agriculture. This Index is part of the Mean temperature Hazard type of the Heat and Cold category of the classification.<br>The index measures heat accumulation by cumulating daily degrees above a temperature threshold. It provides information about the growing season and can be used to evaluate crop and pest development rates such as the date that a crop reaches maturity. In some cases, an upper temperature limit is applied as well. National or regional applications may use different temperature thresholds to account for local conditions and crop types. \nA higher value means better conditions for crop development. </p>\n<p><strong>Definition</strong>\nThe sum of daily degrees above a daily mean temperature of 5°C (C°Day). \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period. </p>\n<p><strong>Data Sources</strong><br>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding [CDS documentation resources] \n(<a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections</a>).</p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values.</p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
+      "indicator_title": "-",
+      "units": "(°C.Day)",
       "vars": {
         "detail": {},
         "overview": {}
@@ -618,8 +643,12 @@
           "url": "agriculture/frost-days-detail.html"
         },
         {
-          "title": "Mean Temperature, 2011-2099",
-          "url": "agriculture/app-heating-cooling-degree-days-detail.html"
+          "title": "Growing Degree Days, 1950 - 2100",
+          "url": "agriculture/ecde-app-growing-degree-days-detail.html"
+        },
+        {
+          "title": "Mean Temperature, 1950 - 2100",
+          "url": "agriculture/ecde-app-mean-temperature-detail.html"
         },
         {
           "title": "Precipitation Sum, 2011-2099",
@@ -830,16 +859,20 @@
           {
             "title": "Biologically Effective Degree Days, 2011-2099",
             "url": "agriculture/biologically-effective-degree-days-detail.html"
+          },
+          {
+            "title": "Mean Temperature, 1950 - 2100",
+            "url": "agriculture/ecde-app-mean-temperature-detail.html"
+          },
+          {
+            "title": "Growing Degree Days, 1950 - 2100",
+            "url": "agriculture/ecde-app-growing-degree-days-detail.html"
           }
         ],
         "Heat and cold": [
           {
             "title": "HDD CDD title",
             "url": "energy/hdd_cdd-detail.html"
-          },
-          {
-            "title": "Mean Temperature, 2011-2099",
-            "url": "agriculture/app-heating-cooling-degree-days-detail.html"
           }
         ]
       },

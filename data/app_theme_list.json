@@ -47,6 +47,11 @@
       "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
       "PageTitle": "Mean temperature page title"
+    },
+    {
+      "id": "C3S2_430a_002",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json?configuration_version=3.0",
     }
   ],
   "Health": [
