@@ -1,0 +1,303 @@
+[
+    {
+        "C3S_434_002": {
+            "Indicator": "Climatic suitability for the tiger mosquito - season length",
+            "PopUpElements": {
+                "Title": "The season length of the climatic suitability for the tiger mosquito in <NUTS> under <Scenario>.",
+                "SubTitle": "Values represent a 30-year running average of the EURO-CORDEX ensemble mean and ensemble standard deviation (SD).\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"+SD\", \"mean\", \"-SD\""
+            }
+        }
+    },
+    {
+        "C3S_434_003": {
+            "Indicator": "Climatic suitability for the tiger mosquito - suitability index",
+            "PopUpElements": {
+                "Title": "The climatic suitability index for the tiger mosquito in <NUTS> under <scenario>.",
+                "SubTitle": "Values represent a 30-year running average of the EURO-CORDEX ensemble mean and ensemble standard deviation (SD).\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Suitability Index",
+                "Labels": "\"+SD\", \"mean\", \"-SD\""
+            }
+        }
+    },
+    {
+        "C3S_434_004": {
+            "Indicator": "Fire weather index"
+        }
+    },
+    {
+        "C3S_434_005": {
+            "Indicator": "Fire danger index"
+        }
+    },
+    {
+        "C3S_434_006": {
+            "Indicator": "Number of heat wave days",
+            "PopUpElements": {
+                "Title": "The number of <definition> heat wave days in <NUTS> under <scenario>.",
+                "SubTitle": "Values represent a 30-year running average of the EURO-CORDEX ensemble mean and ensemble standard deviation (SD).\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"+SD\", \"mean\", \"-SD\""
+            }
+        }
+    },
+    {
+        "C3S_434_007": {
+            "Indicator": "Mean radiant temperature",
+            "PopUpElements": {
+                "Title": "Time series of the Mean Radiant Temperature (MRT) in <NUTS>",
+                "SubTitle": "\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": ""
+            }
+        }
+    },
+    {
+        "C3S_434_008": {
+            "Indicator": "Universal thermal climate index",
+            "PopUpElements": {
+                "Title": "Time series of the Universal Thermal Climate Index (UTCI) in <NUTS>",
+                "SubTitle": "\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": ""
+            }
+        }
+    },
+    {
+        "C3S_434_009": {
+            "Indicator": "Projected change in biologically effective degree days",
+            "PopUpElements": {
+                "Title": "The projected change in the <anomaly period> biologically effective degree days in <NUTS> under <scenario> for <time period>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean biologically effective degree days for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_010": {
+            "Indicator": "Projected change in the number of frost days",
+            "PopUpElements": {
+                "Title": "The projected change in the <anomaly period> number of frost days in <NUTS> under <scenario> for <time period>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean number of frost days for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "Days",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_011": {
+            "Indicator": "Projected change in the number of tropical nights",
+            "PopUpElements": {
+                "Title": "The projected change in the <anomaly period> number of tropical nights in <NUTS> under <scenario> for <time period>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean number of tropical nights for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "Days",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_012": {
+            "Indicator": "Projected change in precipitation sum",
+            "PopUpElements": {
+                "Title": "The <anomaly period> precipitation sum anomaly in <NUTS> under <scenario> for <time period>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "% Change",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean precipitation sum for the period 1981-2010",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "mm",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_013": {
+            "Indicator": "Projected change in monthly and seasonal statistics of daily maximum 2m air temperature",
+            "PopUpElements": {
+                "Title": "The projected change in the <<month>/<season> seasonal mean of the monthly/annual mean of the monthly> <maximum/mean/minimum> value of daily maximum 2m surface air temperature in <NUTS> under <scenario>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean of daily maximum temperature for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.  The monthly mean climatology shown here is independent of the choice made in the selection menu.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_014": {
+            "Indicator": "Projected change in monthly and seasonal statistics of daily minimum 2m air temperature",
+            "PopUpElements": {
+                "Title": "The projected change in the <<month>/<season> seasonal mean of the monthly/annual mean of the monthly> <maximum/mean/minimum> value of daily minimum 2m surface air temperature in <NUTS> under <scenario>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean of daily minimum temperature for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.  The monthly mean climatology shown here is independent of the choice made in the selection menu.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_015": {
+            "Indicator": "Projected change in monthly and seasonal statistics of daily mean 2m surface air temperature",
+            "PopUpElements": {
+                "Title": "The projected change in the <<month>/<season> seasonal mean of the monthly/annual mean of the monthly> mean value of daily mean 2m surface air temperature in <NUTS> under <scenario>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across 5 CMIP5 climate models.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Climatology statistics for the monthly mean of daily mean temperature for the period 1981-2010.",
+                "SubTitle": "Based on ERA5 reanalysis data and showing the mean, standard deviation, and 5th and 95th percentiles of the climatology.  The monthly mean climatology shown here is independent of the choice made in the selection menu.",
+                "HorizontalAxis": "Month",
+                "VerticalAxis": "\u00b0C",
+                "Labels": "mean and standard deviation, 5th percentile, 95th percentile"
+            }
+        }
+    },
+    {
+        "C3S_434_016": {
+            "Indicator": "Number of health-related heatwave days",
+            "PopUpElements": {
+                "Title": "The number of health-related heat wave days in <NUTS> under <scenario>.",
+                "SubTitle": "Values represent a 30-year running average of the EURO-CORDEX ensemble mean and ensemble standard deviation (SD).\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"+SD\", \"mean\", \"-SD\""
+            }
+        }
+    },
+    {
+        "C3S_434_017": {
+            "Indicator": "Number of climatological heatwave days",
+            "PopUpElements": {
+                "Title": "The number of climatological heat wave days in <NUTS> under <scenario>.",
+                "SubTitle": "Values represent a 30-year running average of the EURO-CORDEX ensemble mean and ensemble standard deviation (SD).\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"+SD\", \"mean\", \"-SD\""
+            }
+        }
+    },
+    {
+        "C3S_434_018": {
+            "Indicator": "Projected change in the annual highest high water",
+            "PopUpElements": {
+                "Title": "",
+                "SubTitle": "\n",
+                "HorizontalAxis": "",
+                "VerticalAxis": "",
+                "Labels": ", , "
+            }
+        }
+    },
+    {
+        "C3S_434_019": {
+            "Indicator": "Projected change in mean relative sea level",
+            "PopUpElements": {
+                "Title": "",
+                "SubTitle": "\n",
+                "HorizontalAxis": "",
+                "VerticalAxis": "",
+                "Labels": ", , "
+            }
+        }
+    },
+    {
+        "C3S_434_020": {
+            "Indicator": "Projected change in the number of days with high fire danger",
+            "PopUpElements": {
+                "Title": "The projected change in the number of days with high fire danger in <NUTS> under <scenario>.",
+                "SubTitle": "Showing the ensemble mean, ensemble maximum and ensemble minimum across # CMIP5 climate models downscaled for use in the GEFF model.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"worst case\", \"mean\", \"best case\""
+            }
+        }
+    },
+    {
+        "C3S_434_021": {
+            "Indicator": "Projected change in total snow precipitation from November to April",
+            "PopUpElements": {
+                "Title": "The projected change in total snowfall (Nov-Apr) in <NUTS> under <scenario> at <elevation>.",
+                "SubTitle": "Showing the ensemble mean and range for eight GCM-RCM pairings.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "kg m-2",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Historical (Nov-Apr) snowfall statistics from the UERRA reanalysis.",
+                "SubTitle": "",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "kg m-2",
+                "Labels": ", , "
+            }
+        }
+    },
+    {
+        "C3S_434_022": {
+            "Indicator": "Projected change in the period with a high amount of natural snow",
+            "PopUpElements": {
+                "Title": "The projected change in the number of days with a high amount of natural snow (Aug-Jul) in <NUTS> under <scenario> at <elevation>.",
+                "SubTitle": "Showing the ensemble mean and range for eight GCM-RCM pairings.\nHover over the time series to display the values and the action buttons.",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": "\"max\", \"mean\", \"min\""
+            },
+            "ClimatologyElements": {
+                "Title": "Historical (Aug-Jul) days with high natural snow amount from the UERRA reanalysis.",
+                "SubTitle": "",
+                "HorizontalAxis": "Year",
+                "VerticalAxis": "Days",
+                "Labels": ", , "
+            }
+        }
+    }
+]
