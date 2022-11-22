@@ -13,12 +13,6 @@ const config = {
   url: {
     toolbox_app:
       "https://cds.climate.copernicus.eu/workflows/c3s/%APP%/master/configuration.json",
-    git_md:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/feature-aridity-actual-index/content/markdown/consolidated/%TITLE%.md",
-    git_json:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/feature-aridity-actual-index/content/json/Consolidated_430a.json",
-    git_glossary_json:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/feature-aridity-actual-index/content/json/Glossary.json",
   },
   usage: {
     markdown_texts: false,

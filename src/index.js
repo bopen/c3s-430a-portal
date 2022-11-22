@@ -47,27 +47,15 @@ hashSum.update(maris_css_file);
 const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 
 //retrieve indicator texts from github.
-let data_git_json = [];
-let git_json_result = sync_request("GET", config.url.git_json);
+//let data_git_json = [];
+//let git_json_result = sync_request("GET", config.url.git_json);
 
-if (git_json_result.statusCode === 200) {
-  data_git_json = JSON.parse(decoder.write(git_json_result.body));
-  fs.writeFileSync(
-    "./data/git_data.json",
-    JSON.stringify(data_git_json, null, 2)
-  );
-}
 
-let glossary_html = "";
-let data_git_glossary = [];
-let git_glossary_result = sync_request("GET", config.url.git_glossary_json);
-if (git_glossary_result.statusCode === 200) {
-  data_git_glossary = JSON.parse(decoder.write(git_glossary_result.body));
-  fs.writeFileSync(
-    "./data/git_glossary_data.json",
-    JSON.stringify(data_git_glossary, null, 2)
-  );
-}
+data_git_json = JSON.parse(fs.readFileSync("content/json/Consolidated_430a.json", "utf-8"));
+fs.writeFileSync("./data/git_data.json", JSON.stringify(data_git_json, null, 2));
+
+data_git_glossary = JSON.parse(fs.readFileSync("content/json/Glossary.json", "utf-8"));
+fs.writeFileSync("./data/git_glossary_data.json", JSON.stringify(data_git_glossary, null, 2));
 
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
