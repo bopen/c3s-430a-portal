@@ -1,545 +1,7 @@
 {
   "indicators": {
-    "C3S_434_013": {
-      "indicator_title": "Projected change in monthly and seasonal statistics of daily maximum 2m air temperature",
-      "page_title": "Daily Maximum Temperature - Monthly Statistics, 2011-2099",
-      "theme": [
-        "Agriculture"
-      ],
-      "identifier": "C3S_434_013",
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmax-detail-web/master/configuration.json",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmax-overview-web/master/configuration.json",
-      "page_url": "average-maximum-temperature",
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Extreme heat"
-      ],
-      "overviewpage": "average-maximum-temperature.html",
-      "detailpage": "average-maximum-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe daily maximum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily maximum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily maximum air temperature.  e.g. the annual maximum of daily maximum temperature is the hotest day of the year. </p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily maximum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change in daily maximum temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_014": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmin-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in monthly and seasonal statistics of daily minimum 2m air temperature",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmin-overview-web/master/configuration.json",
-      "page_title": "Daily Minimum Temperature - Monthly Statistics, 2011-2099",
-      "page_url": "average-minimum-temperature",
-      "identifier": "C3S_434_014",
-      "theme": [
-        "Agriculture"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Cold spells and frost"
-      ],
-      "overviewpage": "average-minimum-temperature.html",
-      "detailpage": "average-minimum-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe daily minimum temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily minimum air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly, seasonal, and annual maxima, minima, and mean of daily minimum air temperature. e.g. the annual maximum of daily minimum temperature is the warmest night of the year. </p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily minimum 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change in daily minimum temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_015": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmean-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in monthly and seasonal statistics of daily mean 2m surface air temperature",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tmean-overview-web/master/configuration.json",
-      "page_title": "Daily Mean Temperature - Monthly Statistics, 2011-2099",
-      "page_url": "average-mean-temperature",
-      "theme": [
-        "Agriculture"
-      ],
-      "hazard_category": "Heat and cold",
-      "identifier": "C3S_434_015",
-      "hazards": [
-        "Mean air temperature"
-      ],
-      "overviewpage": "average-mean-temperature.html",
-      "detailpage": "average-mean-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe daily mean temperature index provides information on long-term climate variability and change. Temperature plays a fundamental role in agricultural productivity, biodiversity and public health.</p>\n<p><strong>Definition</strong>\nThe daily mean air temperature (°C) is representative of the temperature at a height of 2m above the surface.  This index provides values for the monthly mean of daily mean air temperature. The seasonal and annual statistics for this index are averages of these monthly values.</p>\n<p><strong>Data Sources</strong>\nMonthly and seasonal statistics of daily mean 2m surface air temperature are calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates a warmer temperature than the reference period while a negative value indicates a cooler temperature than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change in daily mean temperature statistics for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of the temperature responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_002": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-mosquito-detail-web/master/configuration.json",
-      "indicator_title": "Climatic suitability for the tiger mosquito - season length",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-mosquito-overview-web/master/configuration.json",
-      "identifier": "C3S_434_002",
-      "page_title": "Climatic Suitability for the Tiger Mosquito - Season Length, 1971-2099",
-      "page_url": "climatic-suitability-of-tiger-mosquito--season-length",
-      "theme": [
-        "Health"
-      ],
-      "hazard_category": "Other",
-      "hazards": [
-        "Other"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "Length of season"
-        },
-        "overview": {
-          "indicator": "season_length"
-        }
-      },
-      "overviewpage": "climatic-suitability-of-tiger-mosquito--season-length.html",
-      "detailpage": "climatic-suitability-of-tiger-mosquito--season-length-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe tiger mosquito (Aedes albopictus) transmits vector-borne diseases, such as dengue and chikungunya. Environmental factors such as temperature and rainfall impact the survival chance and seasonal activity of the tiger mosquito which is a serious threat for human health in Europe.</p>\n<p><strong>Definition</strong>\nThe season length, in days, of the climatic suitability for the presence of the tiger mosquito is determined by temperature statistics and hours of sunlight (photoperiod). The egg hatching in spring is based on two criteria: the photoperiod should be above 11.25 hours and the spring temperature should be above 10.5 °C. The autumn diapause of the mosquito is determined by the autumn temperature that should be below 9.5 °C and the photoperiod that should be below 13.5 hours.</p>\n<p><strong>Data Sources</strong>\nThe season length for tiger mosquito suitability is calculated using bias-adjusted EURO-CORDEX data for two CMIP5 scenarios with different possible future greenhouse gas emissions: RCP4.5 (medium emissions) and RCP8.5 (high emissions). The data covers the period 1971 to 2099 and statistics are averaged for 30 years in overlapping time periods set 10 years apart.  Finally, the time series are averaged for the model ensemble.</p>\n<p><strong>Understand</strong>\nThe duration of tiger mosquito presence is also known as the mosquito season.  It begins when the insect’s eggs hatch after winter and continues until the eggs are no longer hatching (going in diapause) in autumn.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-health-vector?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The map shows a 30-year average of the season length of the climatic suitability for the tiger mosquito for the chosen scenario plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and standard deviation (SD) of the season length of the climatic suitability responses for the tiger mosquito to the chosen scenario conditions across the EURO-CORDEX regional climate model ensemble. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(days)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_003": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-mosquito-detail-web/master/configuration.json",
-      "indicator_title": "Climatic suitability for the tiger mosquito - suitability index",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-mosquito-overview-web/master/configuration.json",
-      "identifier": "C3S_434_003",
-      "page_title": "Climatic Suitability for the Tiger Mosquito - Suitability Index, 1971-2099",
-      "page_url": "climatic-suitability-of-tiger-mosquito--suitability",
-      "theme": [
-        "Health"
-      ],
-      "hazard_category": "Other",
-      "hazards": [
-        "Other"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "Suitability"
-        },
-        "overview": {
-          "indicator": "suitability"
-        }
-      },
-      "overviewpage": "climatic-suitability-of-tiger-mosquito--suitability.html",
-      "detailpage": "climatic-suitability-of-tiger-mosquito--suitability-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe tiger mosquito (Aedes albopictus) transmits vector-borne diseases, such as dengue and chikungunya. Environmental factors such as temperature and rainfall impact the survival chance and seasonal activity of the tiger mosquito which is a serious threat for human health in Europe.</p>\n<p><strong>Definition</strong>\nThe climatic suitability index for the presence of the tiger mosquito is determined by annual rainfall, summer temperatures and January temperatures. For annual rainfall, the suitability is zero when rainfall is lower than 450 mm, maximum suitability is reached when the annual rainfall is higher than 800 mm. For summer temperatures, the suitability is zero when temperatures are lower than 15 °C and higher than 30 °C, and maximum between 20 °C and 25 °C. For January temperatures, the suitability is zero when temperatures are lower than - 1°C and maximum when temperatures are higher than 3 °C. </p>\n<p><strong>Data Sources</strong>\nThe tiger mosquito suitability statistics are calculated using bias-adjusted EURO-CORDEX data for two CMIP5 scenarios with different possible future greenhouse gas emissions: RCP4.5 (medium emissions) and RCP8.5 (high emissions). The data covers the period 1971 to 2099 and statistics are averaged for 30 years in overlapping time periods set 10 years apart.  Finally, the time series are averaged for the model ensemble.</p>\n<p><strong>Understand</strong>\nA suitability index of 0 indicates that an area is not suitable (has no favourable environmental conditions) for tiger mosquito presence whereas an area with an index of 100 is totally suitable.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-health-vector?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The map shows a 30-year average of the climatic suitability index for the tiger mosquito for the chosen scenario plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and standard deviation (SD) of the suitability index of the climatic suitability responses for the tiger mosquito to the chosen scenario conditions across the EURO-CORDEX regional climate model ensemble. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_004": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-fireweatherindex-detail-web/master/configuration.json",
-      "identifier": "C3S_434_004",
-      "indicator_title": "Fire weather index",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-fireweatherindex-overview-web/master/configuration.json",
-      "page_title": "Fire Weather Index - Monthly Mean, 1979-2020",
-      "page_url": "fire-weather-index",
-      "theme": [
-        "Forestry"
-      ],
-      "hazard_category": "Wet and dry",
-      "hazards": [
-        "Fire weather"
-      ],
-      "overviewpage": "fire-weather-index.html",
-      "detailpage": "fire-weather-index-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe Canadian Fire Weather Index System (FWI) is used to assess fire danger in a harmonized way across Europe. The FWI uses information about fuel moisture and weather conditions to determine fire behaviour. </p>\n<p><strong>Definition</strong>\nThe fire weather index indicates fire intensity by combining the rate of fire spread with the amount of fuel being consumed.  The fire weather index is calculated using the Canadian Forest Service Fire Weather Index rating system (FWI). The fire danger model used to produce the dataset is the Global ECMWF Fire Forecast model (GEFF).  The fire danger model takes into account temperature, relative humidity, wind speed, precipitation, drought conditions, fuel availability, vegetation characteristics and topography.</p>\n<p><strong>Data Sources</strong>\nThe fire weather index is calculated using weather forecasts from historical simulations provided by the ECMWF ERA5 reanalysis. The fire weather index is part of a dataset produced by the Copernicus Emergency Management Service (CEMS) for the <a href=\"https://effis.jrc.ec.europa.eu/about-effis/technical-background/fire-danger-forecast/\">European Forest fire Information System (EFFIS)</a>.</p>\n<p><strong>Understand</strong>\nIt is customary to quote a danger class as well as an index number. The fire weather index can be categorised into 6 classes of danger as follows:\nVery low danger: FWI is less than 5.2. Low danger: FWI is between 5.2 and 11.2. Moderate danger: FWI is between 11.2 and 21.3. High danger: FWI is between 21.3 and 38.0.  Very high danger: FWI is between 38.0 and 50. Extreme danger: FWI is greater than 50.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/cems-fire-historical?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The annual mean fire weather index for each year from 1979 to 2020 is plotted on a map showing the European NUTS aggregation regions.  The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), and second sub-national level (NUTS-2).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name or click on a region to request a time series plot. Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the area mean fire weather index for the chosen region for each month of the chosen year. </p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_020": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-firedangerindex-detail-web/master/configuration.json",
-      "identifier": "C3S_434_020",
-      "indicator_title": "Projected change in the number of days with high fire danger",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-firedangerindex-overview-web/master/configuration.json",
-      "page_title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-      "page_url": "high-fire-danger",
-      "theme": [
-        "Forestry",
-        "Tourism"
-      ],
-      "hazard_category": "Wet and dry",
-      "hazards": [
-        "Fire weather"
-      ],
-      "overviewpage": "high-fire-danger.html",
-      "detailpage": "high-fire-danger-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe Canadian Fire Weather Index System (FWI) is used to assess fire danger in a harmonized way across Europe. The FWI uses information about fuel moisture and weather conditions to determine fire behaviour.</p>\n<p><strong>Definition</strong>\nThe incidence of high fire danger is expressed as the number of days per year with a FWI greater than 30.  The calculation of the FWI is based on 24-hour accumulated precipitation and daily noon values of air temperature, relative humidity, and wind speed. The projected change in the number of days with high fire danger is calculated relative to the 1986-2005 period.</p>\n<p><strong>Data Sources</strong>\nThe FWI is generated using the Global ECMWF Fire Forecasting model (GEFF). Projections from multiple global climate models downscaled to a regional climate model were used to generate the meteorological input for the GEFF model. The GEFF model was run for four different climate scenarios: the present climate (labelled &#39;historical&#39;), and three Representative Concentration Pathway (RCP) scenarios consistent with an optimistic emission scenario where emissions start declining beyond 2020 (RCP2.6), a scenario where emissions start declining beyond 2040 (RCP4.5) and a pessimistic scenario where emissions continue to rise throughout the century (RCP8.5). The projected changes to fire danger under future climate conditions are calculated relative to the 1986-2005 period.</p>\n<p><strong>Understand</strong>\nThe FWI can be understood in terms of six danger classes based on the <a href=\"https://effis.jrc.ec.europa.eu/about-effis/technical-background/fire-danger-forecast/\">European Forest fire Information System (EFFIS)</a> classification.\nVery low danger: FWI is less than 5.2. Low danger: FWI is between 5.2 and 11.2. Moderate danger: FWI is between 11.2 and 21.3. High danger: FWI is between 21.3 and 38.0.  Very high danger: FWI is between 38.0 and 50. Extreme danger: FWI is greater than 50.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-tourism-fire-danger-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The map shows the 30-year average of the projected change in the number of days with high fire danger for the chosen time period and scenario plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The statistical uncertainty associated with the climate projections is conveyed by showing the mean, best case, and worst case of the multi-model outcomes on the time series plot. </p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(days)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_016": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-detail-web/master/configuration.json",
-      "indicator_title": "Number of health-related heatwave days",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-overview-web/master/configuration.json",
-      "page_title": "Health Heatwave (High Temperature and Humidity), 1971-2099",
-      "page_url": "health-heat-waves-in-europe",
-      "identifier": "C3S_434_016",
-      "theme": [
-        "Health"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Extreme heat"
-      ],
-      "vars": {
-        "detail": {
-          "hdef": "health_related"
-        },
-        "overview": {
-          "hdef": "health_related"
-        }
-      },
-      "overviewpage": "health-heat-waves-in-europe.html",
-      "detailpage": "health-heat-waves-in-europe-detail.html",
-      "description_general": "<p><strong>Context</strong>\nA health-related heatwave is a prolonged period of extremely high temperature and humidity for a particular region during which daily minima and maxima both exceed thresholds.  Heatwaves with high humidity are problematic for human health and well-being.</p>\n<p><strong>Definition</strong>\nThe annual number of heatwave days is based on the heatwave definition used by the health community. A health-related heatwave is considered to be a period of at least 2 consecutive days on which the maximum apparent temperature (Tappmax) exceeds the 90th percentile of Tappmax and the minimum temperature (Tmin) exceeds the 90th percentile of Tmin. Health heatwaves are calculated for each month of the summer period between June and August.  The apparent temperature is a measure of relative discomfort due to combined heat and high humidity.</p>\n<p><strong>Data Sources</strong>\nThe health-related heatwave statistics are calculated using bias-adjusted EURO-CORDEX data for two CMIP5 scenarios with different possible future greenhouse gas emissions: RCP4.5 (medium emissions) and RCP8.5 (high emissions). The data covers the period 1971 to 2099 and statistics are averaged for 30 years in overlapping time periods set 10 years apart.  Finally, the time series are averaged for the model ensemble.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The map shows the 30-year average of the number of health-related heatwave days for the chosen time period and scenario plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and standard deviation (SD) of health-related heat wave responses to the chosen scenario conditions across the EURO-CORDEX regional climate model ensemble. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(days)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_017": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-detail-web/master/configuration.json",
-      "exclude": false,
-      "indicator_title": "Number of climatological heatwave days",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-health-heatwave-overview-web/master/configuration.json",
-      "page_title": "Climatological Heatwave (High Temperature), 1971-2099",
-      "page_url": "climatological-heat-waves-in-europe",
-      "theme": [
-        "Agriculture",
-        "Energy"
-      ],
-      "identifier": "C3S_434_017",
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Extreme heat"
-      ],
-      "vars": {
-        "detail": {
-          "hdef": "climatological_related"
-        },
-        "overview": {
-          "hdef": "climatological_related"
-        }
-      },
-      "overviewpage": "climatological-heat-waves-in-europe.html",
-      "detailpage": "climatological-heat-waves-in-europe-detail.html",
-      "description_general": "<p><strong>Context</strong>\nA climatological heatwave is a prolonged period of extremely high temperature for a particular region that exceeds a maximum threshold.  Heatwaves have consequences for health, agriculture, power, wildfire and infrastructure. </p>\n<p><strong>Definition</strong>\nThe annual number of heatwave days is based on the climatological definition of a heatwave. A climatological heatwave is considered to be a period of at least 3 consecutive days on which the daily maximum temperature exceeds the 99th percentile of the daily maximum temperatures of the May to September season for the control period of 1971 to 2000.</p>\n<p><strong>Data Sources</strong>\nThe climatological heatwave statistics are calculated using bias-adjusted EURO-CORDEX data for two CMIP5 scenarios with different possible future greenhouse gas emissions: RCP4.5 (medium emissions) and RCP8.5 (high emissions). The data covers the period 1971 to 2099 and statistics are averaged for 30 years in overlapping time periods set 10 years apart.  Finally, the time series are averaged for the model ensemble.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The map shows the 30-year average of the number of climatological heatwave days for the chosen time period and scenario plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and standard deviation (SD) of climatological heat wave responses to the chosen scenario conditions across the EURO-CORDEX regional climate model ensemble. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(days)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_008": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-universalthermalclimateindex-detail-web/master/configuration.json",
-      "indicator_title": "Universal thermal climate index",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-universalthermalclimateindex-overview-web/master/configuration.json",
-      "page_title": "Thermal Comfort Indices - Universal Thermal Climate Index, 1979-2020",
-      "page_url": "thermal-comfort-indices--universal-thermal-climate-index",
-      "identifier": "C3S_434_008",
-      "theme": [
-        "Health"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Extreme heat"
-      ],
-      "overviewpage": "thermal-comfort-indices--universal-thermal-climate-index.html",
-      "detailpage": "thermal-comfort-indices--universal-thermal-climate-index-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe universal thermal climate index (UTCI) is a human biometeorology parameter that is used to assess the linkages between outdoor environment and human well‐being. Thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.</p>\n<p><strong>Definition</strong>\nThe universal thermal climate index (UTCI) is an equivalent temperature (°C), it is a measure of the human physiological response to the thermal environment.  The universal thermal climate index (UTCI) describes the synergistic heat exchanges between the thermal environment and the human body, namely its energy budget, physiology and clothing. UTCI takes into consideration the clothing adaptation of the population in response to actual environmental temperature. There are four variables required to calculate the UTCI: 2m air temperature, 2m dew point temperature (or relative humidity), wind speed at 10m above ground level and mean radiant temperature (MRT).</p>\n<p><strong>Data Sources</strong>\nThe universal thermal climate index (UTCI) is computed using data from the ECMWF ERA5 reanalysis. </p>\n<p><strong>Understand</strong>\nThere are 10 UTCI thermal stress categories that correspond to specific human physiological responses to the thermal environment. The categories relate to UTCI values as follows:\nabove +46: extreme heat stress; +38 to +46: very strong heat stress; +32 to +38: strong heat stress; +26 to +32: moderate heat stress; +9 to +26: no thermal stress; +9 to 0: slight cold stress; 0 to -13: moderate cold stress; -13 to -27: strong cold stress; -27 to -40: very strong cold stress; below -40: extreme cold stress.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The universal thermal climate index (UTCI) for each month and year from 1979 to 2020 is plotted on a map showing the European NUTS aggregation regions. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), and second sub-national level (NUTS-2).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name or click on a region to request a time series plot. Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the area mean UTCI for the chosen region.  </p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_007": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-meanradianttemperature-detail-web/master/configuration.json",
-      "indicator_title": "Mean radiant temperature",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-meanradianttemperature-overview-web/master/configuration.json",
-      "identifier": "C3S_434_007",
-      "page_title": "Thermal Comfort Indices - Mean Radiant Temperature, 1979-2020",
-      "page_url": "thermal-comfort-indices--mean-radiant-temperature",
-      "theme": [
-        "Health"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Mean air temperature"
-      ],
-      "overviewpage": "thermal-comfort-indices--mean-radiant-temperature.html",
-      "detailpage": "thermal-comfort-indices--mean-radiant-temperature-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe mean radiant temperature (MRT) is a human biometeorology parameter that is used to assess the linkages between the outdoor environment and human well‐being. Thermal comfort indices describe how the human body experiences atmospheric conditions, specifically air temperature, humidity, wind and radiation.</p>\n<p><strong>Definition</strong>\nThe mean radiant temperature (°C) is a numerical representation of how human beings experience radiation.  The mean radiant temperature (MRT) is based on the principle that the net exchange of radiant energy between objects is approximately proportional to their temperature difference multiplied by their ability to emit and absorb heat (emissivity). In this context the MRT applies to a person in an outdoor environment and is a function of the direct, diffuse and reflected thermal and solar radiation they experience.  </p>\n<p><strong>Data Sources</strong>\nThe mean radiant temperature (MRT) is computed using solar and thermal data from the ECMWF ERA5 reanalysis. </p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-utci-historical?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The mean radiant temperature (MRT) for each month and year from 1979 to 2020 is plotted on a map showing the European NUTS aggregation regions. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), and second sub-national level (NUTS-2).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view its name or click on a region to request a time series plot. Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the area mean MRT for the chosen region.  </p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_012": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-precip-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in precipitation sum",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-precip-overview-web/master/configuration.json",
-      "page_title": "Precipitation Sum, 2011-2099",
-      "page_url": "projected-change-in-precipitation-sum",
-      "theme": [
-        "Agriculture"
-      ],
-      "identifier": "C3S_434_012",
-      "hazard_category": "Wet and dry",
-      "hazards": [
-        "Mean precipitation"
-      ],
-      "overviewpage": "projected-change-in-precipitation-sum.html",
-      "detailpage": "projected-change-in-precipitation-sum-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe precipitation sum provides information on possible water shortage or excess.</p>\n<p><strong>Definition</strong>\nThe precipitation sum index is expressed as a percentage change in total precpitation relative to a reference period. </p>\n<p><strong>Data Sources</strong>\nThe precipitation sum index is calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes in the precipitation sum are calculated relative to a (1981–2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates more precipitation than the reference period while a negative value indicates less precipitation than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change of the sum of monthly precipitation and annual precipitation for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of precipitation responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models.  The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(%)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_010": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-frostdays-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in the number of frost days",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-frostdays-overview-web/master/configuration.json",
-      "page_title": "Frost Days, 2011-2099",
-      "identifier": "C3S_434_010",
-      "page_url": "frost-days",
-      "theme": [
-        "Agriculture"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Cold spells and frost"
-      ],
-      "overviewpage": "frost-days.html",
-      "detailpage": "frost-days-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe number of frost days provides information on frost damage.</p>\n<p><strong>Definition</strong>\nA frost day is when the daily minimum temperature is less than 0°C.</p>\n<p><strong>Data Sources</strong>\nThe number of frost days index is calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981-2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates more frost days than the reference period while a negative value indicates fewer frost days than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change of the monthly and annual number of frost days for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of frost day responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(days)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_011": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tropicalnights-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in the number of tropical nights",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-tropicalnights-overview-web/master/configuration.json",
-      "page_title": "Tropical Nights, 2011-2099",
-      "identifier": "C3S_434_011",
-      "page_url": "tropical-nights",
-      "theme": [
-        "Agriculture"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Extreme heat"
-      ],
-      "overviewpage": "tropical-nights.html",
-      "detailpage": "tropical-nights-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe number of tropical nights provides an indication of the likely occurrence of various pests.</p>\n<p><strong>Definition</strong>\nOn a tropical night the minimum temperature remains above 20°C.</p>\n<p><strong>Data Sources</strong>\nThe number of tropical nights index is calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981-2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates more tropical nights than the reference period while a negative value indicates fewer tropical nights than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change of the monthly and annual number of tropical nights for the chosen scenario and time period are plotted as area means for each region. The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of tropical night responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(days)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_009": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-bedd-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in biologically effective degree days",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-agriculture-bedd-overview-web/master/configuration.json",
-      "page_title": "Biologically Effective Degree Days, 2011-2099",
-      "page_url": "biologically-effective-degree-days",
-      "theme": [
-        "Agriculture"
-      ],
-      "identifier": "C3S_434_009",
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Mean air temperature"
-      ],
-      "overviewpage": "biologically-effective-degree-days.html",
-      "detailpage": "biologically-effective-degree-days-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe biologically effective degree days index provides information about the growing season.</p>\n<p><strong>Definition</strong>\nThe biologically effective degree days (°C) index is the sum of daily mean temperatures above 10°C and less than 30°C for a given period.</p>\n<p><strong>Data Sources</strong>\nThe biologically effective degree days index is calculated from an ensemble of five global climate model (GCM) simulations for two CMIP5 scenario projections: RCP2.6 (with low greenhouse gas emissions) and RCP8.5 (with high greenhouse gas emissions). Projected changes are calculated relative to a (1981-2010) ERA5 reference period.</p>\n<p><strong>Understand</strong>\nA positive value indicates higher biological effectiveness than the reference period while a negative value indicates lower biological effectiveness than the reference period.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-agroclimatic-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>the projected change of the monthly and annual biologically effective degree days for the chosen scenario and time period are plotted as area means for each region.  The EUROSTAT NUTS classification (<a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">Nomenclature of Territorial Units for Statistics</a>) is a hierarchical system for dividing up the economic territory of Europe. The size of the regions shown on the map can be adjusted by selecting the appropriate NUTS level: national level (NUTS-0), first sub-national level (NUTS-1), second sub-national level (NUTS-2), and third sub-national level (NUTS-3).</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to view the value of the area mean or click on a region to request a time series plot.  Likewise, the trans-national average for the EEA member and cooperating countries (EEA 38) can be accessed via the &quot;Europe&quot; bounding box.</p>\n<p>The time series plot shows the ensemble mean and range of biologically effective degree day responses to the chosen scenario conditions across an ensemble of five CMIP5 climate models.  The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the (1981-2010) ERA5 reference climatology is also provided. The reference climate contains the mean climatology, the standard deviation from the mean, and the 5th and 95th percentiles.</p>\n",
-      "units": "(°C)",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_018": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-marine-sealevel-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in the annual highest high water",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-marine-sealevel-overview-web/master/configuration.json",
-      "page_title": "Annual Highest High Water, 2070-2100",
-      "page_url": "marine-sea-level--annual-highest-high-water-level",
-      "identifier": "C3S_434_018",
-      "theme": [
-        "Coastal"
-      ],
-      "hazard_category": "Coastal",
-      "hazards": [
-        "Coastal flooding"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "annual_highest_high_water_level"
-        },
-        "overview": {
-          "indicator": "annual_highest_high_water_level"
-        }
-      },
-      "overviewpage": "marine-sea-level--annual-highest-high-water-level.html",
-      "detailpage": "marine-sea-level--annual-highest-high-water-level-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe annual highest high water index informs an understanding of European coastal hydrodynamics under the impact of climate change. It provides added value for various coastal sectors and studies such as port, shipping, and coastal management with particular relvance to coastal flooding.</p>\n<p><strong>Definition</strong>\nThe projected change in annual highest high water (m) is calculated relative to the mean of annual highest high water levels during the historical period from 1977-2005. Tidal dynamics, sea level change data from climate models, and large-scale long-term changes to land height due to post-glacial rebound are taken into account in the calculation of this index. Storm surges caused by atmospheric forcing are not taken into account for this index.</p>\n<p><strong>Data Sources</strong>\nThe data covers the period from 2070 to 2100 based on CMIP5 scenario RCP4.5 with medium greenhouse gas emissions.</p>\n<p>The index is generated using the Global Tide and Surge Model (GTSM, Deltares) and the Wave Model (WAM, ECMWF). High resolution forcing fields for the GTSM are provided by the Danish Meteorological Institute&#39;s regional model (HIRHAM5) which is downscaled from the EC-EARTH global climate model.</p>\n<p>The EC-EARTH simulations used input from a relative Sea Surface Height (SSH) dataset that takes into account geophysical drivers of long-term SSH change, such as changes to the Greenland and Antarctic ice sheets, thermal expansion of the ocean, and glacial isostatic adjustment.</p>\n<p>Given that the projections of these climate scenarios are based on a single combination of the regional and global climate models, users of these data should take into consideration that there is an inevitable underestimation of the uncertainty associated with this dataset.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-water-level-change-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change in the annual highest high water is presented for the future period 2070-2100 based on CMIP5 scenario RCP4.5 with medium greenhouse gas emissions.</p>\n",
-      "units": "(m)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_019": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-marine-sealevel-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in mean relative sea level",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-marine-sealevel-overview-web/master/configuration.json",
-      "page_title": "Mean Relative Sea Level, 2070-2100",
-      "page_url": "marine-sea-level--mean-sea-level",
-      "identifier": "C3S_434_019",
-      "theme": [
-        "Coastal"
-      ],
-      "hazard_category": "Coastal",
-      "hazards": [
-        "Relative sea level"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "mean_sea_level"
-        },
-        "overview": {
-          "indicator": "mean_sea_level"
-        }
-      },
-      "overviewpage": "marine-sea-level--mean-sea-level.html",
-      "detailpage": "marine-sea-level--mean-sea-level-detail.html",
-      "description_general": "<p><strong>Context</strong>\nThe mean relative sea level index informs an understanding of European coastal hydrodynamics under the impact of climate change. It provides added value for various coastal sectors and studies such as port, shipping, and coastal management with particular relvance to coastal management.</p>\n<p><strong>Definition</strong>\nThe projected change in mean relative sea level (m) is calculated relative to the mean of the mean sea level during the historical period from 1977-2005. Tidal dynamics, sea level change data from climate models, and large-scale long-term changes to land height due to post-glacial rebound are taken into account in the calculation of this index. Storm surges caused by atmospheric forcing are not taken into account for this index.</p>\n<p><strong>Data Sources</strong>\nThe data covers the period from 2070 to 2100 based on CMIP5 scenario RCP4.5 with medium greenhouse gas emissions.</p>\n<p>The index is generated using the Global Tide and Surge Model (GTSM, Deltares) and the Wave Model (WAM, ECMWF). High resolution forcing fields for the GTSM are provided by the Danish Meteorological Institute&#39;s regional model (HIRHAM5) which is downscaled from the EC-EARTH global climate model.</p>\n<p>The EC-EARTH simulations used input from a relative Sea Surface Height (SSH) dataset that takes into account geophysical drivers of long-term SSH change, such as changes to the Greenland and Antarctic ice sheets, thermal expansion of the ocean, and glacial isostatic adjustment.</p>\n<p>Given that the projections of these climate scenarios are based on a single combination of the regional and global climate models, users of these data should take into consideration that there is an inevitable underestimation of the uncertainty associated with this dataset.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-water-level-change-indicators?tab=overview\">Climate Data Store</a>.</p>\n",
-      "description_vis_nav": "<p>The projected change in mean relative sea level is presented for the future period 2070-2100 based on CMIP5 scenario RCP4.5 with medium greenhouse gas emissions.</p>\n",
-      "units": "(m)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_021": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-tourism-snow-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in total snow precipitation from November to April",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-tourism-snow-overview-web/master/configuration.json",
-      "page_title": "Total Winter Snow, 2011-2099",
-      "page_url": "tourism-snow-precipitation",
-      "identifier": "C3S_434_021",
-      "theme": [
-        "Tourism"
-      ],
-      "hazard_category": "Snow and ice",
-      "hazards": [
-        "Snow and land ice"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "total_snow_precipitation_from_november_to_april"
-        },
-        "overview": {
-          "indicator": "total_snow_precipitation_from_november_to_april"
-        }
-      },
-      "overviewpage": "tourism-snow-precipitation.html",
-      "detailpage": "tourism-snow-precipitation-detail.html",
-      "description_general": "<p><strong>Context</strong>\nSnow indices for Europe can be used to characterize the operating conditions of winter ski resorts under future climate scenarios. They are used in the assessment of snow reliability for mountainous regions across Europe.</p>\n<p><strong>Definition</strong>\nTotal snow precipitation is the cumulative value of snowfall over the winter sports season (November year N-1 to April year N). The projected change in cumulative snowfall for each region and elevation is calculated relative to the 1981-2010 period of the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-uerra-europe-complete?tab=overview\">UERRA</a> historical reanalysis. </p>\n<p><strong>Data Sources</strong>\nSnow indices are generated using the Crocus snowpack model, a multi-layer snowpack model embedded in the SURFEX land surface model. The SURFEX (Surface Externalisée) model is forced with atmospheric fields provided by adjusted EURO-CORDEX ensemble climate projections. The data covers the period from 2011-2099. It consists of two climate change scenarios: RCP4.5 with medium greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-tourism-snow-indicators?tab=overview\">Climate Data Store</a></p>\n",
-      "description_vis_nav": "<p>The projected change in cumulative snowfall from November to April is provided for <a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">NUTS-3</a> sub-national regions, as 30-year means for two CMIP5 scenarios: RCP4.5 with medium greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions. The snow index is further discretised in steps of 100m land-surface elevation.</p>\n<p>The map shows the 30-year average of the projected change in total snow precipitation, for the chosen time period, scenario and elevation, plotted as area means for each region.</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to see it&#39;s name, if there is data at the selected elevation the area mean will also be shown. Click on a region that contains data at the selected elevation to request a century-long timeseries plot.</p>\n<p>The time series plot shows the ensemble mean and range derived from eight global climate model (GCM) and regional climate model (RCM) pairings. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the historical time series of the UERRA reanalysis data is also shown.</p>\n",
-      "units": "(kg m-2)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_022": {
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-tourism-snow-detail-web/master/configuration.json",
-      "indicator_title": "Projected change in the period with a high amount of natural snow",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/hidden-app-tourism-snow-overview-web/master/configuration.json",
-      "page_title": "Days with a High Amount of Natural Snow, 2011-2099",
-      "page_url": "tourism-high-amount-of-natural-snow",
-      "identifier": "C3S_434_022",
-      "theme": [
-        "Tourism"
-      ],
-      "hazard_category": "Snow and ice",
-      "hazards": [
-        "Snow and land ice"
-      ],
-      "vars": {
-        "detail": {
-          "indicator": "period_with_high_amount_of_natural_snow"
-        },
-        "overview": {
-          "indicator": "period_with_high_amount_of_natural_snow"
-        }
-      },
-      "overviewpage": "tourism-high-amount-of-natural-snow.html",
-      "detailpage": "tourism-high-amount-of-natural-snow-detail.html",
-      "description_general": "<p><strong>Context</strong>\nSnow indices for Europe can be used to characterize the operating conditions of winter ski resorts under future climate scenarios. They are used in the assessment of snow reliability for mountainous regions across Europe.</p>\n<p><strong>Definition</strong>\nThe number of days from August 1st of year N-1 to July 31st of year N fulfilling the conditions &quot;Snow water equivalent &gt;= 120 kg m-2&quot; using a natural snow simulation. The projected change in the number of days with a high amount of natural snow for each region and elevation is calculated relative to the 1981-2010 period of the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-uerra-europe-complete?tab=overview\">UERRA</a> historical reanalysis.</p>\n<p><strong>Data Sources</strong>\nSnow indices are generated using the Crocus snowpack model, a multi-layer snowpack model embedded in the SURFEX land surface model. The SURFEX (Surface Externalisée) model is forced with atmospheric fields provided by adjusted EURO-CORDEX ensemble climate projections. The data covers the period from 2011-2099. It consists of two climate change scenarios: RCP4.5 with medium greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions.</p>\n<p><strong>Supporting Information</strong>\nThe data was collated on behalf of the Copernicus Climate Change Service (C3S).  Further information about this index can be found in the C3S documentation resources in the <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-tourism-snow-indicators?tab=overview\">Climate Data Store</a></p>\n",
-      "description_vis_nav": "<p>The projected change in the number of days with a high amount of natural snow from August to July are provided for <a href=\"https://ec.europa.eu/eurostat/web/nuts/background\">NUTS-3</a> sub-national regions, as 30-year means for two CMIP5 scenarios: RCP4.5 with medium greenhouse gas emissions and RCP8.5 with high greenhouse gas emissions. The snow index is further discretised in steps of 100m land-surface elevation.</p>\n<p>The map shows the 30-year average of the projected change in the number of days with a high amount of natural snow, for the chosen time period, scenario and elevation, plotted as area means for each region.</p>\n<p>The regions on the map facilitate dynamic access to the underlying data. Hover the mouse pointer over a region to see it&#39;s name, if there is data at the selected elevation the area mean will also be shown. Click on a region that contains data at the selected elevation to request a century-long timeseries plot.</p>\n<p>The time series plot shows the ensemble mean and range derived from eight global climate model (GCM) and regional climate model (RCM) pairings. The values represent the centres of a 30-year running average from 1971 to 2100 which results in a time series covering the period from 1986 to 2085.</p>\n<p>Click and hover the mouse over the time series plot to view the data values and to reveal action buttons for features such as “zoom” and “download plot as a png”.  Links below the plot enable the download of time series data in the spreadsheet compatible .csv format.</p>\n<p>This index is expressed as a change relative to a reference period so the historical time series of the UERRA reanalysis data is also shown.</p>\n",
-      "units": "(days)",
-      "css_version": "ec476a3554"
-    },
-    "C3S_434_023": {
-      "description_general": "HDD - CDD description detail.</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
-      "description_vis_nav": "HDD - CDD description detail.</p>\n<hr>\n<p><strong>Visualisation and Navigation</strong>\nHDD CDD Visualisation and Navigation.</p>\n<p>HDD CDD Explore in detail.</p>\n",
-      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json",
-      "indicator_title": "HDD - CDD",
-      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/app-heating-cooling-degree-days/master/configuration.json",
-      "page_title": "HDD CDD title",
-      "page_url": "hdd_cdd",
-      "identifier": "C3S_434_023",
-      "theme": [
-        "Energy"
-      ],
-      "hazard_category": "Heat and cold",
-      "hazards": [
-        "Heat and cold"
-      ],
-      "overviewpage": "hdd_cdd.html",
-      "detailpage": "hdd_cdd-detail.html",
-      "vars": {
-        "detail": {},
-        "overview": {}
-      },
-      "css_version": "ec476a3554"
-    },
     "C3S2_430a_001": {
-      "description_general": "<p>Temperature is an essential climate variable making the Mean Temperature a fundamental index for following climate variability and change. This Index is the main one in the Mean temperature Hazard type of the Heat and Cold category of the classification. </p>\n<p>A higher Index value indicates a warmer climate. Change (i.e difference relative to an average over a 30-year reference period) in annual mean temperature is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong>\nThe mean of 2m temperature (°C) values during a given period. </p>\n<p>In weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong>\nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding CDS documentation resources. </p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and cold-mean air temperature (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-2014-mean\">link</a>).</li>\n<li>The EEA Indicators: Global and European temperatures (<a href=\"https://www.eea.europa.eu/ims/global-and-european-temperatures\">link</a>), </li>\n</ul>\n",
-      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
       "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-mean-temperature/master/configuration.json",
-      "indicator_title": "Projected change in monthly, seasonal and annual mean 2m air temperature",
-      "page_title": "Mean Temperature, 1950 - 2100",
       "page_url": "ecde-app-mean-temperature",
       "identifier": "C3S2_430a_001",
       "theme": [
@@ -552,6 +14,10 @@
       "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
       "overviewpage": "ecde-app-mean-temperature.html",
       "detailpage": "ecde-app-mean-temperature-detail.html",
+      "page_title": "Mean Temperature",
+      "description_general": "<p>Temperature is an essential climate variable making the Mean Temperature a fundamental index for following climate variability and change. This Index is the main one in the Mean temperature Hazard type of the Heat and Cold category of the classification. </p>\n<p>A higher Index value indicates a warmer climate. Change (i.e difference relative to an average over a 30-year reference period) in annual mean temperature is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong></p>\n<p>The mean of 2m temperature (°C) values during a given period. </p>\n<p>In weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding CDS documentation resources. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and cold-mean air temperature (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-2014-mean\">link</a>).</li>\n<li>The EEA Indicators: Global and European temperatures (<a href=\"https://www.eea.europa.eu/ims/global-and-european-temperatures\">link</a>), </li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
+      "indicator_title": "-",
       "units": "(°C)",
       "vars": {
         "detail": {},
@@ -573,11 +39,136 @@
       "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
       "overviewpage": "ecde-app-growing-degree-days.html",
       "detailpage": "ecde-app-growing-degree-days-detail.html",
-      "page_title": "Growing Degree Days, 1950 - 2100",
-      "description_general": "<p>The Growing Degree Days index is relevant to agriculture. This Index is part of the Mean temperature Hazard type of the Heat and Cold category of the classification.<br>The index measures heat accumulation by cumulating daily degrees above a temperature threshold. It provides information about the growing season and can be used to evaluate crop and pest development rates such as the date that a crop reaches maturity. In some cases, an upper temperature limit is applied as well. National or regional applications may use different temperature thresholds to account for local conditions and crop types. \nA higher value means better conditions for crop development. </p>\n<p><strong>Definition</strong>\nThe sum of daily degrees above a daily mean temperature of 5°C (C°Day). \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period. </p>\n<p><strong>Data Sources</strong><br>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>.</p>\n<p><strong>Supporting Information</strong>\nFurther information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n",
+      "page_title": "Growing Degree Days",
+      "description_general": "<p>The Growing Degree Days index is relevant to agriculture. This Index is part of the Mean temperature Hazard type of the Heat and Cold category of the classification.<br>The index measures heat accumulation by cumulating daily degrees above a temperature threshold. It provides information about the growing season and can be used to evaluate crop and pest development rates such as the date that a crop reaches maturity. In some cases, an upper temperature limit is applied as well. National or regional applications may use different temperature thresholds to account for local conditions and crop types. \nA higher value means better conditions for crop development. </p>\n<p><strong>Definition</strong></p>\n<p>The sum of daily degrees above a daily mean temperature of 5°C (C°Day). \nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period. </p>\n<p><strong>Data Sources</strong>  </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>.</p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n",
       "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values.</p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
       "indicator_title": "-",
       "units": "(°C.Day)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_005": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tropical-nights/master/configuration.json",
+      "page_url": "ecde-app-tropical-nights",
+      "identifier": "C3S2_430a_005",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Mean air temperature"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-tropical-nights.html",
+      "detailpage": "ecde-app-tropical-nights-detail.html",
+      "page_title": "Tropical Nights",
+      "description_general": "<p>The Tropical Nights index is relevant to human health. This index is based on daily minimum temperature and is part of the Extreme Heat Hazard type of the Heat and Cold category of the classification. </p>\n<p>High values of minimum temperature cause physiological discomfort during periods of high temperatures by preventing body temperature to cool-off during the night.</p>\n<p>A higher value indicates more Tropical Nights and thus more stress on human health caused by extreme minimum temperatures.</p>\n<p><strong>Definition</strong></p>\n<p>The count of days when daily minimum temperature remains above 20°C (Number of days).</p>\n<p>In weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.   </p>\n<p><strong>Data Sources</strong> </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong> </p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS.\nRelated information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and cold — extreme heat  (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/heat-and-cold-extreme-heat\">link</a>).</li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
+      "indicator_title": "-",
+      "units": "(Days)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_008": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-apparent-temperature-heatwave-days/master/configuration.json",
+      "page_url": "ecde-app-apparent-temperature-heatwave-days",
+      "identifier": "C3S2_430a_008",
+      "theme": [
+        "Health"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Extreme heat"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-apparent-temperature-heatwave-days.html",
+      "detailpage": "ecde-app-apparent-temperature-heatwave-days-detail.html",
+      "page_title": "Apparent Temperature Heatwave Days",
+      "description_general": "<p>The Apparent Temperature Heatwave Days index is relevant to human health. This Index is part of the Extreme Heat Hazard type of the Heat and Cold category of the classification. </p>\n<p>The index gives the number of days with prolonged periods of simultaneous extreme humidity and heat conditions. The apparent temperature is a measure of discomfort due the combination of heat with high humidity based on physiological studies on evaporative skin cooling. </p>\n<p>The higher/lower the apparent temperature, the higher/lower the discomfort. </p>\n<p><strong>Definition</strong> </p>\n<p>The Apparent Temperature Heatwave Days Index (Number of Days) is defined as a period of at least two consecutive days during the summer months (June, July, August) in which both the daily apparent temperature and the daily minimum temperature exceed their monthly 90th percentiles defined over a reference period. Apparent temperature is a linear function of temperature and dew point temperature to account for humidity conditions.  </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index data is 30-year period statistics based on a set of four bias-corrected multi-model simulations ensemble from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.1° x 0.1°C and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells\">CDS documentation resources</a>.</p>\n<p><strong>Supporting Information</strong> </p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying an interactive plot corresponding to spatial and temporal averages over the selected region. Hover over the plot to see the values.</p>\n",
+      "indicator_title": "-",
+      "units": "(Days)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_009": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-climatological-heatwave-days/master/configuration.json",
+      "page_url": "ecde-app-climatological-heatwave-days",
+      "identifier": "C3S2_430a_009",
+      "theme": [
+        "Health"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Extreme heat"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-climatological-heatwave-days.html",
+      "detailpage": "ecde-app-climatological-heatwave-days-detail.html",
+      "page_title": "Climatological Heatwave Days",
+      "description_general": "<p>The Climatological Heatwave Days index is relevant to human health, agriculture, energy, wildfire and infrastructure. This Index is part of the Extreme Heat Hazard type of the Heat and Cold category of the classification.</p>\n<p>The index counts the number of days in a year within prolonged periods of unusually high temperatures. </p>\n<p>The higher/lower the value, the longer/shorter the heatwave.</p>\n<p><strong>Definition</strong></p>\n<p>The count of days under climatological heatwaves conditions (Number of days). A climatological heatwave is a period of at least three consecutive days exceeding the 99th percentile of the daily maximum temperatures of the May to September season during a reference period.</p>\n<p><strong>Data Sources</strong> </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index data is 30-year period statistics based on a set of eight bias-corrected multi-model simulations ensemble from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.1°X0.1°C and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-heat-and-cold-spells\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS.</p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying an interactive plot corresponding to spatial and temporal averages over the selected region. Hover over the plot to see the values.</p>\n",
+      "indicator_title": "-",
+      "units": "(Days)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_011": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-frost-days/master/configuration.json",
+      "page_url": "ecde-app-frost-days",
+      "identifier": "C3S2_430a_011",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Mean air temperature"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-frost-days.html",
+      "detailpage": "ecde-app-frost-days-detail.html",
+      "page_title": "Frost Days",
+      "description_general": "<p>The Frost Days Index is relevant to agriculture. This Index is part of the Cold spell and frost Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures the number of days with frost conditions. It is mainly used in agriculture to account for frost damages, but it can be relevant to other sectors.</p>\n<p>A higher/lower value means more/less frost days. </p>\n<p><strong>Definition</strong> </p>\n<p>The number of days with daily minimum temperature below 0 °C.\nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong> </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nMore information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and Cold - Frost days (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/frost-days\">link</a>) </li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. \nSome plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).   </p>\n",
+      "indicator_title": "-",
+      "units": "(Days)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
+    },
+    "C3S2_430a_012": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-total-precipitation/master/configuration.json",
+      "page_url": "ecde-app-total-precipitation",
+      "identifier": "C3S2_430a_012",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Wet and dry",
+      "hazards": [
+        "Mean precipitation"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-total-precipitation.html",
+      "detailpage": "ecde-app-total-precipitation-detail.html",
+      "page_title": "Total precipitation",
+      "description_general": "<p>Precipitation is an essential climate variable making the Total Precipitation a fundamental index for following climate variability and change. This Index is the only one in the Total precipitation Hazard type of the Wet and Dry category of the classification.</p>\n<p>A higher/lower Index value indicates a wetter/drier climate. Change (i.e difference relative to an average over a 30-year reference period) in Total precipitation is often used as a headline index in regional climate change assessments whereas changes in seasonal means are relevant for seasonal changes evaluation and sectoral applications.</p>\n<p><strong>Definition</strong></p>\n<p>The cumulated precipitation over a period (mm/period). \nIn weather and climate models total precipitation is the flux of water equivalent (rain or snow) reaching the land surface (expressed as kg.m-2.sec-2 and converted to mm/day). This Index is usually presented as annual, seasonal or monthly cumulated values over the considered period.   </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Wet and dry — mean precipitation (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/wet-and-dry-1/wet-and-dry-mean-precipitation\">link</a>.</li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ). </p>\n",
+      "indicator_title": "-",
+      "units": "(mm/period)",
       "vars": {
         "detail": {},
         "overview": {}
@@ -608,6 +199,31 @@
         "overview": {}
       },
       "css_version": "ec476a3554"
+    },
+    "C3S2_430a_0L3": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-season-length/master/configuration.json",
+      "page_url": "ecde-app-tiger-mosquito-season-length",
+      "identifier": "C3S2_430a_0L3",
+      "theme": [
+        "Health"
+      ],
+      "hazard_category": "Other",
+      "hazards": [
+        "Other"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-tiger-mosquito-season-length.html",
+      "detailpage": "ecde-app-tiger-mosquito-season-length-detail.html",
+      "page_title": "Tiger Mosquito Climatic Season Length",
+      "description_general": "<p>The Tiger Mosquito Climatic Season Length index is relevant to human health. The tiger mosquito (Aedes albopictus) is an invasive species from south-east Asia favoured by a warmer climate and represents a serious threat as it transmits vector-borne diseases such as dengue and chikungunya. Environmental factors, among which weather conditions, affect both the potential presence and seasonal activity of the tiger mosquito. </p>\n<p>A higher value indicates a longer season and thus a higher risk to human health.   </p>\n<p><strong>Definition</strong></p>\n<p>The season length of the climatic suitability of tiger mosquito presence (Days).\nThe Tiger mosquito&#39;s climatic suitability seasonal presence is determined by temperature thresholds and hours of sunlight (photoperiod) during spring (when egg hatching occurs) and autumn (a period of suspended development or diapause). In spring the temperature should be above 10.5 °C and the photoperiod above 11.25 hours and in autumn the temperature should be below 9.5 °C and the photoperiod below 13.5 hours. The latter is conditioned by the ability of the mosquito to survive the winter combined with a threshold on annual rainfall. Survival conditions are considered as unsuitable for January temperatures below 0 °C and annual rainfall below 500 mm.</p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of eight bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.11° x 0.11°, a daily output, and cover scenarios RCP4.5 and RCP8.5. The data covers the period 1971 to 2099 and statistics are averaged for 30 years in overlapping time periods of 10 years apart. Finally, the time series are averaged for the model ensemble.\nMore information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-health-vector\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong> </p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS.\nRelated information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>Vector-borne diseases and climate change: a European perspective ([link] (<a href=\"https://climate-adapt.eea.europa.eu/en/metadata/publications/vector-borne-diseases-and-climate-change-a-european-perspective\">https://climate-adapt.eea.europa.eu/en/metadata/publications/vector-borne-diseases-and-climate-change-a-european-perspective</a>)).</li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values.</p>\n",
+      "indicator_title": "-",
+      "units": "-",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "ec476a3554"
     }
   },
   "toolbox_embed_version": "latest",
@@ -617,24 +233,16 @@
       "description": "Climate change will generate new health risks and amplify current health problems. Climate change brings changes in the intensity and frequency of extreme weather events like heat waves and floods which have a direct impact on human health. There will also be indirect effects through the spread of disease bearing insects and changes in water, food and air quality.",
       "apps": [
         {
-          "title": "Climatic Suitability for the Tiger Mosquito - Season Length, 1971-2099",
-          "url": "health/climatic-suitability-of-tiger-mosquito--season-length-detail.html"
+          "title": "Apparent Temperature Heatwave Days",
+          "url": "health/ecde-app-apparent-temperature-heatwave-days-detail.html"
         },
         {
-          "title": "Climatic Suitability for the Tiger Mosquito - Suitability Index, 1971-2099",
-          "url": "health/climatic-suitability-of-tiger-mosquito--suitability-detail.html"
+          "title": "Climatological Heatwave Days",
+          "url": "health/ecde-app-climatological-heatwave-days-detail.html"
         },
         {
-          "title": "Health Heatwave (High Temperature and Humidity), 1971-2099",
-          "url": "health/health-heat-waves-in-europe-detail.html"
-        },
-        {
-          "title": "Thermal Comfort Indices - Mean Radiant Temperature, 1979-2020",
-          "url": "health/thermal-comfort-indices--mean-radiant-temperature-detail.html"
-        },
-        {
-          "title": "Thermal Comfort Indices - Universal Thermal Climate Index, 1979-2020",
-          "url": "health/thermal-comfort-indices--universal-thermal-climate-index-detail.html"
+          "title": "Tiger Mosquito Climatic Season Length",
+          "url": "health/ecde-app-tiger-mosquito-season-length-detail.html"
         }
       ],
       "css_version": "ec476a3554"
@@ -648,44 +256,24 @@
           "url": "agriculture/ecde-app-aridity-actual-detail.html"
         },
         {
-          "title": "Biologically Effective Degree Days, 2011-2099",
-          "url": "agriculture/biologically-effective-degree-days-detail.html"
+          "title": "Frost Days",
+          "url": "agriculture/ecde-app-frost-days-detail.html"
         },
         {
-          "title": "Climatological Heatwave (High Temperature), 1971-2099",
-          "url": "agriculture/climatological-heat-waves-in-europe-detail.html"
-        },
-        {
-          "title": "Daily Maximum Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-maximum-temperature-detail.html"
-        },
-        {
-          "title": "Daily Mean Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-mean-temperature-detail.html"
-        },
-        {
-          "title": "Daily Minimum Temperature - Monthly Statistics, 2011-2099",
-          "url": "agriculture/average-minimum-temperature-detail.html"
-        },
-        {
-          "title": "Frost Days, 2011-2099",
-          "url": "agriculture/frost-days-detail.html"
-        },
-        {
-          "title": "Growing Degree Days, 1950 - 2100",
+          "title": "Growing Degree Days",
           "url": "agriculture/ecde-app-growing-degree-days-detail.html"
         },
         {
-          "title": "Mean Temperature, 1950 - 2100",
+          "title": "Mean Temperature",
           "url": "agriculture/ecde-app-mean-temperature-detail.html"
         },
         {
-          "title": "Precipitation Sum, 2011-2099",
-          "url": "agriculture/projected-change-in-precipitation-sum-detail.html"
+          "title": "Total precipitation",
+          "url": "agriculture/ecde-app-total-precipitation-detail.html"
         },
         {
-          "title": "Tropical Nights, 2011-2099",
-          "url": "agriculture/tropical-nights-detail.html"
+          "title": "Tropical Nights",
+          "url": "agriculture/ecde-app-tropical-nights-detail.html"
         }
       ],
       "css_version": "ec476a3554"
@@ -693,65 +281,25 @@
     "forestry": {
       "theme_title": "Forestry",
       "description": "European forests provide vital ecosystems as well as valuable recreational and economic resources. They provide a versatile and renewable source of raw materials which play a central role in plans for a more sustainable future, and can also contribute to the removal of carbon dioxide from the atmosphere. Bur forests are also at risk from the effects of climate change. Rising temperatures and changing rainfall patterns can increase the risk of forest fires or make the trees vulnerable to pests and diseases. <br><br>Two indices related to the risk of forest fire are available. The \"fire weather index\" defined by the Canadian Forest Service Fire Weather Index rating system which has been adopted by the <a href=\"https://effis.jrc.ec.europa.eu/\">European Forest Fire Information System (EFFIS)</a>. We also provide, for comparison, a \"fire danger index\" defined by the Australian Mark5 rating system.",
-      "apps": [
-        {
-          "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-          "url": "forestry/high-fire-danger-detail.html"
-        },
-        {
-          "title": "Fire Weather Index - Monthly Mean, 1979-2020",
-          "url": "forestry/fire-weather-index-detail.html"
-        }
-      ],
+      "apps": [],
       "css_version": "ec476a3554"
     },
     "energy": {
       "theme_title": "Energy",
       "description": "Climate change is expected to affect both the supply and demand of energy. As the energy sector is increasingly relying on renewable sources, the relevance of climate variability and change also increases. It is vital that energy providers and policy makers have the climate information they need to make informed choices on the future energy mix.",
-      "apps": [
-        {
-          "title": "Climatological Heatwave (High Temperature), 1971-2099",
-          "url": "energy/climatological-heat-waves-in-europe-detail.html"
-        },
-        {
-          "title": "HDD CDD title",
-          "url": "energy/hdd_cdd-detail.html"
-        }
-      ],
+      "apps": [],
       "css_version": "ec476a3554"
     },
     "tourism": {
       "theme_title": "Tourism",
       "description": "Europe is the world's number one tourist destination and the warming climate has the potential to significantly affect the appeal of tourist destinations. Winter tourism faces increasing losses due to reduced snow cover and summer tourism faces increasing risks due to wildfire. The European Climate Data Explorer presents climate impact indices related to snow depth and fire danger.",
-      "apps": [
-        {
-          "title": "Days with a High Amount of Natural Snow, 2011-2099",
-          "url": "tourism/tourism-high-amount-of-natural-snow-detail.html"
-        },
-        {
-          "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-          "url": "tourism/high-fire-danger-detail.html"
-        },
-        {
-          "title": "Total Winter Snow, 2011-2099",
-          "url": "tourism/tourism-snow-precipitation-detail.html"
-        }
-      ],
+      "apps": [],
       "css_version": "ec476a3554"
     },
     "coastal": {
       "theme_title": "Coastal",
       "description": "Humans have been operating with and within marine ecosystems for millennia, causing change through often complex interactions. Our initial climate indices in this sector focus on the challenge of rising sea-levels caused by the thermal expansion of the oceans and melting cryosphere.",
-      "apps": [
-        {
-          "title": "Annual Highest High Water, 2070-2100",
-          "url": "coastal/marine-sea-level--annual-highest-high-water-level-detail.html"
-        },
-        {
-          "title": "Mean Relative Sea Level, 2070-2100",
-          "url": "coastal/marine-sea-level--mean-sea-level-detail.html"
-        }
-      ],
+      "apps": [],
       "css_version": "ec476a3554"
     }
   },
@@ -844,94 +392,40 @@
     ],
     "hazard_list": {
       "Heat and cold": {
-        "Extreme heat": [
-          {
-            "title": "Daily Maximum Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-maximum-temperature-detail.html"
-          },
-          {
-            "title": "Health Heatwave (High Temperature and Humidity), 1971-2099",
-            "url": "health/health-heat-waves-in-europe-detail.html"
-          },
-          {
-            "title": "Climatological Heatwave (High Temperature), 1971-2099",
-            "url": "agriculture/climatological-heat-waves-in-europe-detail.html"
-          },
-          {
-            "title": "Thermal Comfort Indices - Universal Thermal Climate Index, 1979-2020",
-            "url": "health/thermal-comfort-indices--universal-thermal-climate-index-detail.html"
-          },
-          {
-            "title": "Tropical Nights, 2011-2099",
-            "url": "agriculture/tropical-nights-detail.html"
-          }
-        ],
-        "Cold spells and frost": [
-          {
-            "title": "Daily Minimum Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-minimum-temperature-detail.html"
-          },
-          {
-            "title": "Frost Days, 2011-2099",
-            "url": "agriculture/frost-days-detail.html"
-          }
-        ],
         "Mean air temperature": [
           {
-            "title": "Daily Mean Temperature - Monthly Statistics, 2011-2099",
-            "url": "agriculture/average-mean-temperature-detail.html"
-          },
-          {
-            "title": "Thermal Comfort Indices - Mean Radiant Temperature, 1979-2020",
-            "url": "health/thermal-comfort-indices--mean-radiant-temperature-detail.html"
-          },
-          {
-            "title": "Biologically Effective Degree Days, 2011-2099",
-            "url": "agriculture/biologically-effective-degree-days-detail.html"
-          },
-          {
-            "title": "Mean Temperature, 1950 - 2100",
+            "title": "Mean Temperature",
             "url": "agriculture/ecde-app-mean-temperature-detail.html"
           },
           {
-            "title": "Growing Degree Days, 1950 - 2100",
+            "title": "Growing Degree Days",
             "url": "agriculture/ecde-app-growing-degree-days-detail.html"
-          }
-        ],
-        "Heat and cold": [
-          {
-            "title": "HDD CDD title",
-            "url": "energy/hdd_cdd-detail.html"
-          }
-        ]
-      },
-      "Other": {
-        "Other": [
-          {
-            "title": "Climatic Suitability for the Tiger Mosquito - Season Length, 1971-2099",
-            "url": "health/climatic-suitability-of-tiger-mosquito--season-length-detail.html"
           },
           {
-            "title": "Climatic Suitability for the Tiger Mosquito - Suitability Index, 1971-2099",
-            "url": "health/climatic-suitability-of-tiger-mosquito--suitability-detail.html"
+            "title": "Tropical Nights",
+            "url": "agriculture/ecde-app-tropical-nights-detail.html"
+          },
+          {
+            "title": "Frost Days",
+            "url": "agriculture/ecde-app-frost-days-detail.html"
+          }
+        ],
+        "Extreme heat": [
+          {
+            "title": "Apparent Temperature Heatwave Days",
+            "url": "health/ecde-app-apparent-temperature-heatwave-days-detail.html"
+          },
+          {
+            "title": "Climatological Heatwave Days",
+            "url": "health/ecde-app-climatological-heatwave-days-detail.html"
           }
         ]
       },
       "Wet and dry": {
-        "Fire weather": [
-          {
-            "title": "Fire Weather Index - Monthly Mean, 1979-2020",
-            "url": "forestry/fire-weather-index-detail.html"
-          },
-          {
-            "title": "Fire Weather Index - Days With High Fire Danger, 2011-2099",
-            "url": "forestry/high-fire-danger-detail.html"
-          }
-        ],
         "Mean precipitation": [
           {
-            "title": "Precipitation Sum, 2011-2099",
-            "url": "agriculture/projected-change-in-precipitation-sum-detail.html"
+            "title": "Total precipitation",
+            "url": "agriculture/ecde-app-total-precipitation-detail.html"
           },
           {
             "title": "Aridity Actual",
@@ -939,29 +433,11 @@
           }
         ]
       },
-      "Coastal": {
-        "Coastal flooding": [
+      "Other": {
+        "Other": [
           {
-            "title": "Annual Highest High Water, 2070-2100",
-            "url": "coastal/marine-sea-level--annual-highest-high-water-level-detail.html"
-          }
-        ],
-        "Relative sea level": [
-          {
-            "title": "Mean Relative Sea Level, 2070-2100",
-            "url": "coastal/marine-sea-level--mean-sea-level-detail.html"
-          }
-        ]
-      },
-      "Snow and ice": {
-        "Snow and land ice": [
-          {
-            "title": "Total Winter Snow, 2011-2099",
-            "url": "tourism/tourism-snow-precipitation-detail.html"
-          },
-          {
-            "title": "Days with a High Amount of Natural Snow, 2011-2099",
-            "url": "tourism/tourism-high-amount-of-natural-snow-detail.html"
+            "title": "Tiger Mosquito Climatic Season Length",
+            "url": "health/ecde-app-tiger-mosquito-season-length-detail.html"
           }
         ]
       }
