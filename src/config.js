@@ -4,6 +4,8 @@ const config = {
     data_apps: "./data/data_apps.json",
     data_overview: "./data/data_overview.json",
     data_themes: "./data/data_themes.json",
+    data_help: "./data/data_help.json",
+    data_faq: "./data/data_faq.json",
     data_html_pages: "./data/data_html_pages.json",
     outdir: "./public",
     source: "./src",
