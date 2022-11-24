@@ -35,6 +35,12 @@ const data_apps = JSON.parse(fs.readFileSync(config.dev.data_apps, "utf-8"));
 const data_themes = JSON.parse(
   fs.readFileSync(config.dev.data_themes, "utf-8")
 );
+const data_help = JSON.parse(
+  fs.readFileSync(config.dev.data_help, "utf-8")
+);
+const data_faq = JSON.parse(
+  fs.readFileSync(config.dev.data_faq, "utf-8")
+);
 const data_overview = JSON.parse(
   fs.readFileSync(config.dev.data_overview, "utf-8")
 );
@@ -67,6 +73,8 @@ createAppPages(data_apps);
 Object.assign(data_themes, data_apps);
 
 createThemePages(data_themes);
+createHelpPages(data_help);
+createFAQPages(data_faq);
 
 // Add data_apps to data_themes & data_overview
 Object.assign(data_overview, data_apps);
@@ -412,6 +420,42 @@ function createThemePages(data) {
       });
     });
   }
+}
+
+function createFAQPages(data) {
+  //voor elk thema maken we een pagina aan
+    const theme = data;
+    theme.apps = [];
+
+    theme.css_version = maris_css_hash;
+    //render html
+    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+      if (err) throw err;
+      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+      const themePage = `${outputDir}/${outputFile}`;
+      fs.writeFile(themePage, data, (err) => {
+        if (err) throw err;
+        console.log(`[Theme page] \t\t${themePage} has been created.`);
+      });
+    });
+}
+
+function createHelpPages(data) {
+  //voor elk thema maken we een pagina aan
+    const theme = data;
+    theme.apps = [];
+
+    theme.css_version = maris_css_hash;
+    //render html
+    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+      if (err) throw err;
+      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+      const themePage = `${outputDir}/${outputFile}`;
+      fs.writeFile(themePage, data, (err) => {
+        if (err) throw err;
+        console.log(`[Theme page] \t\t${themePage} has been created.`);
+      });
+    });
 }
 
 function createHtmlPages(data) {
