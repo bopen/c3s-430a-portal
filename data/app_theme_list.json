@@ -48,9 +48,19 @@
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-climatological-heatwave-days/master/configuration.json?configuration_version=3.0",
     },
     {
+      "id": "C3S2_430a_010",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-high-utci-days/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-high-utci-days/master/configuration.json?configuration_version=3.0",
+    },
+    {
       "id": "C3S2_430a_0L3",
       "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-season-length/master/configuration.json?configuration_version=3.0",
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-season-length/master/configuration.json?configuration_version=3.0",
+    },
+    {
+      "id": "C3S2_430a_0L4",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-suitability/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-suitability/master/configuration.json?configuration_version=3.0",
     }
   ],
   "Forestry": [

@@ -41,6 +41,14 @@
       "hazards": ["Extreme heat"]
     },
     {
+      "detail": "ecde-app-high-utci-days",
+      "page_url": "ecde-app-high-utci-days",
+      "identifier": "C3S2_430a_010",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"]
+    },
+    {
       "detail": "ecde-app-frost-days",
       "page_url": "ecde-app-frost-days",
       "identifier": "C3S2_430a_011",
@@ -68,6 +76,14 @@
       "detail": "ecde-app-tiger-mosquito-season-length",
       "page_url": "ecde-app-tiger-mosquito-season-length",
       "identifier": "C3S2_430a_0L3",
+      "theme": ["Health"],
+      "hazard_category": "Other",
+      "hazards": ["Other"]
+    },
+    {
+      "detail": "ecde-app-tiger-mosquito-suitability",
+      "page_url": "ecde-app-tiger-mosquito-suitability",
+      "identifier": "C3S2_430a_0L4",
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"]
