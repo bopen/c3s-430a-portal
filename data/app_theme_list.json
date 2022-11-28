@@ -53,6 +53,16 @@
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-high-utci-days/master/configuration.json?configuration_version=3.0",
     },
     {
+      "id": "C3S2_430a_0L1",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-maximum-temperature/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-maximum-temperature/master/configuration.json?configuration_version=3.0",
+    },
+    {
+      "id": "C3S2_430a_0L2",
+      "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-minimum-temperature/master/configuration.json?configuration_version=3.0",
+      "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-minimum-temperature/master/configuration.json?configuration_version=3.0",
+    },
+    {
       "id": "C3S2_430a_0L3",
       "detail_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-season-length/master/configuration.json?configuration_version=3.0",
       "overview_cds_url": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-mosquito-season-length/master/configuration.json?configuration_version=3.0",

@@ -54,7 +54,7 @@
       "identifier": "C3S2_430a_011",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
-      "hazards": ["Mean air temperature"]
+      "hazards": ["Cold spells and frost"]
     },
     {
       "detail": "ecde-app-total-precipitation",
@@ -71,6 +71,22 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Mean precipitation"]
+    },
+    {
+      "detail": "ecde-app-tiger-maximum-temperature",
+      "page_url": "ecde-app-tiger-maximum-temperature",
+      "identifier": "C3S2_430a_0L1",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"]
+    },
+    {
+      "detail": "ecde-app-tiger-minimum-temperature",
+      "page_url": "ecde-app-tiger-minimum-temperature",
+      "identifier": "C3S2_430a_0L2",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Cold spells and frost"]
     },
     {
       "detail": "ecde-app-tiger-mosquito-season-length",

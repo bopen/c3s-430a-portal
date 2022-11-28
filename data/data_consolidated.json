@@ -159,14 +159,14 @@
       ],
       "hazard_category": "Heat and cold",
       "hazards": [
-        "Mean air temperature"
+        "Cold spells and frost"
       ],
       "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
       "overviewpage": "ecde-app-frost-days.html",
       "detailpage": "ecde-app-frost-days-detail.html",
       "page_title": "Frost Days",
       "description_general": "<p>The Frost Days Index is relevant to agriculture. This Index is part of the Cold spell and frost Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures the number of days with frost conditions. It is mainly used in agriculture to account for frost damages, but it can be relevant to other sectors.</p>\n<p>A higher/lower value means more/less frost days. </p>\n<p><strong>Definition</strong> </p>\n<p>The number of days with daily minimum temperature below 0 °C.\nIn weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong> </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. \nMore information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and Cold - Frost days (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/frost-days\">link</a>) </li>\n</ul>\n",
-      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. \nSome plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see <a href=\"../faq.html\">FAQ</a>.   </p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. \nSome plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see <a href=\"../faq.html\">FAQ</a>).   </p>\n",
       "indicator_title": "-",
       "units": "(Days)",
       "vars": {
@@ -217,6 +217,56 @@
       "page_title": "Aridity Actual",
       "description_general": "<p>The Aridity Actual index is relevant to biodiversity, agriculture, forest and water management.</p>\n<p>This Index is based on daily precipitation and evapotranspiration and is part of the Aridity Hazard type of the Wet and Dry category of the classification. \nA higher/lower value indicates reduced/increased soil water availability. </p>\n<p><strong>Definition</strong> </p>\n<p>The ratio between mean annual actual evapotranspiration and mean annual precipitation, generally calculated over a reference period of 30 years. Actual evapotranspiration is estimated using hydrological models and, in contrast to potential evapotranspiration, accounts for the limited water content actually available in the soil when estimating the evapotranspiration demand.</p>\n<p><strong>Data Sources</strong> </p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index data is from a set of 30-year statistics from two hydrological models (forced by eight bias-corrected multi-model simulations from the EURO-CORDEX experiment. The hydrological models are from the Swedish Meteorological and Hydrological Institute (SMHI, E-HYPE model) and Wageningen University (VIC-WIR Model). The hydrological simulations have a 5km x 5km resolution and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-hydrology-variables-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong> </p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS.\nMore information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Wet and dry - Aridity (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/wet-and-dry-1/wet-and-dry-aridity\">link</a>).</li>\n</ul>\n",
       "description_vis_nav": "<p>For the model menu : Hydrological models - “E-HYPE” and “VIC-WUR”\nThe application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month), the emission scenario (RCP4.5 or RCP8.5) and the hydrological model (SMHI’s E-HYPE or Wageningen University’s VIC-WUR). By clicking on the map, a panel appears on the right side displaying an interactive plot corresponding to spatial and temporal averages over the selected region. Hover over the plot to see the values.</p>\n",
+      "indicator_title": "-",
+      "units": "-",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "367ba2ff69"
+    },
+    "C3S2_430a_0L1": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-maximum-temperature/master/configuration.json",
+      "page_url": "ecde-app-tiger-maximum-temperature",
+      "identifier": "C3S2_430a_0L1",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Extreme heat"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-tiger-maximum-temperature.html",
+      "detailpage": "ecde-app-tiger-maximum-temperature-detail.html",
+      "page_title": "Maximum temperature",
+      "description_general": "<p>The Maximum Temperature Index is relevant to human health, agriculture and biodiversity. It indicates the temperature of the coldest day of a period, typically of the year, but also over a particular season or month. This Index is part of the Cold spell and frost Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures the number of days with frost conditions. It is mainly used in agriculture to account for frost damages, but it can be relevant to other sectors.</p>\n<p>A higher/lower value means more/less frost days. </p>\n<p><strong>Definition</strong> \nThe maximum value of daily maximum temperature over a period (°C). </p>\n<p>In weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong> \nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n<p>More information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and Cold - Frost days (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/frost-days\">link</a>) </li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. \nSome plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see <a href=\"../faq.html\">FAQ</a>).   </p>\n",
+      "indicator_title": "-",
+      "units": "-",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "367ba2ff69"
+    },
+    "C3S2_430a_0L2": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tiger-minimum-temperature/master/configuration.json",
+      "page_url": "ecde-app-tiger-minimum-temperature",
+      "identifier": "C3S2_430a_0L2",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Cold spells and frost"
+      ],
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-tiger-minimum-temperature.html",
+      "detailpage": "ecde-app-tiger-minimum-temperature-detail.html",
+      "page_title": "Minimum temperature",
+      "description_general": "<p>The Minimum Temperature Index is relevant to human health, agriculture and biodiversity. It indicates the temperature of the coldest day of a period, typically of the year, but also over a particular season or month. This Index is part of the Cold spell and frost Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures the number of days with frost conditions. It is mainly used in agriculture to account for frost damages, but it can be relevant to other sectors.</p>\n<p>A higher/lower value means more/less frost days. </p>\n<p><strong>Definition</strong> \nThe minimum value of daily minimum temperature over a period (°C). </p>\n<p>In weather and climate models temperature is the variable simulating atmospheric air temperature at 2m above the surface. This Index is usually presented as annual, seasonal or monthly values over a reference period.  </p>\n<p><strong>Data Sources</strong> \nThe data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the Product User Guide (PUG) of the application in the documentation resources of the CDS. </p>\n<p>More information can also be found on other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Heat and Cold - Frost days (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/heat-and-cold/frost-days\">link</a>) </li>\n</ul>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. \nSome plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see <a href=\"../faq.html\">FAQ</a>).   </p>\n",
       "indicator_title": "-",
       "units": "-",
       "vars": {
@@ -322,8 +372,16 @@
           "url": "agriculture/ecde-app-growing-degree-days-detail.html"
         },
         {
+          "title": "Maximum temperature",
+          "url": "agriculture/ecde-app-tiger-maximum-temperature-detail.html"
+        },
+        {
           "title": "Mean Temperature",
           "url": "agriculture/ecde-app-mean-temperature-detail.html"
+        },
+        {
+          "title": "Minimum temperature",
+          "url": "agriculture/ecde-app-tiger-minimum-temperature-detail.html"
         },
         {
           "title": "Total precipitation",
@@ -462,10 +520,6 @@
           {
             "title": "Tropical Nights",
             "url": "agriculture/ecde-app-tropical-nights-detail.html"
-          },
-          {
-            "title": "Frost Days",
-            "url": "agriculture/ecde-app-frost-days-detail.html"
           }
         ],
         "Extreme heat": [
@@ -480,6 +534,20 @@
           {
             "title": "High UTCI Days",
             "url": "health/ecde-app-high-utci-days-detail.html"
+          },
+          {
+            "title": "Maximum temperature",
+            "url": "agriculture/ecde-app-tiger-maximum-temperature-detail.html"
+          }
+        ],
+        "Cold spells and frost": [
+          {
+            "title": "Frost Days",
+            "url": "agriculture/ecde-app-frost-days-detail.html"
+          },
+          {
+            "title": "Minimum temperature",
+            "url": "agriculture/ecde-app-tiger-minimum-temperature-detail.html"
           }
         ]
       },
