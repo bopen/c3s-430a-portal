@@ -204,4 +204,5 @@ body.fullscreen footer .footer-credits {
     display: list-item;
     cursor: pointer;
     font-weight: 700;
+    -webkit-font-smoothing: antialiased;
 }

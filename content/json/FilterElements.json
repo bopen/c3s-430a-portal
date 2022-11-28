@@ -1,0 +1,110 @@
+[
+    {
+        "FilterName": "Time_30yr_1971_2099",
+        "FilterTitle": "Time period",
+        "FilterSubTitle": "Choose a time period",
+        "FilterPopUpText": "Choose a 30-year period average"
+    },
+    {
+        "FilterName": "Time_30yr_2011_2099",
+        "FilterTitle": "Time period",
+        "FilterSubTitle": "Choose a time period",
+        "FilterPopUpText": "Choose a 30-year period average"
+    },
+    {
+        "FilterName": "Change_Season",
+        "FilterTitle": "Season",
+        "FilterSubTitle": "Choose a season",
+        "FilterPopUpText": "Choose a seasonal change period: month, season or annual"
+    },
+    {
+        "FilterName": "Change_Mon",
+        "FilterTitle": "Month",
+        "FilterSubTitle": "Choose a month",
+        "FilterPopUpText": "Choose a monthly change period"
+    },
+    {
+        "FilterName": "Change_MonAnn",
+        "FilterTitle": "Change period",
+        "FilterSubTitle": "Choose a month or annual",
+        "FilterPopUpText": "Choose a change period: month or annual"
+    },
+    {
+        "FilterName": "Change_SeasonMon",
+        "FilterTitle": "Season",
+        "FilterSubTitle": "Choose a month or season",
+        "FilterPopUpText": "Choose a seasonal change period: month or season"
+    },
+    {
+        "FilterName": "Scenario_26_85",
+        "FilterTitle": "Scenario",
+        "FilterSubTitle": "Choose a scenario",
+        "FilterPopUpText": "Choose a scenario with low (RCP2.6) or high (RCP8.5 greenhouse gas emissions"
+    },
+    {
+        "FilterName": "Scenario_45_85",
+        "FilterTitle": "Scenario",
+        "FilterSubTitle": "Choose a scenario",
+        "FilterPopUpText": "Choose a scenario with medium (RCP4.5) or high (RCP8.5) greenhouse gas emissions"
+    },
+    {
+        "FilterName": "NUTS_2",
+        "FilterTitle": "Regional aggregation",
+        "FilterSubTitle": "Choose a regional aggregation size",
+        "FilterPopUpText": "Select the size of the regions shown on the map, from the national level (NUTS-0) to the sub-national level (NUTS-2)"
+    },
+    {
+        "FilterName": "NUTS_3",
+        "FilterTitle": "Regional aggregation",
+        "FilterSubTitle": "Choose a regional aggregation size",
+        "FilterPopUpText": "Select the size of the regions shown on the map, from the national level (NUTS-0) to the sub-national level (NUTS-3)"
+    },
+    {
+        "FilterName": "Month",
+        "FilterTitle": "Month",
+        "FilterSubTitle": "Choose a month",
+        "FilterPopUpText": "Display data for the chosen month for each year of the dataset"
+    },
+    {
+        "FilterName": "Year",
+        "FilterTitle": "Year",
+        "FilterSubTitle": "Choose a year",
+        "FilterPopUpText": "Choose a year"
+    },
+    {
+        "FilterName": "HeatWave",
+        "FilterTitle": "Definition",
+        "FilterSubTitle": "Choose a heat wave definition",
+        "FilterPopUpText": "Choose either the health definition or climate definition for heat waves"
+    },
+    {
+        "FilterName": "MaxTemp",
+        "FilterTitle": "Statistic",
+        "FilterSubTitle": "Choose a temperature statistic",
+        "FilterPopUpText": "Choose a daily maximum temperature statistic (minimum, mean or maximum)"
+    },
+    {
+        "FilterName": "MinTemp",
+        "FilterTitle": "Statistic",
+        "FilterSubTitle": "Choose a temperature statistic",
+        "FilterPopUpText": "Choose a daily minimum temperature statistic (minimum, mean or maximum)"
+    },
+    {
+        "FilterName": "2040-2100_rcp85-45",
+        "FilterTitle": "Time period",
+        "FilterSubTitle": "Choose a time period",
+        "FilterPopUpText": "Choose a near future time period with high greenhouse gas emissions or a far future time period with medium greenhouse gas emissions."
+    },
+    {
+        "FilterName": "Scenario_26_45_85",
+        "FilterTitle": "Scenario",
+        "FilterSubTitle": "Choose a scenario",
+        "FilterPopUpText": "Choose a scenario with low (RCP2.6) medium (RCP4.5) or high (RCP8.5) greenhouse gas emissions"
+    },
+    {
+        "FilterName": "Elevation",
+        "FilterTitle": "Elevation",
+        "FilterSubTitle": "Choose an elevation",
+        "FilterPopUpText": "Choose a land-surface elevation level."
+    }
+]

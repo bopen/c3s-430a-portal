@@ -1,6 +1,9 @@
 grfx/Thumbs.db
-
 yarn-error.log
 node_modules/
-
 public/
+.idea/**/*
+client_secret.json
+__pycache__/
+**.DS_Store
+.idea/

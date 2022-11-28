@@ -35,6 +35,12 @@ const data_apps = JSON.parse(fs.readFileSync(config.dev.data_apps, "utf-8"));
 const data_themes = JSON.parse(
   fs.readFileSync(config.dev.data_themes, "utf-8")
 );
+const data_help = JSON.parse(
+  fs.readFileSync(config.dev.data_help, "utf-8")
+);
+const data_faq = JSON.parse(
+  fs.readFileSync(config.dev.data_faq, "utf-8")
+);
 const data_overview = JSON.parse(
   fs.readFileSync(config.dev.data_overview, "utf-8")
 );
@@ -47,27 +53,15 @@ hashSum.update(maris_css_file);
 const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 
 //retrieve indicator texts from github.
-let data_git_json = [];
-let git_json_result = sync_request("GET", config.url.git_json);
+//let data_git_json = [];
+//let git_json_result = sync_request("GET", config.url.git_json);
 
-if (git_json_result.statusCode === 200) {
-  data_git_json = JSON.parse(decoder.write(git_json_result.body));
-  fs.writeFileSync(
-    "./data/git_data.json",
-    JSON.stringify(data_git_json, null, 2)
-  );
-}
 
-let glossary_html = "";
-let data_git_glossary = [];
-let git_glossary_result = sync_request("GET", config.url.git_glossary_json);
-if (git_glossary_result.statusCode === 200) {
-  data_git_glossary = JSON.parse(decoder.write(git_glossary_result.body));
-  fs.writeFileSync(
-    "./data/git_glossary_data.json",
-    JSON.stringify(data_git_glossary, null, 2)
-  );
-}
+data_git_json = JSON.parse(fs.readFileSync("content/json/Consolidated_430a.json", "utf-8"));
+fs.writeFileSync("./data/git_data.json", JSON.stringify(data_git_json, null, 2));
+
+data_git_glossary = JSON.parse(fs.readFileSync("content/json/Glossary.json", "utf-8"));
+fs.writeFileSync("./data/git_glossary_data.json", JSON.stringify(data_git_glossary, null, 2));
 
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
@@ -79,6 +73,8 @@ createAppPages(data_apps);
 Object.assign(data_themes, data_apps);
 
 createThemePages(data_themes);
+createHelpPages(data_help);
+createFAQPages(data_faq);
 
 // Add data_apps to data_themes & data_overview
 Object.assign(data_overview, data_apps);
@@ -424,6 +420,42 @@ function createThemePages(data) {
       });
     });
   }
+}
+
+function createFAQPages(data) {
+  //voor elk thema maken we een pagina aan
+    const theme = data;
+    theme.apps = [];
+
+    theme.css_version = maris_css_hash;
+    //render html
+    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+      if (err) throw err;
+      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+      const themePage = `${outputDir}/${outputFile}`;
+      fs.writeFile(themePage, data, (err) => {
+        if (err) throw err;
+        console.log(`[Theme page] \t\t${themePage} has been created.`);
+      });
+    });
+}
+
+function createHelpPages(data) {
+  //voor elk thema maken we een pagina aan
+    const theme = data;
+    theme.apps = [];
+
+    theme.css_version = maris_css_hash;
+    //render html
+    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+      if (err) throw err;
+      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+      const themePage = `${outputDir}/${outputFile}`;
+      fs.writeFile(themePage, data, (err) => {
+        if (err) throw err;
+        console.log(`[Theme page] \t\t${themePage} has been created.`);
+      });
+    });
 }
 
 function createHtmlPages(data) {

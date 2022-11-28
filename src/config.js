@@ -4,6 +4,8 @@ const config = {
     data_apps: "./data/data_apps.json",
     data_overview: "./data/data_overview.json",
     data_themes: "./data/data_themes.json",
+    data_help: "./data/data_help.json",
+    data_faq: "./data/data_faq.json",
     data_html_pages: "./data/data_html_pages.json",
     outdir: "./public",
     source: "./src",
@@ -13,12 +15,6 @@ const config = {
   url: {
     toolbox_app:
       "https://cds.climate.copernicus.eu/workflows/c3s/%APP%/master/configuration.json",
-    git_md:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/markdown/consolidated/%TITLE%.md",
-    git_json:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/json/Consolidated_430a.json",
-    git_glossary_json:
-      "https://raw.githubusercontent.com/bopen/c3s_430a_ecde_page_text/splitted-ConsolidatedText/content/json/Glossary.json",
   },
   usage: {
     markdown_texts: false,
