@@ -56,8 +56,8 @@ const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 //let data_git_json = [];
 //let git_json_result = sync_request("GET", config.url.git_json);
 
-const data_git_json = JSON.parse(fs.readFileSync("data/git_data.json", "utf-8"));
-const data_git_glossary = JSON.parse(fs.readFileSync("data/git_glossary_data.json", "utf-8"));
+const data_git_json = JSON.parse(fs.readFileSync("data/data.json", "utf-8"));
+const data_git_glossary = JSON.parse(fs.readFileSync("data/glossary.json", "utf-8"));
 
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
@@ -115,7 +115,7 @@ Object.assign(data_apps_reformatted, data_themes_reformatted, {
 });
 
 fs.writeFileSync(
-  "./data/data_consolidated.json",
+  "./data/consolidated.json",
   JSON.stringify(data_apps_reformatted, null, 2)
 );
 

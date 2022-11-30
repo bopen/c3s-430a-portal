@@ -157,7 +157,7 @@ def parse_google_spreadsheet():
         else:
             records = dicts_from_sheet_values(values)
 
-        with open(f'../data/git_data.json', "w") as writer:
+        with open(f'../data/data.json', "w") as writer:
             simplejson.dump(records, writer, indent=4)
 
 
