@@ -115,7 +115,7 @@ Object.assign(data_apps_reformatted, data_themes_reformatted, {
 });
 
 fs.writeFileSync(
-  "./data/consolidated.json",
+  "./data/data_consolidated.json",
   JSON.stringify(data_apps_reformatted, null, 2)
 );
 
