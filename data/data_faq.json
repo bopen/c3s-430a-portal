@@ -40,11 +40,11 @@
    },
    {
     "question": "How do I get help on technical terms ?",
-    "answer": "For definitions of technical terms please refer to the ECDE glossary https://climate-adapt.eea.europa.eu/en/knowledge/european-climate-data-explorer/glossary"
+    "answer": "For definitions of technical terms please refer to the <a href='https://climate-adapt.eea.europa.eu/en/knowledge/european-climate-data-explorer/glossary'> ECDE glossary</a>."
    },
    {
     "question": "How do I use the ECDE indices ?",
-    "answer": "Please check the Outreach and Dissemination page https://climate-adapt.eea.europa.eu/en/about/outreach-and-dissemination Where you will find dissemination materials, tutorial videos, inspiring examples, events and webinars, as well as country specific promotion activities."
+    "answer": "Please check the Outreach and Dissemination page <a href=\"https://climate-adapt.eea.europa.eu/en/about/outreach-and-dissemination\"> Outreach and Dissemination page</a> where you will find dissemination materials, tutorial videos, inspiring examples, events and webinars, as well as country specific promotion activities."
    }
  ]
 }
