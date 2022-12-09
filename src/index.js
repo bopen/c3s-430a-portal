@@ -56,12 +56,8 @@ const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 //let data_git_json = [];
 //let git_json_result = sync_request("GET", config.url.git_json);
 
-
-data_git_json = JSON.parse(fs.readFileSync("content/json/Consolidated_430a.json", "utf-8"));
-fs.writeFileSync("./data/git_data.json", JSON.stringify(data_git_json, null, 2));
-
-data_git_glossary = JSON.parse(fs.readFileSync("content/json/Glossary.json", "utf-8"));
-fs.writeFileSync("./data/git_glossary_data.json", JSON.stringify(data_git_glossary, null, 2));
+const data_git_json = JSON.parse(fs.readFileSync("data/data.json", "utf-8"));
+const data_git_glossary = JSON.parse(fs.readFileSync("data/glossary.json", "utf-8"));
 
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
@@ -427,9 +423,21 @@ function createFAQPages(data) {
     const theme = data;
     theme.apps = [];
 
+
+    //verzamel actieve apps en voeg titel+links toe aan theme.apps[]
+
+    for (const app_index in data["QA"]) {
+      const dataset = data["QA"][app_index];
+
+      theme.apps.push({
+        question: dataset.question,
+        answer: dataset.answer,
+      });
+    }
+
     theme.css_version = maris_css_hash;
     //render html
-    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+    ejs.renderFile(`${srcPath}/templates/faq.ejs`, theme, (err, data) => {
       if (err) throw err;
       const outputFile = `${theme.theme_title.toLowerCase()}.html`;
       const themePage = `${outputDir}/${outputFile}`;

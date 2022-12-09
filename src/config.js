@@ -1,12 +1,12 @@
 const config = {
   dev: {
     data: "./data/data.json",
-    data_apps: "./data/data_apps.json",
-    data_overview: "./data/data_overview.json",
-    data_themes: "./data/data_themes.json",
-    data_help: "./data/data_help.json",
-    data_faq: "./data/data_faq.json",
-    data_html_pages: "./data/data_html_pages.json",
+    data_apps: "./data/apps.json",
+    data_overview: "./data/overview.json",
+    data_themes: "./data/themes.json",
+    data_help: "./data/help.json",
+    data_faq: "./data/faq.json",
+    data_html_pages: "./data/disclaimer.json",
     outdir: "./public",
     source: "./src",
     maris_css: "./src/assets/css/style-maris.css",
