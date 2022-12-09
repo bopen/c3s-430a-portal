@@ -423,9 +423,21 @@ function createFAQPages(data) {
     const theme = data;
     theme.apps = [];
 
+
+    //verzamel actieve apps en voeg titel+links toe aan theme.apps[]
+
+    for (const app_index in data["QA"]) {
+      const dataset = data["QA"][app_index];
+
+      theme.apps.push({
+        question: dataset.question,
+        answer: dataset.answer,
+      });
+    }
+
     theme.css_version = maris_css_hash;
     //render html
-    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+    ejs.renderFile(`${srcPath}/templates/faq.ejs`, theme, (err, data) => {
       if (err) throw err;
       const outputFile = `${theme.theme_title.toLowerCase()}.html`;
       const themePage = `${outputDir}/${outputFile}`;
