@@ -42,6 +42,9 @@ const data_help = JSON.parse(
 const data_faq = JSON.parse(
   fs.readFileSync(config.dev.data_faq, "utf-8")
 );
+const data_landing = JSON.parse(
+  fs.readFileSync(config.dev.data_landing, "utf-8")
+);
 const data_overview = JSON.parse(
   fs.readFileSync(config.dev.data_overview, "utf-8")
 );
@@ -115,6 +118,7 @@ Object.assign(data_apps_reformatted, data_themes_reformatted, {
   glossary_table: glossary_html.replace("    ", ""),
   faq: faq_html,
   help: help_html,
+  landing_header: data_landing["header"],
 });
 
 fs.writeFileSync(
