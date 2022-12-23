@@ -11,6 +11,7 @@ const crypto = require("crypto");
 const hashSum = crypto.createHash("sha256");
 
 const decoder = new StringDecoder("utf8");
+let faq_html = null;
 
 // create output dir or empty output dir
 try {
@@ -40,6 +41,9 @@ const data_help = JSON.parse(
 );
 const data_faq = JSON.parse(
   fs.readFileSync(config.dev.data_faq, "utf-8")
+);
+const data_landing = JSON.parse(
+  fs.readFileSync(config.dev.data_landing, "utf-8")
 );
 const data_overview = JSON.parse(
   fs.readFileSync(config.dev.data_overview, "utf-8")
@@ -112,6 +116,9 @@ Object.assign(data_apps_reformatted, data_themes_reformatted, {
   overview_page: data_overview,
   html_pages: data_html_pages,
   glossary_table: glossary_html.replace("    ", ""),
+  faq: faq_html,
+  help: help_html,
+  landing_header: data_landing["header"],
 });
 
 fs.writeFileSync(
@@ -439,6 +446,7 @@ function createFAQPages(data) {
     //render html
     ejs.renderFile(`${srcPath}/templates/faq.ejs`, theme, (err, data) => {
       if (err) throw err;
+      faq_html = data.replace("    ", "");
       const outputFile = `${theme.theme_title.toLowerCase()}.html`;
       const themePage = `${outputDir}/${outputFile}`;
       fs.writeFile(themePage, data, (err) => {
@@ -457,6 +465,7 @@ function createHelpPages(data) {
     //render html
     ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
       if (err) throw err;
+      help_html = data.replace("    ", "");
       const outputFile = `${theme.theme_title.toLowerCase()}.html`;
       const themePage = `${outputDir}/${outputFile}`;
       fs.writeFile(themePage, data, (err) => {

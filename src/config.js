@@ -6,6 +6,7 @@ const config = {
     data_themes: "./data/themes.json",
     data_help: "./data/help.json",
     data_faq: "./data/faq.json",
+    data_landing: "./data/landing.json",
     data_html_pages: "./data/disclaimer.json",
     outdir: "./public",
     source: "./src",
