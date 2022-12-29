@@ -103,6 +103,62 @@
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"]
+    },
+    {
+      "detail": "ecde-app-fire-weather-index",
+      "page_url": "ecde-app-fire-weather-index",
+      "identifier": "C3S2_430a_0L6",
+      "theme": ["Forestry"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wet and dry"]
+    },
+    {
+      "detail": "ecde-app-river-discharge",
+      "page_url": "ecde-app-river-discharge",
+      "identifier": "C3S2_430a_016b",
+      "theme": ["Health"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wet and dry"]
+    },
+    {
+      "detail": "ecde-app-river-flood",
+      "page_url": "ecde-app-river-flood",
+      "identifier": "C3S2_430a_016",
+      "theme": ["Health"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wet and dry"]
+    },
+    {
+      "detail": "ecde-app-snowfall-amount",
+      "page_url": "ecde-app-snowfall-amount",
+      "identifier": "C3S2_430a_025",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and ice"]
+    },
+    {
+      "detail": "ecde-app-high-fire-danger-days",
+      "page_url": "ecde-app-high-fire-danger-days",
+      "identifier": "C3S2_430a_022",
+      "theme": ["Forestry"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wet and dry"]
+    },
+        {
+      "detail": "ecde-app-extreme-sea-level",
+      "page_url": "ecde-app-extreme-sea-level",
+      "identifier": "C3S2_430a_028",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Coastal"]
+    },
+    {
+      "detail": "ecde-app-relative-sea-level",
+      "page_url": "ecde-app-relative-sea-level",
+      "identifier": "C3S2_430a_027",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Coastal"]
     }
   ]
 }
