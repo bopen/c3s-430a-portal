@@ -70,7 +70,7 @@
       "identifier": "C3S2_430a_017",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
-      "hazards": ["Mean precipitation"]
+      "hazards": ["Aridity"]
     },
     {
       "detail": "ecde-app-tiger-maximum-temperature",
@@ -110,7 +110,7 @@
       "identifier": "C3S2_430a_0L6",
       "theme": ["Forestry"],
       "hazard_category": "Wet and dry",
-      "hazards": ["Wet and dry"]
+      "hazards": ["Wildfire"]
     },
     {
       "detail": "ecde-app-river-discharge",
@@ -118,7 +118,7 @@
       "identifier": "C3S2_430a_016b",
       "theme": ["Health"],
       "hazard_category": "Wet and dry",
-      "hazards": ["Wet and dry"]
+      "hazards": ["River flooding"]
     },
     {
       "detail": "ecde-app-river-flood",
@@ -126,7 +126,7 @@
       "identifier": "C3S2_430a_016",
       "theme": ["Health"],
       "hazard_category": "Wet and dry",
-      "hazards": ["Wet and dry"]
+      "hazards": ["River flooding"]
     },
     {
       "detail": "ecde-app-snowfall-amount",
@@ -134,7 +134,7 @@
       "identifier": "C3S2_430a_025",
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
-      "hazards": ["Snow and ice"]
+      "hazards": ["Snow and land ice"]
     },
     {
       "detail": "ecde-app-high-fire-danger-days",
@@ -142,7 +142,7 @@
       "identifier": "C3S2_430a_022",
       "theme": ["Forestry"],
       "hazard_category": "Wet and dry",
-      "hazards": ["Wet and dry"]
+      "hazards": ["Wildfire"]
     },
         {
       "detail": "ecde-app-extreme-sea-level",
@@ -150,7 +150,7 @@
       "identifier": "C3S2_430a_028",
       "theme": ["Coastal"],
       "hazard_category": "Coastal",
-      "hazards": ["Coastal"]
+      "hazards": ["Coastal flooding"]
     },
     {
       "detail": "ecde-app-relative-sea-level",
@@ -158,7 +158,7 @@
       "identifier": "C3S2_430a_027",
       "theme": ["Coastal"],
       "hazard_category": "Coastal",
-      "hazards": ["Coastal"]
+      "hazards": ["Relative sea level"]
     }
   ]
 }
