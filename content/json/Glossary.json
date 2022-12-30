@@ -24,6 +24,12 @@
         "Source: Informal": ""
     },
     {
+        "Term": "diapause",
+        "Explanation": "Diapause is a period of suspended or arrested development during an insect's life cycle, usually as a result of environmental factors.",
+        "Source: Formal": "https://www.amentsoc.org/insects/glossary/terms/diapause",
+        "Source: Informal": ""
+    },
+    {
         "Term": "ECMWF",
         "Explanation": "European Centre for Medium-Range Weather Forecasts",
         "Source: Formal": "http://www.ecmwf.int",
@@ -36,10 +42,28 @@
         "Source: Informal": ""
     },
     {
+        "Term": "Essential Climate Variable",
+        "Explanation": "An Essential Climate Variable (ECV) is a physical, chemical or biological variable or a group of linked variables that critically contributes to the characterization of Earth’ s climate. ",
+        "Source: Formal": "https://public.wmo.int/en/programmes/global-climate-observing-system/essential-climate-variables",
+        "Source: Informal": ""
+    },
+    {
         "Term": "GCM",
         "Explanation": "Global Climate Model. Climate models use equations to represent the processes and interactions that drive the Earth\u2019s climate. These cover the atmosphere, oceans, land and ice-covered regions of the planet.",
         "Source: Formal": "https://www.gfdl.noaa.gov/climate-modeling/",
         "Source: Informal": "https://www.carbonbrief.org/qa-how-do-climate-models-work"
+    },
+    {
+        "Term": "glacial isostatic adjustment",
+        "Explanation": "Glacial isostatic adjustment is the ongoing movement of land once burdened by ice-age glaciers",
+        "Source: Formal": "https://doi.org/10.5194/esurf-6-401-2018",
+        "Source: Informal": "https://oceanservice.noaa.gov/facts/glacial-adjustment.html"
+    },
+    {
+        "Term": "Likely",
+        "Explanation": "66% probability of occurrence, as defined by the IPCC uncertainty scale, corresponding to the 17th-83th percentile range.",
+        "Source: Formal": "https://www.ipcc.ch/site/assets/uploads/2017/08/AR5_Uncertainty_Guidance_Note.pdf",
+        "Source: Informal": ""
     },
     {
         "Term": "mean",
@@ -63,6 +87,12 @@
         "Term": "percentile",
         "Explanation": "In statistics, a percentile (or centile) is a value below which a given percentage of the values in the data distribution lie.",
         "Source: Formal": "https://en.wikipedia.org/wiki/Percentile",
+        "Source: Informal": ""
+    },
+    {
+        "Term": "Radiative forcing",
+        "Explanation": "Radiative forcing (or climate forcing) is the change in energy flux in the atmosphere caused by natural or man caused factors as measured by watts/metre.",
+        "Source: Formal": "https://en.wikipedia.org/wiki/Radiative_forcing",
         "Source: Informal": ""
     },
     {
@@ -102,21 +132,27 @@
         "Source: Informal": "https://skepticalscience.com//rcp.php"
     },
     {
-        "Term": "SD",
-        "Explanation": "Standard Deviation. The standard deviation is a measure of the amount of variation in a set of values. A low standard deviation indicates that the values tend to be close to the mean, while a high standard deviation indicates that the values are spread out over a wider range.",
+        "Term": "Standard Deviation (SD)",
+        "Explanation": "The standard deviation (SD) is a measure of the amount of variation in a set of values. A low standard deviation indicates that the values tend to be close to the mean, while a high standard deviation indicates that the values are spread out over a wider range.",
         "Source: Formal": "https://en.wikipedia.org/wiki/Standard_deviation",
         "Source: Informal": ""
     },
     {
-        "Term": "diapause",
-        "Explanation": "Diapause is a period of suspended or arrested development during an insect's life cycle, usually as a result of environmental factors.",
-        "Source: Formal": "https://www.amentsoc.org/insects/glossary/terms/diapause",
+        "Term": "SSP",
+        "Explanation": "Shared Socioeconomic Pathways (SSPs) are scenarios of projected socioeconomic global changes up to 2100. They are used to derive greenhouse gas emissions scenarios with different climate policies in the IPCC Sixth Assessment Report on climate change.",
+        "Source: Formal": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+        "Source: Informal": "https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways#cite_note-IPCC_2021_WGI-14"
+    },
+    {
+        "Term": "SSP5-8.5",
+        "Explanation": "A very high SSP (see separate entry) GHG emissions scenario: CO2 equivalent emissions triple by 2075.",
+        "Source: Formal": "https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/",
         "Source: Informal": ""
     },
     {
-        "Term": "glacial isostatic adjustment",
-        "Explanation": "Glacial isostatic adjustment is the ongoing movement of land once burdened by ice-age glaciers",
-        "Source: Formal": "https://doi.org/10.5194/esurf-6-401-2018",
-        "Source: Informal": "https://oceanservice.noaa.gov/facts/glacial-adjustment.html"
+        "Term": "SSP5-4.5",
+        "Explanation": "An intermediate SSP (see separate entry) GHG emissions scenario: CO2 equivalent emissions around current levels until 2050, then falling but not reaching net zero by 2100.",
+        "Source: Formal": "https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/",
+        "Source: Informal": ""
     }
 ]
