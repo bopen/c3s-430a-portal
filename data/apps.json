@@ -65,6 +65,14 @@
       "hazards": ["Mean precipitation"]
     },
     {
+      "detail": "ecde-app-maximum-five-days-precipitation",
+      "page_url": "ecde-app-maximum-five-days-precipitation",
+      "identifier": "C3S2_430a_013",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Extreme precipitation"]
+    },
+    {
       "detail": "ecde-app-aridity-actual",
       "page_url": "ecde-app-aridity-actual",
       "identifier": "C3S2_430a_017",
