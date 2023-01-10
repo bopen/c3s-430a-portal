@@ -22,7 +22,7 @@
     ],
     "hazard_type": [
         ["Mean air temperature", "Extreme heat", "Cold spells and frost"],
-        ["Mean precipitation", "Extreme precipitation", "River flooding", "Aridity", "Drought", "Fire weather"],
+        ["Mean precipitation", "Extreme precipitation", "River flooding", "Aridity", "Drought", "Wildfire"],
         ["Mean wind speed", "Severe windstorm"],
         ["Snow and land ice"],
         ["Relative sea level", "Coastal flooding"],
@@ -30,7 +30,7 @@
     ],
     "hazard_type_order_left": [
         ["Mean air temperature", "Extreme heat", "Cold spells and frost"],
-        ["Mean precipitation", "Extreme precipitation", "River flooding", "Aridity", "Drought", "Fire weather"]
+        ["Mean precipitation", "Extreme precipitation", "River flooding", "Aridity", "Drought", "Wildfire"]
     ],
     "hazard_type_order_right": [
         ["Mean wind speed", "Severe windstorm"],
