@@ -53,7 +53,7 @@ def dicts_from_sheet_values(rows):
                     if 'Product User Guide (PUG)' in record[identifier][header]:
                         record[identifier][header] = record[identifier][header].replace(
                             'Product User Guide (PUG)',
-                            f'([Product User Guide (PUG)]({get_product_user_guide_url(identifier)})'
+                            f'[Product User Guide (PUG)]({get_product_user_guide_url(identifier)})'
                         )
 
             records.append(record)
