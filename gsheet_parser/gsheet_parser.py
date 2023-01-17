@@ -1,6 +1,7 @@
 from apiclient import discovery
 from credentials import get_credentials
 import httplib2
+import json
 import simplejson
 
 SPREAD_SHEET = '1dOKSdZer1CAcZ9Nmdxzq1qyrNBSv9XXgd5JUmm5gOhs'
@@ -13,6 +14,23 @@ def empty_dict_check(dictionary):
             return False
     
     return True
+
+
+def get_slug_and_version(identifier):
+    with open(f'../data/apps.json') as f:
+        apps = json.load(f)
+
+    for indicator in apps['indicators']:
+        if indicator['identifier'] == identifier:
+            return indicator['page_url'], indicator['version']
+
+
+def get_product_user_guide_url(identifier):
+    slug, version = get_slug_and_version(identifier)
+    _id = identifier[-3:].lstrip("0")
+    file_name = f"{_id}-{slug}-v{version}.pdf"
+    url = f"https://datastore.copernicus-climate.eu/documents/{slug}/{file_name}"
+    return url
 
 
 def dicts_from_sheet_values(rows):
@@ -31,6 +49,12 @@ def dicts_from_sheet_values(rows):
                 except IndexError:
                     value = ""
                 record[identifier][header] = value
+                if header == 'ConsolidatedTextGeneral':
+                    if 'Product User Guide (PUG)' in record[identifier][header]:
+                        record[identifier][header] = record[identifier][header].replace(
+                            'Product User Guide (PUG)',
+                            f'[Product User Guide (PUG)]({get_product_user_guide_url(identifier)})'
+                        )
 
             records.append(record)
 
