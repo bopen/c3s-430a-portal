@@ -127,8 +127,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-relative-sea-level",
-      "page_url": "ecde-app-relative-sea-level",
+      "detail": "ecde-app-relative-sea-level-rise",
+      "page_url": "ecde-app-relative-sea-level-rise",
       "identifier": "C3S2_430a_027",
       "theme": ["Coastal"],
       "hazard_category": "Coastal",
