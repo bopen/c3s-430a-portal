@@ -1,0 +1,193 @@
+{
+  "indicators": [
+    {
+      "detail": "ecde-app-mean-temperature",
+      "page_url": "ecde-app-mean-temperature",
+      "identifier": "C3S2_430a_001",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-growing-degree-days",
+      "page_url": "ecde-app-growing-degree-days",
+      "identifier": "C3S2_430a_002",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-tropical-nights",
+      "page_url": "ecde-app-tropical-nights",
+      "identifier": "C3S2_430a_005",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-apparent-temperature-heatwave-days",
+      "page_url": "ecde-app-apparent-temperature-heatwave-days",
+      "identifier": "C3S2_430a_008",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-climatological-heatwave-days",
+      "page_url": "ecde-app-climatological-heatwave-days",
+      "identifier": "C3S2_430a_009",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-high-utci-days",
+      "page_url": "ecde-app-high-utci-days",
+      "identifier": "C3S2_430a_010",
+      "theme": ["Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-frost-days",
+      "page_url": "ecde-app-frost-days",
+      "identifier": "C3S2_430a_011",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Cold spells and frost"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-total-precipitation",
+      "page_url": "ecde-app-total-precipitation",
+      "identifier": "C3S2_430a_012",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Mean precipitation"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-maximum-five-days-precipitation",
+      "page_url": "ecde-app-maximum-five-days-precipitation",
+      "identifier": "C3S2_430a_013",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Extreme precipitation"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-river-discharge",
+      "page_url": "ecde-app-river-discharge",
+      "identifier": "C3S2_430a_016b",
+      "theme": ["Agriculture", "Tourism"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["River flooding"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-river-flood",
+      "page_url": "ecde-app-river-flood",
+      "identifier": "C3S2_430a_016",
+      "theme": ["Agriculture", "Tourism"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["River flooding"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-aridity-actual",
+      "page_url": "ecde-app-aridity-actual",
+      "identifier": "C3S2_430a_017",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-high-fire-danger-days",
+      "page_url": "ecde-app-high-fire-danger-days",
+      "identifier": "C3S2_430a_022",
+      "theme": ["Forestry", "Tourism"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wildfire"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-snowfall-amount",
+      "page_url": "ecde-app-snowfall-amount",
+      "identifier": "C3S2_430a_025",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and land ice"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-relative-sea-level-rise",
+      "page_url": "ecde-app-relative-sea-level-rise",
+      "identifier": "C3S2_430a_027",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Relative sea level"],
+      "version": "1.0"
+    },
+        {
+      "detail": "ecde-app-extreme-sea-level",
+      "page_url": "ecde-app-extreme-sea-level",
+      "identifier": "C3S2_430a_028",
+      "theme": ["Coastal"],
+      "hazard_category": "Coastal",
+      "hazards": ["Coastal flooding"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-maximum-temperature",
+      "page_url": "ecde-app-maximum-temperature",
+      "identifier": "C3S2_430a_0L1",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-minimum-temperature",
+      "page_url": "ecde-app-minimum-temperature",
+      "identifier": "C3S2_430a_0L2",
+      "theme": ["Agriculture"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Cold spells and frost"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-tiger-mosquito-season-length",
+      "page_url": "ecde-app-tiger-mosquito-season-length",
+      "identifier": "C3S2_430a_0L3",
+      "theme": ["Health"],
+      "hazard_category": "Other",
+      "hazards": ["Other"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-tiger-mosquito-suitability",
+      "page_url": "ecde-app-tiger-mosquito-suitability",
+      "identifier": "C3S2_430a_0L4",
+      "theme": ["Health"],
+      "hazard_category": "Other",
+      "hazards": ["Other"],
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-fire-weather-index",
+      "page_url": "ecde-app-fire-weather-index",
+      "identifier": "C3S2_430a_0L6",
+      "theme": ["Forestry", "Tourism"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Wildfire"],
+      "version": "1.0"
+    }
+  ]
+}
