@@ -130,7 +130,7 @@
       "detail": "ecde-app-relative-sea-level-rise",
       "page_url": "ecde-app-relative-sea-level-rise",
       "identifier": "C3S2_430a_027",
-      "theme": ["Coastal"],
+      "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Relative sea level"],
       "version": "1.0"
@@ -139,7 +139,7 @@
       "detail": "ecde-app-extreme-sea-level",
       "page_url": "ecde-app-extreme-sea-level",
       "identifier": "C3S2_430a_028",
-      "theme": ["Coastal"],
+      "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
       "version": "1.0"
