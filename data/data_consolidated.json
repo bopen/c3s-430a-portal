@@ -372,7 +372,7 @@
       "page_url": "ecde-app-relative-sea-level-rise",
       "identifier": "C3S2_430a_027",
       "theme": [
-        "Coastal"
+        "Water and Coastal"
       ],
       "hazard_category": "Coastal",
       "hazards": [
@@ -398,7 +398,7 @@
       "page_url": "ecde-app-extreme-sea-level",
       "identifier": "C3S2_430a_028",
       "theme": [
-        "Coastal"
+        "Water and Coastal"
       ],
       "hazard_category": "Coastal",
       "hazards": [
@@ -679,17 +679,17 @@
       ],
       "css_version": "367ba2ff69"
     },
-    "coastal": {
-      "theme_title": "Coastal",
+    "water and coastal": {
+      "theme_title": "Water and Coastal",
       "description": "Humans have been operating with and within marine ecosystems for millennia, causing change through often complex interactions. Our initial climate indices in this sector focus on the challenge of rising sea-levels caused by the thermal expansion of the oceans and melting cryosphere.",
       "apps": [
         {
           "title": "Extreme Sea Level",
-          "url": "coastal/ecde-app-extreme-sea-level-detail.html"
+          "url": "water and coastal/ecde-app-extreme-sea-level-detail.html"
         },
         {
           "title": "Relative Sea Level Rise",
-          "url": "coastal/ecde-app-relative-sea-level-rise-detail.html"
+          "url": "water and coastal/ecde-app-relative-sea-level-rise-detail.html"
         }
       ],
       "css_version": "367ba2ff69"
@@ -879,13 +879,13 @@
         "Relative sea level": [
           {
             "title": "Relative Sea Level Rise",
-            "url": "coastal/ecde-app-relative-sea-level-rise-detail.html"
+            "url": "water and coastal/ecde-app-relative-sea-level-rise-detail.html"
           }
         ],
         "Coastal flooding": [
           {
             "title": "Extreme Sea Level",
-            "url": "coastal/ecde-app-extreme-sea-level-detail.html"
+            "url": "water and coastal/ecde-app-extreme-sea-level-detail.html"
           }
         ]
       },
