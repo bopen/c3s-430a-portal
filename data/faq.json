@@ -47,7 +47,7 @@
     "answer": "The ECDE follows the terminology of the IPCC that has defined a likelihood scale based on probabilities of outcome ranging from exceptionally unlikely (0-1%) to virtually certain (99-100%). In this scale, a likely event has a 66%-100% probability of occurrence and corresponds to the 17th-83th percentile range of available values (i.e. leaving out the tails of the distribution). Please note that in most of the ECDE applications only a subset of models is used making the uncertainty evaluation less robust compared to what could be achieved with the full set of climate models."
    },
    {
-    "question": "Which browsers are supported by the ECDE?",
+    "question": "Which browsers are supported?",
     "answer": "The European Climate Data Explorer is supported by the most recent versions of the following browsers: Google Chrome, Microsoft Edge, Mozilla Firefox, Safari. It is not supported by Internet Explorer."
    }
  ]
