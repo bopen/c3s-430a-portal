@@ -15,32 +15,40 @@
     "answer": "The indices available on the ECDE were identified by a selected group of experts that defined publication priorities and presented in a technical report in 2020 (<a href='https://climate-adapt.eea.europa.eu/en/metadata/publications/climate-related-hazard-indices-for-europe-etc-cca-technical-paper-1-2020'>ETC/CCA Technical Paper</a>). The indices were organised according to 16 hazards, grouped into 6 categories consistent with the 'climatic impact drivers' adopted in the Intergovernmental Panel on Climate Change's (IPCC) Sixth Assessment Report."
    },
    {
-    "question": "To whom are the ECDE indices intended for ?",
+    "question": "To whom are the ECDE indices intended for?",
     "answer": "The primary target audience of the ECDE is the same as Climate-ADAPT: governmental adaptation decision makers at all governance levels in Europe and organisations supporting them. Please check the <a href='https://climate-adapt.eea.europa.eu/en/about/outreach-and-dissemination'>Climate Adapt Outreach and Dissemination</a> page for more."
    },
    {
-    "question": "Where does the ECDE index data come from ?",
+    "question": "Where does the ECDE index data come from?",
     "answer": "The index data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The computation of the index (i.e calculation when necessary and spatial/temporal averaging) is performed by a public visualisation application developed with the CDS Toolbox using the CDS hosted data."
    },
    {
-    "question": "How reliable are the data presented on the ECDE ?",
+    "question": "How reliable are the data presented on the ECDE?",
     "answer": "The index data are provided by Copernicus Climate Change Service (C3S) and hosted on Climate Data Store (CDS). C3S is the authoritative climate data source of the European Union. Check for example the C3S regular <a href='https://climate.copernicus.eu/climate-bulletins'>climate bulletins</a> that present the current climate conditions using key climate change indicators."
    },
    {
-    "question": "What quality control and homogeneity procedures are applied ?",
+    "question": "What quality control and homogeneity procedures are applied?",
     "answer": "Both the underlying datasets and the visualisation application undergo quality control procedures that are presented in the corresponding data/app pages on the Climate Data Store (CDS). Moreover, both the underlying data, as any data hosted on the CDS, and the application code, are made available publicly. In this way both the calculations and the data are fully traceable."
    },
    {
-    "question": "How do I get additional help ?",
+    "question": "How do I get additional help?",
     "answer": "For any help inquiries please check the <a href='https://climate-adapt.eea.europa.eu/en/knowledge/european-climate-data-explorer/help'> ECDE help page</a>. To submit your own question about the indices appearing on the ECDE to the ECDE maintainers and the wider C3S user check the <a href='https://confluence.ecmwf.int/x/mqT-EQ'>ECDE Forum</a>."
    },
    {
-    "question": "How do I get help on technical terms ?",
+    "question": "How do I get help on technical terms?",
     "answer": "For definitions of technical terms please refer to the <a href='https://climate-adapt.eea.europa.eu/en/knowledge/european-climate-data-explorer/glossary'> ECDE glossary</a>."
    },
    {
-    "question": "How do I use the ECDE indices ?",
-    "answer": "Please check the Outreach and Dissemination page <a href=\"https://climate-adapt.eea.europa.eu/en/about/outreach-and-dissemination\"> Outreach and Dissemination page</a> where you will find dissemination materials, tutorial videos, inspiring examples, events and webinars, as well as country specific promotion activities."
+    "question": "How do I use the ECDE indices?",
+    "answer": "Please check the EEA's Outreach and Dissemination page <a href=\"https://climate-adapt.eea.europa.eu/en/about/outreach-and-dissemination\"> Outreach and Dissemination page</a> where you will find dissemination materials, tutorial videos, inspiring examples, events and webinars, as well as country specific promotion activities."
+   },
+   {
+    "question": "What does “likely” mean?",
+    "answer": "The ECDE follows the terminology of the IPCC that has defined a likelihood scale based on probabilities of outcome ranging from exceptionally unlikely (0-1%) to virtually certain (99-100%). In this scale, a likely event has a 66%-100% probability of occurrence and corresponds to the 17th-83th percentile range of available values (i.e. leaving out the tails of the distribution). Please note that in most of the ECDE applications only a subset of models is used making the uncertainty evaluation less robust compared to what could be achieved with the full set of climate models."
+   },
+   {
+    "question": "Which browsers are supported?",
+    "answer": "The European Climate Data Explorer is supported by the most recent versions of the following browsers: Google Chrome, Microsoft Edge, Mozilla Firefox, Safari. It is not supported by Internet Explorer."
    }
  ]
 }
