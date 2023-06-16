@@ -1,162 +1,162 @@
 {
-    "Heat and cold": {
-        "Mean air temperature": [
-            {
-                "indicator_text": "Mean Temperature",
-                "indicator_url": "agriculture/ecde-app-mean-temperature.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Growing Degree Days",
-                "indicator_url": "agriculture/ecde-app-growing-degree-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Tropical Nights",
-                "indicator_url": "agriculture/ecde-app-tropical-nights.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Extreme heat": [
-            {
-                "indicator_text": "Apparent Temperature Heatwave Days",
-                "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Climatological Heatwave Days",
-                "indicator_url": "health/ecde-app-climatological-heatwave-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "High UTCI Days",
-                "indicator_url": "health/ecde-app-high-utci-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Maximum temperature",
-                "indicator_url": "agriculture/ecde-app-maximum-temperature.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Cold spells and frost": [
-            {
-                "indicator_text": "Frost Days",
-                "indicator_url": "agriculture/ecde-app-frost-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Minimum temperature",
-                "indicator_url": "agriculture/ecde-app-minimum-temperature.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ]
-    },
-    "Wet and dry": {
-        "Mean precipitation": [
-            {
-                "indicator_text": "Total Precipitation",
-                "indicator_url": "agriculture/ecde-app-total-precipitation.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Extreme precipitation": [
-            {
-                "indicator_text": "Maximum Consecutive Five-Day Precipitation",
-                "indicator_url": "agriculture/ecde-app-maximum-five-days-precipitation.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "River flooding": [
-            {
-                "indicator_text": "River discharge",
-                "indicator_url": "water and coastal/ecde-app-river-discharge.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "River Flood ",
-                "indicator_url": "water and coastal/ecde-app-river-flood.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Aridity": [
-            {
-                "indicator_text": "Aridity Actual",
-                "indicator_url": "agriculture/ecde-app-aridity-actual.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Wildfire": [
-            {
-                "indicator_text": "High Fire Danger Days",
-                "indicator_url": "forestry/ecde-app-high-fire-danger-days.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Fire Weather Index",
-                "indicator_url": "forestry/ecde-app-fire-weather-index.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ]
-    },
-    "Snow and ice": {
-        "Snow and land ice": [
-            {
-                "indicator_text": "Snowfall Amount",
-                "indicator_url": "tourism/ecde-app-snowfall-amount.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ]
-    },
-    "Coastal": {
-        "Relative sea level": [
-            {
-                "indicator_text": "Relative Sea Level Rise",
-                "indicator_url": "water and coastal/ecde-app-relative-sea-level-rise.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ],
-        "Coastal flooding": [
-            {
-                "indicator_text": "Extreme Sea Level",
-                "indicator_url": "water and coastal/ecde-app-extreme-sea-level.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ]
-    },
-    "Other": {
-        "Other": [
-            {
-                "indicator_text": "Tiger Mosquito Climatic Season Length",
-                "indicator_url": "health/ecde-app-tiger-mosquito-season-length.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            },
-            {
-                "indicator_text": "Tiger Mosquito Climatic Suitability",
-                "indicator_url": "health/ecde-app-tiger-mosquito-suitability.html",
-                "zip_text": "Zip download",
-                "zip_url": "pippo"
-            }
-        ]
-    }
+  "Heat and cold": {
+    "Mean air temperature": [
+      {
+        "indicator_text": "Mean Temperature",
+        "indicator_url": "agriculture/ecde-app-mean-temperature.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Growing Degree Days",
+        "indicator_url": "agriculture/ecde-app-growing-degree-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Tropical Nights",
+        "indicator_url": "agriculture/ecde-app-tropical-nights.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Extreme heat": [
+      {
+        "indicator_text": "Apparent Temperature Heatwave Days",
+        "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Climatological Heatwave Days",
+        "indicator_url": "health/ecde-app-climatological-heatwave-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "High UTCI Days",
+        "indicator_url": "health/ecde-app-high-utci-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Maximum temperature",
+        "indicator_url": "agriculture/ecde-app-maximum-temperature.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Cold spells and frost": [
+      {
+        "indicator_text": "Frost Days",
+        "indicator_url": "agriculture/ecde-app-frost-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Minimum temperature",
+        "indicator_url": "agriculture/ecde-app-minimum-temperature.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ]
+  },
+  "Wet and dry": {
+    "Mean precipitation": [
+      {
+        "indicator_text": "Total Precipitation",
+        "indicator_url": "agriculture/ecde-app-total-precipitation.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Extreme precipitation": [
+      {
+        "indicator_text": "Maximum Consecutive Five-Day Precipitation",
+        "indicator_url": "agriculture/ecde-app-maximum-five-days-precipitation.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "River flooding": [
+      {
+        "indicator_text": "River discharge",
+        "indicator_url": "water and coastal/ecde-app-river-discharge.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "River Flood ",
+        "indicator_url": "water and coastal/ecde-app-river-flood.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Aridity": [
+      {
+        "indicator_text": "Aridity Actual",
+        "indicator_url": "agriculture/ecde-app-aridity-actual.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Wildfire": [
+      {
+        "indicator_text": "High Fire Danger Days",
+        "indicator_url": "forestry/ecde-app-high-fire-danger-days.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Fire Weather Index",
+        "indicator_url": "forestry/ecde-app-fire-weather-index.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ]
+  },
+  "Snow and ice": {
+    "Snow and land ice": [
+      {
+        "indicator_text": "Snowfall Amount",
+        "indicator_url": "tourism/ecde-app-snowfall-amount.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ]
+  },
+  "Coastal": {
+    "Relative sea level": [
+      {
+        "indicator_text": "Relative Sea Level Rise",
+        "indicator_url": "water and coastal/ecde-app-relative-sea-level-rise.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ],
+    "Coastal flooding": [
+      {
+        "indicator_text": "Extreme Sea Level",
+        "indicator_url": "water and coastal/ecde-app-extreme-sea-level.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ]
+  },
+  "Other": {
+    "Other": [
+      {
+        "indicator_text": "Tiger Mosquito Climatic Season Length",
+        "indicator_url": "health/ecde-app-tiger-mosquito-season-length.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      },
+      {
+        "indicator_text": "Tiger Mosquito Climatic Suitability",
+        "indicator_url": "health/ecde-app-tiger-mosquito-suitability.html",
+        "zip_text": "Zip download",
+        "zip_url": "pippo"
+      }
+    ]
+  }
 }
