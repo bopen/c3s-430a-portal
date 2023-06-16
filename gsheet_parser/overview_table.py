@@ -11,12 +11,13 @@ def make_overview_table():
         hazard_type = indicator['hazards'][0]
         theme = indicator['theme'][0].lower()
         slug = indicator['detailpage']
+        zip_url = indicator['zip_url']
         
         new_item = {
             'indicator_text': indicator['page_title'],
             'indicator_url': f'{theme}/{slug}',
-            'zip_text': 'Zip download',
-            'zip_url': 'pippo'
+            'zip_text':  "Download" if zip_url else "Not available",
+            'zip_url': zip_url
         }
 
         if overview_table.get(hazard_category) is None:
