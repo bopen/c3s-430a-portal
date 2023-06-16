@@ -10,11 +10,11 @@ def make_overview_table():
         hazard_category = indicator['hazard_category']
         hazard_type = indicator['hazards'][0]
         theme = indicator['theme'][0].lower()
-        slug = indicator['page_url']
+        slug = indicator['detailpage']
         
         new_item = {
             'indicator_text': indicator['page_title'],
-            'indicator_url': f'{theme}/{slug}.html',
+            'indicator_url': f'{theme}/{slug}',
             'zip_text': 'Zip download',
             'zip_url': 'pippo'
         }
@@ -31,8 +31,6 @@ def make_overview_table():
     with open(f'../data/overview_table.json', 'w', encoding='utf-8') as f:
         json.dump(overview_table, f, ensure_ascii=False, indent=4)
 
-
-def make_html_table_content
 
 if __name__ == '__main__':
     make_overview_table()
