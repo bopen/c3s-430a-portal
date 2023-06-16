@@ -63,6 +63,8 @@ const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 const data_git_json = JSON.parse(fs.readFileSync("data/data.json", "utf-8"));
 const data_git_glossary = JSON.parse(fs.readFileSync("data/glossary.json", "utf-8"));
 
+const data_git_overview_table = JSON.parse(fs.readFileSync("data/overview_table.json", "utf-8"));
+
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
 
@@ -86,6 +88,8 @@ createIndexPage();
 createHtmlPages(data_html_pages);
 
 createGlossaryPage(data_git_glossary);
+
+createOverviewTable(data_git_overview_table);
 
 // console.log(data_themes);
 
@@ -524,6 +528,43 @@ function createGlossaryPage(data) {
     fs.writeFile(htmlFile, data, (err) => {
       if (err) throw err;
       console.log(`[Glossary page] \t${htmlFile} has been created.`);
+    });
+  });
+}
+
+
+function createOverviewTable(data) {
+  let pageName = "overview-table";
+
+  let overviewTable = {
+    data: data,
+  };
+
+  ejs.renderFile(
+    `${srcPath}/templates/partials/overview-table.ejs`,
+    overviewTable,
+    (err, data) => {
+      if (err) throw err;
+
+      overview_table_html = data.replace("    ", "");
+    }
+  );
+
+  let overviewTable = {
+    css_version: maris_css_hash,
+    page_title: "ECDE Overview Table",
+    page_text: overview_table_html,
+  };
+
+  ejs.renderFile(`${srcPath}/templates/html.ejs`, overviewTable, (err, data) => {
+    if (err) throw err;
+
+    const outputFile = `${pageName}.html`;
+    const htmlFile = `${outputDir}/${outputFile}`;
+
+    fs.writeFile(htmlFile, data, (err) => {
+      if (err) throw err;
+      console.log(`[Overview table page] \t${htmlFile} has been created.`);
     });
   });
 }

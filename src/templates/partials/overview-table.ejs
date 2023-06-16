@@ -1,0 +1,53 @@
+<table class="plain">
+    <thead>
+        <tr>
+            <th>Hazard category</th>
+            <th>Hazard type</th>
+            <th>Indicator</th>
+            <th>Zip download</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <%
+            for(const hazard in data){
+                let item = data[hazard];
+
+        %>
+            <tr>
+                <td>
+        <%
+                let i = 0;
+                for(const key in item){
+                    if(item.hasOwnProperty(key)){
+
+                        let style = "";
+
+                        switch(i){
+                            case 0:
+                                style = 'style="white-space: nowrap"';
+                                break;
+                        }
+
+                        if(item[key].startsWith('http')){
+                            item[key] = `
+                                <span class="link-external"><a target="_blank" href="${item[key]}">Source</a></span>
+                            `;
+                        }
+
+                        i++;
+
+        %>
+                        <td <%- style %>>
+                            <%- item[key] %>
+                        </td>
+        <%
+                    }
+                }
+        %>
+            </tr>
+        <%
+            }
+        %>
+    </tbody>
+</table>
