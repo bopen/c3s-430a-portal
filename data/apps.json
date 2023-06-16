@@ -7,6 +7,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -16,6 +17,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -25,6 +27,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -34,6 +37,7 @@
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -43,6 +47,7 @@
       "theme": ["Health", "Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -52,6 +57,7 @@
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -61,6 +67,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -70,6 +77,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Mean precipitation"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -79,6 +87,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -88,6 +97,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -97,6 +107,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -106,6 +117,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
+      "zip_url": "http://ecde-data.copernicus-climate.eu/17_aridity_actual/17_aridity_actual_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -115,6 +127,7 @@
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -124,6 +137,7 @@
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
       "hazards": ["Snow and land ice"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -133,6 +147,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Relative sea level"],
+      "zip_url": "",
       "version": "1.0"
     },
         {
@@ -142,6 +157,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -151,6 +167,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -160,6 +177,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -169,6 +187,7 @@
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -178,6 +197,7 @@
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
+      "zip_url": "",
       "version": "1.0"
     },
     {
@@ -187,6 +207,7 @@
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
+      "zip_url": "",
       "version": "1.0"
     }
   ]
