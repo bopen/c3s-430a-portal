@@ -7,7 +7,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/01_mean_temperature/01_mean_temperature_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -17,7 +17,7 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/02_growing_degree_days/02_growing_degree_days_aggregation.zip",
       "version": "1.0"
     },
     {
