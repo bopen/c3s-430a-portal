@@ -57,7 +57,7 @@
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/10_high_utci_days/10_high_utci_days_aggregation.zip",
       "version": "1.0"
     },
     {

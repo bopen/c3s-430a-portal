@@ -36,8 +36,8 @@
             {
                 "indicator_text": "High UTCI Days",
                 "indicator_url": "health/ecde-app-high-utci-days-detail.html",
-                "zip_text": "Not available",
-                "zip_url": ""
+                "zip_text": "Download",
+                "zip_url": "http://ecde-data.copernicus-climate.eu/10_high_utci_days/10_high_utci_days_aggregation.zip"
             },
             {
                 "indicator_text": "Maximum temperature",
