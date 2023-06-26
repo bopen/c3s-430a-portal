@@ -104,8 +104,8 @@
             {
                 "indicator_text": "High Fire Danger Days",
                 "indicator_url": "forestry/ecde-app-high-fire-danger-days-detail.html",
-                "zip_text": "Not available",
-                "zip_url": ""
+                "zip_text": "Download",
+                "zip_url": "http://ecde-data.copernicus-climate.eu/22_days_with_high_fire_danger/22_days_with_high_fire_danger_aggregation.zip"
             },
             {
                 "indicator_text": "Fire Weather Index",
