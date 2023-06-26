@@ -47,8 +47,19 @@
           </a>
         
       </td>
+
       <td data-grid="<%= `${hc_index}-${ht_index}-${i_index}` %>">
-        <a href="<%= zip_url %>"><%= zip_text %></a>
+        <%
+             if (zip_url.startsWith('http')) {
+        %>
+                <a href="<%= zip_url %>"><%= zip_text %></a>
+        <%
+             } else {
+        %>
+                <%= zip_text %>
+        <%
+             }
+        %>
       </td>
     </tr>
     <%
