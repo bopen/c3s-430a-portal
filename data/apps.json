@@ -207,7 +207,7 @@
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/l6_fire_weather_index/l6_fire_weather_index_aggregation.zip",
       "version": "1.0"
     }
   ]
