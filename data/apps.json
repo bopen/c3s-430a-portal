@@ -137,7 +137,7 @@
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
       "hazards": ["Snow and land ice"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -147,7 +147,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Relative sea level"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip",
       "version": "1.0"
     },
         {
@@ -157,7 +157,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
-      "zip_url": "",
+      "zip_url": "http://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip",
       "version": "1.0"
     },
     {

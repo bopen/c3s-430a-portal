@@ -120,8 +120,8 @@
             {
                 "indicator_text": "Snowfall Amount",
                 "indicator_url": "tourism/ecde-app-snowfall-amount-detail.html",
-                "zip_text": "Not available",
-                "zip_url": ""
+                "zip_text": "Download",
+                "zip_url": "http://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip"
             }
         ]
     },
@@ -130,16 +130,16 @@
             {
                 "indicator_text": "Relative Sea Level Rise",
                 "indicator_url": "water and coastal/ecde-app-relative-sea-level-rise-detail.html",
-                "zip_text": "Not available",
-                "zip_url": ""
+                "zip_text": "Download",
+                "zip_url": "http://ecde-data.copernicus-climate.eu/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip"
             }
         ],
         "Coastal flooding": [
             {
                 "indicator_text": "Extreme Sea Level",
                 "indicator_url": "water and coastal/ecde-app-extreme-sea-level-detail.html",
-                "zip_text": "Not available",
-                "zip_url": ""
+                "zip_text": "Download",
+                "zip_url": "http://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip"
             }
         ]
     },
