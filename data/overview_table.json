@@ -3,18 +3,21 @@
         "Mean air temperature": [
             {
                 "indicator_text": "Mean Temperature",
+                "identifier": "C3S2_430a_001",
                 "indicator_url": "agriculture/ecde-app-mean-temperature-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/01_mean_temperature/01_mean_temperature_aggregation.zip"
             },
             {
                 "indicator_text": "Growing Degree Days",
+                "identifier": "C3S2_430a_002",
                 "indicator_url": "agriculture/ecde-app-growing-degree-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/02_growing_degree_days/02_growing_degree_days_aggregation.zip"
             },
             {
                 "indicator_text": "Tropical Nights",
+                "identifier": "C3S2_430a_005",
                 "indicator_url": "agriculture/ecde-app-tropical-nights-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip"
@@ -23,24 +26,28 @@
         "Extreme heat": [
             {
                 "indicator_text": "Apparent Temperature Heatwave Days",
+                "identifier": "C3S2_430a_008",
                 "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/08_heat_waves_health/08_heat_waves_health_aggregation.zip"
             },
             {
                 "indicator_text": "Climatological Heatwave Days",
+                "identifier": "C3S2_430a_009",
                 "indicator_url": "health/ecde-app-climatological-heatwave-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/09_heat_waves_climatological/09_heat_waves_climatological_aggregation.zip"
             },
             {
                 "indicator_text": "High UTCI Days",
+                "identifier": "C3S2_430a_010",
                 "indicator_url": "health/ecde-app-high-utci-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/10_high_utci_days/10_high_utci_days_aggregation.zip"
             },
             {
                 "indicator_text": "Maximum temperature",
+                "identifier": "C3S2_430a_0L1",
                 "indicator_url": "agriculture/ecde-app-maximum-temperature-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/l1_daily_maximum_temperature/l1_daily_maximum_temperature_aggregation.zip"
@@ -49,12 +56,14 @@
         "Cold spells and frost": [
             {
                 "indicator_text": "Frost Days",
+                "identifier": "C3S2_430a_011",
                 "indicator_url": "agriculture/ecde-app-frost-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/11_frost_days/11_frost_days_aggregation.zip"
             },
             {
                 "indicator_text": "Minimum temperature",
+                "identifier": "C3S2_430a_0L2",
                 "indicator_url": "agriculture/ecde-app-minimum-temperature-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/l2_daily_minimum_temperature/l2_daily_minimum_temperature_aggregation.zip"
@@ -65,6 +74,7 @@
         "Mean precipitation": [
             {
                 "indicator_text": "Total Precipitation",
+                "identifier": "C3S2_430a_012",
                 "indicator_url": "agriculture/ecde-app-total-precipitation-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/12_total_precipitation/12_total_precipitation_aggregation.zip"
@@ -73,6 +83,7 @@
         "Extreme precipitation": [
             {
                 "indicator_text": "Maximum Consecutive Five-Day Precipitation",
+                "identifier": "C3S2_430a_013",
                 "indicator_url": "agriculture/ecde-app-maximum-five-days-precipitation-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
@@ -81,20 +92,23 @@
         "River flooding": [
             {
                 "indicator_text": "River discharge",
+                "identifier": "C3S2_430a_016b",
                 "indicator_url": "water and coastal/ecde-app-river-discharge-detail.html",
                 "zip_text": "Download",
-                "zip_url": "http://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
+                "zip_url": "http://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip"
             },
             {
                 "indicator_text": "River Flood ",
+                "identifier": "C3S2_430a_016",
                 "indicator_url": "water and coastal/ecde-app-river-flood-detail.html",
                 "zip_text": "Download",
-                "zip_url": "http://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip"
+                "zip_url": "http://ecde-data.copernicus-climate.eu/16_flood_recurrence/16_flood_recurrence_aggregation.zip"
             }
         ],
         "Aridity": [
             {
                 "indicator_text": "Aridity Actual",
+                "identifier": "C3S2_430a_017",
                 "indicator_url": "agriculture/ecde-app-aridity-actual-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/17_aridity_actual/17_aridity_actual_aggregation.zip"
@@ -103,12 +117,14 @@
         "Wildfire": [
             {
                 "indicator_text": "High Fire Danger Days",
+                "identifier": "C3S2_430a_022",
                 "indicator_url": "forestry/ecde-app-high-fire-danger-days-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/22_days_with_high_fire_danger/22_days_with_high_fire_danger_aggregation.zip"
             },
             {
                 "indicator_text": "Fire Weather Index",
+                "identifier": "C3S2_430a_0l6",
                 "indicator_url": "forestry/ecde-app-fire-weather-index-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/l6_fire_weather_index/l6_fire_weather_index_aggregation.zip"
@@ -119,6 +135,7 @@
         "Snow and land ice": [
             {
                 "indicator_text": "Snowfall Amount",
+                "identifier": "C3S2_430a_025",
                 "indicator_url": "tourism/ecde-app-snowfall-amount-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip"
@@ -129,6 +146,7 @@
         "Relative sea level": [
             {
                 "indicator_text": "Relative Sea Level Rise",
+                "identifier": "C3S2_430a_027",
                 "indicator_url": "water and coastal/ecde-app-relative-sea-level-rise-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip"
@@ -137,6 +155,7 @@
         "Coastal flooding": [
             {
                 "indicator_text": "Extreme Sea Level",
+                "identifier": "C3S2_430a_028",
                 "indicator_url": "water and coastal/ecde-app-extreme-sea-level-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip"
@@ -147,12 +166,14 @@
         "Other": [
             {
                 "indicator_text": "Tiger Mosquito Climatic Season Length",
+                "identifier": "C3S2_430a_0l3",
                 "indicator_url": "health/ecde-app-tiger-mosquito-season-length-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/l3_tiger_mosquito_season_length/l3_tiger_mosquito_season_length_aggregation.zip"
             },
             {
                 "indicator_text": "Tiger Mosquito Climatic Suitability",
+                "identifier": "C3S2_430a_0l4",
                 "indicator_url": "health/ecde-app-tiger-mosquito-suitability-detail.html",
                 "zip_text": "Download",
                 "zip_url": "http://ecde-data.copernicus-climate.eu/l4_tiger_mosquito_suitability_index/l4_tiger_mosquito_suitability_index_aggregation.zip"
