@@ -122,6 +122,7 @@ delete data_themes.indicators;
 // Add all data to data_apps
 Object.assign(data_apps_reformatted, data_themes_reformatted, {
   overview_page: data_overview,
+  overview_table: data_git_overview_table,
   html_pages: data_html_pages,
   glossary_table: glossary_html.replace("    ", ""),
   faq: faq_html,
