@@ -16,6 +16,7 @@ def make_overview_table():
         new_item = {
             'indicator_text': indicator['page_title'],
             'indicator_url': f'{theme}/{slug}',
+            'identifier': key,
             'zip_text':  "Download" if zip_url else "Not available",
             'zip_url': zip_url
         }
