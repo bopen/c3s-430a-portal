@@ -36,12 +36,8 @@ const data_apps = JSON.parse(fs.readFileSync(config.dev.data_apps, "utf-8"));
 const data_themes = JSON.parse(
   fs.readFileSync(config.dev.data_themes, "utf-8")
 );
-const data_help = JSON.parse(
-  fs.readFileSync(config.dev.data_help, "utf-8")
-);
-const data_faq = JSON.parse(
-  fs.readFileSync(config.dev.data_faq, "utf-8")
-);
+const data_help = JSON.parse(fs.readFileSync(config.dev.data_help, "utf-8"));
+const data_faq = JSON.parse(fs.readFileSync(config.dev.data_faq, "utf-8"));
 const data_landing = JSON.parse(
   fs.readFileSync(config.dev.data_landing, "utf-8")
 );
@@ -53,6 +49,10 @@ const data_html_pages = JSON.parse(
 );
 const maris_css_file = fs.readFileSync(config.dev.maris_css, "utf-8");
 
+const overview_description = JSON.parse(
+  fs.readFileSync(config.dev.data_overview, "utf-8")
+);
+
 hashSum.update(maris_css_file);
 const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 
@@ -61,7 +61,13 @@ const maris_css_hash = hashSum.digest("hex").substring(0, 10);
 //let git_json_result = sync_request("GET", config.url.git_json);
 
 const data_git_json = JSON.parse(fs.readFileSync("data/data.json", "utf-8"));
-const data_git_glossary = JSON.parse(fs.readFileSync("data/glossary.json", "utf-8"));
+const data_git_glossary = JSON.parse(
+  fs.readFileSync("data/glossary.json", "utf-8")
+);
+
+const data_git_overview_table = JSON.parse(
+  fs.readFileSync("data/overview_table.json", "utf-8")
+);
 
 // copy assets to output dir
 fse.copy(`${srcPath}/assets`, outputDir);
@@ -86,6 +92,8 @@ createIndexPage();
 createHtmlPages(data_html_pages);
 
 createGlossaryPage(data_git_glossary);
+
+createOverviewTable(data_git_overview_table);
 
 // console.log(data_themes);
 
@@ -114,6 +122,7 @@ delete data_themes.indicators;
 // Add all data to data_apps
 Object.assign(data_apps_reformatted, data_themes_reformatted, {
   overview_page: data_overview,
+  overview_table: data_git_overview_table,
   html_pages: data_html_pages,
   glossary_table: glossary_html.replace("    ", ""),
   faq: faq_html,
@@ -427,52 +436,51 @@ function createThemePages(data) {
 
 function createFAQPages(data) {
   //voor elk thema maken we een pagina aan
-    const theme = data;
-    theme.apps = [];
+  const theme = data;
+  theme.apps = [];
 
+  //verzamel actieve apps en voeg titel+links toe aan theme.apps[]
 
-    //verzamel actieve apps en voeg titel+links toe aan theme.apps[]
+  for (const app_index in data["QA"]) {
+    const dataset = data["QA"][app_index];
 
-    for (const app_index in data["QA"]) {
-      const dataset = data["QA"][app_index];
-
-      theme.apps.push({
-        question: dataset.question,
-        answer: dataset.answer,
-      });
-    }
-
-    theme.css_version = maris_css_hash;
-    //render html
-    ejs.renderFile(`${srcPath}/templates/faq.ejs`, theme, (err, data) => {
-      if (err) throw err;
-      faq_html = data.replace("    ", "");
-      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
-      const themePage = `${outputDir}/${outputFile}`;
-      fs.writeFile(themePage, data, (err) => {
-        if (err) throw err;
-        console.log(`[Theme page] \t\t${themePage} has been created.`);
-      });
+    theme.apps.push({
+      question: dataset.question,
+      answer: dataset.answer,
     });
+  }
+
+  theme.css_version = maris_css_hash;
+  //render html
+  ejs.renderFile(`${srcPath}/templates/faq.ejs`, theme, (err, data) => {
+    if (err) throw err;
+    faq_html = data.replace("    ", "");
+    const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+    const themePage = `${outputDir}/${outputFile}`;
+    fs.writeFile(themePage, data, (err) => {
+      if (err) throw err;
+      console.log(`[Theme page] \t\t${themePage} has been created.`);
+    });
+  });
 }
 
 function createHelpPages(data) {
   //voor elk thema maken we een pagina aan
-    const theme = data;
-    theme.apps = [];
+  const theme = data;
+  theme.apps = [];
 
-    theme.css_version = maris_css_hash;
-    //render html
-    ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+  theme.css_version = maris_css_hash;
+  //render html
+  ejs.renderFile(`${srcPath}/templates/theme.ejs`, theme, (err, data) => {
+    if (err) throw err;
+    help_html = data.replace("    ", "");
+    const outputFile = `${theme.theme_title.toLowerCase()}.html`;
+    const themePage = `${outputDir}/${outputFile}`;
+    fs.writeFile(themePage, data, (err) => {
       if (err) throw err;
-      help_html = data.replace("    ", "");
-      const outputFile = `${theme.theme_title.toLowerCase()}.html`;
-      const themePage = `${outputDir}/${outputFile}`;
-      fs.writeFile(themePage, data, (err) => {
-        if (err) throw err;
-        console.log(`[Theme page] \t\t${themePage} has been created.`);
-      });
+      console.log(`[Theme page] \t\t${themePage} has been created.`);
     });
+  });
 }
 
 function createHtmlPages(data) {
@@ -526,4 +534,45 @@ function createGlossaryPage(data) {
       console.log(`[Glossary page] \t${htmlFile} has been created.`);
     });
   });
+}
+
+function createOverviewTable(data) {
+  let pageName = "overview-table";
+
+  let overviewTable = {
+    data: data,
+    description: overview_description.description,
+  };
+
+  ejs.renderFile(
+    `${srcPath}/templates/partials/overview-table.ejs`,
+    overviewTable,
+    (err, data) => {
+      if (err) throw err;
+
+      overview_table_html = data.replace("    ", "");
+    }
+  );
+
+  overviewTable = {
+    css_version: maris_css_hash,
+    page_title: "ECDE Overview Table",
+    page_text: overview_table_html,
+  };
+
+  ejs.renderFile(
+    `${srcPath}/templates/html.ejs`,
+    overviewTable,
+    (err, data) => {
+      if (err) throw err;
+
+      const outputFile = `${pageName}.html`;
+      const htmlFile = `${outputDir}/${outputFile}`;
+
+      fs.writeFile(htmlFile, data, (err) => {
+        if (err) throw err;
+        console.log(`[Overview table page] \t${htmlFile} has been created.`);
+      });
+    }
+  );
 }
