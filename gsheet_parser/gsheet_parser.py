@@ -185,5 +185,23 @@ def parse_google_spreadsheet():
             simplejson.dump(records, writer, indent=4)
 
 
+def add_download_link():
+    with open(f'../data/data.json') as f:
+        data = json.load(f)
+    with open(f'../data/data_consolidated.json') as f:
+        consolidated_data = json.load(f)
+
+    for i in range(len(data)):
+        for key, indicator in data[i].items():
+            if consolidated_data['indicators'][key]['zip_url'] is not None:
+                if "Data download" not in indicator["ConsolidatedTextGeneral"]:
+                    indicator["ConsolidatedTextGeneral"] = indicator["ConsolidatedTextGeneral"] + f"\n\n**Data download**\n\nThe aggregated data shown on the map can be [downloaded]({consolidated_data['indicators'][key]['zip_url']}) as csv files.\n"
+                    data[i] = {key: indicator}
+                
+    with open(f'../data/data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+
 if __name__ == '__main__':
     parse_google_spreadsheet()
+    add_download_link()
