@@ -95,14 +95,14 @@
                 "indicator_url": "water and coastal/ecde-app-river-discharge-detail.html",
                 "identifier": "C3S2_430a_016b",
                 "zip_text": "Download",
-                "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
+                "zip_url": "https://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip"
             },
             {
                 "indicator_text": "River Flood ",
                 "indicator_url": "water and coastal/ecde-app-river-flood-detail.html",
                 "identifier": "C3S2_430a_016",
                 "zip_text": "Download",
-                "zip_url": "https://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip"
+                "zip_url": "https://ecde-data.copernicus-climate.eu/16_flood_recurrence/16_flood_recurrence_aggregation.zip"
             }
         ],
         "Aridity": [
