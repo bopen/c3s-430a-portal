@@ -21,6 +21,26 @@
       "version": "1.0"
     },
     {
+      "detail": "ecde-app-heating-degree-days-v1",
+      "page_url": "ecde-app-heating-degree-days-v1",
+      "identifier": "C3S2_430a_003",
+      "theme": ["Energy"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/03_heating_degree_days/03_heating_degree_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-cooling-degree-days-v1",
+      "page_url": "ecde-app-cooling-degree-days-v1",
+      "identifier": "C3S2_430a_004",
+      "theme": ["Energy"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Mean air temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
       "detail": "ecde-app-tropical-nights",
       "page_url": "ecde-app-tropical-nights",
       "identifier": "C3S2_430a_005",
@@ -88,6 +108,16 @@
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-extreme-precipitation-days-v1",
+      "page_url": "ecde-app-extreme-precipitation-days-v1",
+      "identifier": "C3S2_430a_015",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Extreme precipitation"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip",
       "version": "1.0"
     },
     {

@@ -28,7 +28,7 @@ def get_slug_and_version(identifier):
 def get_product_user_guide_url(identifier):
     slug, version = get_slug_and_version(identifier)
     _id = identifier[-3:].lstrip("0")
-    file_name = f"{_id}-{slug}-v{version}.pdf"
+    file_name = f"{_id}-{slug.replace('-v1', '')}-v{version}.pdf"
     url = f"https://datastore.copernicus-climate.eu/documents/ecde/{file_name}"
     return url
 
