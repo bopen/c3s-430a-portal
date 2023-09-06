@@ -54,6 +54,60 @@
       },
       "css_version": "367ba2ff69"
     },
+    "C3S2_430a_003": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-heating-degree-days-v1/master/configuration.json",
+      "page_url": "ecde-app-heating-degree-days-v1",
+      "identifier": "C3S2_430a_003",
+      "theme": [
+        "Energy"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Mean air temperature"
+      ],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/03_heating_degree_days/03_heating_degree_days_aggregation.zip",
+      "version": "1.0",
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-heating-degree-days-v1.html",
+      "detailpage": "ecde-app-heating-degree-days-v1-detail.html",
+      "page_title": "Heating Degree Days",
+      "description_general": "<p>The Heating Degree Days index is relevant to energy. This Index is part of the Mean temperature Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures heat deficit by cumulating daily degrees below a temperature threshold. It is a proxy for the energy needed to heat a building. There are several implementations of these indices that use different underlying data (e.g. daily mean vs. daily minimum and maximum temperature), threshold temperatures, and possible seasonal restrictions (e.g. only predefined heating season). The definition used here uses a combination of daily mean, maximum and minimum temperature.  </p>\n<p>A higher value means lower temperatures and thus more energy demand for heating.  </p>\n<p><strong>Definition</strong> </p>\n<p>The cumulative sum of daily degrees below a daily mean temperature of 15,5°C (°C day-1) over a period. The formulation adopted here is based on daily mean, maximum and minimum temperature. </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the <a href=\"https://datastore.copernicus-climate.eu/documents/ecde/3-ecde-app-heating-degree-days-v1.0.pdf\">Product User Guide (PUG)</a> of the application in the documentation resources of the CDS. </p>\n<p><strong>Data download</strong></p>\n<p>The aggregated data shown on the map can be <a href=\"https://ecde-data.copernicus-climate.eu/03_heating_degree_days/03_heating_degree_days_aggregation.zip\">downloaded</a> as csv files.</p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values.</p>\n<p>Some plots show an uncertainty envelope representing the range of likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).</p>\n",
+      "indicator_title": "-",
+      "units": "(°C day-1)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "367ba2ff69"
+    },
+    "C3S2_430a_004": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-cooling-degree-days-v1/master/configuration.json",
+      "page_url": "ecde-app-cooling-degree-days-v1",
+      "identifier": "C3S2_430a_004",
+      "theme": [
+        "Energy"
+      ],
+      "hazard_category": "Heat and cold",
+      "hazards": [
+        "Mean air temperature"
+      ],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip",
+      "version": "1.0",
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-cooling-degree-days-v1.html",
+      "detailpage": "ecde-app-cooling-degree-days-v1-detail.html",
+      "page_title": "Cooling Degree Days",
+      "description_general": "<p>The Cooling Degree Days index is relevant to energy. This Index is part of the Mean temperature Hazard type of the Heat and Cold category of the classification.  </p>\n<p>The index measures heat excess by cumulating daily degrees above a temperature threshold. It is a proxy for the energy needed to cool a building. There are several implementations of these indices that use different underlying data (e.g. daily mean vs. daily minimum and maximum temperature), threshold temperatures, and possible seasonal restrictions (e.g. only predefined cooling season). The definition used here uses a combination of daily mean, maximum and minimum temperature.  </p>\n<p>A higher value means higher temperatures thus more energy demand for cooling.  </p>\n<p><strong>Definition</strong></p>\n<p>The cumulative sum of daily degrees above a daily mean temperature of 22°C (°C day-1) over a period. The formulation adopted here is based on daily mean, maximum and minimum temperature. </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25° x 0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the <a href=\"https://datastore.copernicus-climate.eu/documents/ecde/4-ecde-app-cooling-degree-days-v1.0.pdf\">Product User Guide (PUG)</a> of the application in the documentation resources of the CDS. </p>\n<p><strong>Data download</strong></p>\n<p>The aggregated data shown on the map can be <a href=\"https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip\">downloaded</a> as csv files.</p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values.</p>\n<p>Some plots show an uncertainty envelope representing the range of likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).</p>\n",
+      "indicator_title": "-",
+      "units": "(°C day-1)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "367ba2ff69"
+    },
     "C3S2_430a_005": {
       "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-tropical-nights/master/configuration.json",
       "page_url": "ecde-app-tropical-nights",
@@ -238,6 +292,33 @@
       "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month), and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a panel appears on the right side displaying an interactive plot corresponding to spatial and temporal averages over the selected region. Hover over the plot to see the values. </p>\n",
       "indicator_title": "-",
       "units": "(mm)",
+      "vars": {
+        "detail": {},
+        "overview": {}
+      },
+      "css_version": "367ba2ff69"
+    },
+    "C3S2_430a_015": {
+      "detail": "https://cds.climate.copernicus.eu/workflows/c3s/ecde-app-extreme-precipitation-days-v1/master/configuration.json",
+      "page_url": "ecde-app-extreme-precipitation-days-v1",
+      "identifier": "C3S2_430a_015",
+      "theme": [
+        "Agriculture"
+      ],
+      "hazard_category": "Wet and dry",
+      "hazards": [
+        "Extreme precipitation"
+      ],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip",
+      "version": "1.0",
+      "overview": "https://cds.climate.copernicus.eu/workflows/c3s/undefined/master/configuration.json",
+      "overviewpage": "ecde-app-extreme-precipitation-days-v1.html",
+      "detailpage": "ecde-app-extreme-precipitation-days-v1-detail.html",
+      "page_title": "Extreme Precipitation Days",
+      "description_general": "<p>The Extreme Precipitation Days index is relevant to agriculture, water management, transport and the urban sector. This Index is based on daily precipitation and is part of the Extreme Precipitation Hazard type of the Wet and Dry category of the classification. </p>\n<p>The index gives the number of days in a year with daily total precipitation exceeding the 95th percentile threshold of rainy days of a reference period, here 1981-2010. </p>\n<p>A higher/lower value indicates more/less frequent extreme precipitations. </p>\n<p><strong>Definition</strong> </p>\n<p>The count of days in a year with daily precipitation exceeding the 95th percentile threshold of rainy days over a reference period, here the 1981-2010 period (day). </p>\n<p>In weather and climate models total precipitation is the flux of water equivalent (rain or snow) reaching the land surface (expressed as kg.m-2.sec-2 and converted to mm day-1). This Index is usually presented as annual, seasonal or monthly cumulated values over the considered period. </p>\n<p><strong>Data Sources</strong></p>\n<p>The data was assembled on behalf of the Copernicus Climate Change Service (C3S) based on climate projections hosted on the C3S Climate Data Store (CDS). The Index is calculated from a set of nine bias-corrected multi-model simulations from the EURO-CORDEX experiment. These simulations have a spatial resolution of 0.25°x0.25°, a 3-hourly output, and cover scenarios RCP4.5 and RCP8.5. More information about the dataset can be found in the corresponding <a href=\"https://cds.climate.copernicus.eu/cdsapp#!/dataset/sis-energy-derived-projections\">CDS documentation resources</a>. </p>\n<p><strong>Supporting Information</strong></p>\n<p>Further information about this application can be found in the <a href=\"https://datastore.copernicus-climate.eu/documents/ecde/15-ecde-app-extreme-precipitation-days-v1.0.pdf\">Product User Guide (PUG)</a> of the application in the documentation resources of the CDS. \nRelated information also be found in other sections of the EEA site: </p>\n<ul>\n<li>The Index based interactive EEA report: Wet and dry - Heavy precipitation and river floods (<a href=\"https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/wet-and-dry-1/wet-and-dry-heavy\">link</a>).</li>\n</ul>\n<p><strong>Data download</strong></p>\n<p>The aggregated data shown on the map can be <a href=\"https://ecde-data.copernicus-climate.eu/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip\">downloaded</a> as csv files.</p>\n",
+      "description_vis_nav": "<p>The application has an interactive map on the left side with a set of drop down menus to select the regions (NUTS, Transnational regions or Europe Zones), the time span (Year, Season or Month) and the emission scenario (RCP4.5 or RCP8.5). By clicking on the map, a scrolling panel appears on the right side displaying interactive plots corresponding to spatial and temporal averages over the selected region. Hover over the plots to see the values. </p>\n<p>Some plots show an uncertainty envelope representing the range of Likely values, as defined by the IPCC, based on an ensemble of models (see FAQ).              </p>\n",
+      "indicator_title": "-",
+      "units": "(Days)",
       "vars": {
         "detail": {},
         "overview": {}
@@ -609,6 +690,10 @@
           "url": "agriculture/ecde-app-aridity-actual-detail.html"
         },
         {
+          "title": "Extreme Precipitation Days",
+          "url": "agriculture/ecde-app-extreme-precipitation-days-v1-detail.html"
+        },
+        {
           "title": "Frost Days",
           "url": "agriculture/ecde-app-frost-days-detail.html"
         },
@@ -665,6 +750,14 @@
         {
           "title": "Climatological Heatwave Days",
           "url": "energy/ecde-app-climatological-heatwave-days-detail.html"
+        },
+        {
+          "title": "Cooling Degree Days",
+          "url": "energy/ecde-app-cooling-degree-days-v1-detail.html"
+        },
+        {
+          "title": "Heating Degree Days",
+          "url": "energy/ecde-app-heating-degree-days-v1-detail.html"
         }
       ],
       "css_version": "367ba2ff69"
@@ -811,6 +904,14 @@
             "url": "agriculture/ecde-app-growing-degree-days-detail.html"
           },
           {
+            "title": "Heating Degree Days",
+            "url": "energy/ecde-app-heating-degree-days-v1-detail.html"
+          },
+          {
+            "title": "Cooling Degree Days",
+            "url": "energy/ecde-app-cooling-degree-days-v1-detail.html"
+          },
+          {
             "title": "Tropical Nights",
             "url": "agriculture/ecde-app-tropical-nights-detail.html"
           }
@@ -855,6 +956,10 @@
           {
             "title": "Maximum Consecutive Five-Day Precipitation",
             "url": "agriculture/ecde-app-maximum-five-days-precipitation-detail.html"
+          },
+          {
+            "title": "Extreme Precipitation Days",
+            "url": "agriculture/ecde-app-extreme-precipitation-days-v1-detail.html"
           }
         ],
         "River flooding": [
@@ -939,6 +1044,20 @@
           "zip_url": "https://ecde-data.copernicus-climate.eu/02_growing_degree_days/02_growing_degree_days_aggregation.zip"
         },
         {
+          "indicator_text": "Heating Degree Days",
+          "indicator_url": "energy/ecde-app-heating-degree-days-v1-detail.html",
+          "identifier": "C3S2_430a_003",
+          "zip_text": "Download",
+          "zip_url": "https://ecde-data.copernicus-climate.eu/03_heating_degree_days/03_heating_degree_days_aggregation.zip"
+        },
+        {
+          "indicator_text": "Cooling Degree Days",
+          "indicator_url": "energy/ecde-app-cooling-degree-days-v1-detail.html",
+          "identifier": "C3S2_430a_004",
+          "zip_text": "Download",
+          "zip_url": "https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip"
+        },
+        {
           "indicator_text": "Tropical Nights",
           "indicator_url": "agriculture/ecde-app-tropical-nights-detail.html",
           "identifier": "C3S2_430a_005",
@@ -1010,6 +1129,13 @@
           "identifier": "C3S2_430a_013",
           "zip_text": "Download",
           "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
+        },
+        {
+          "indicator_text": "Extreme Precipitation Days",
+          "indicator_url": "agriculture/ecde-app-extreme-precipitation-days-v1-detail.html",
+          "identifier": "C3S2_430a_015",
+          "zip_text": "Download",
+          "zip_url": "https://ecde-data.copernicus-climate.eu/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip"
         }
       ],
       "River flooding": [

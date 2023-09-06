@@ -16,6 +16,20 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/02_growing_degree_days/02_growing_degree_days_aggregation.zip"
             },
             {
+                "indicator_text": "Heating Degree Days",
+                "indicator_url": "energy/ecde-app-heating-degree-days-v1-detail.html",
+                "identifier": "C3S2_430a_003",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/03_heating_degree_days/03_heating_degree_days_aggregation.zip"
+            },
+            {
+                "indicator_text": "Cooling Degree Days",
+                "indicator_url": "energy/ecde-app-cooling-degree-days-v1-detail.html",
+                "identifier": "C3S2_430a_004",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip"
+            },
+            {
                 "indicator_text": "Tropical Nights",
                 "indicator_url": "agriculture/ecde-app-tropical-nights-detail.html",
                 "identifier": "C3S2_430a_005",
@@ -87,6 +101,13 @@
                 "identifier": "C3S2_430a_013",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
+            },
+            {
+                "indicator_text": "Extreme Precipitation Days",
+                "indicator_url": "agriculture/ecde-app-extreme-precipitation-days-v1-detail.html",
+                "identifier": "C3S2_430a_015",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip"
             }
         ],
         "River flooding": [
