@@ -127,7 +127,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
-      "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip",
+      "zip_url": "https://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -137,7 +137,7 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
-      "zip_url": "https://ecde-data.copernicus-climate.eu/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip",
+      "zip_url": "https://ecde-data.copernicus-climate.eu/16_flood_recurrence/16_flood_recurrence_aggregation.zip",
       "version": "1.0"
     },
     {
