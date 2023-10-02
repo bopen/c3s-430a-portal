@@ -41,13 +41,33 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tropical-nights",
-      "page_url": "ecde-app-tropical-nights",
+      "detail": "ecde-app-tropical-nights-v1",
+      "page_url": "ecde-app-tropical-nights-v1",
       "identifier": "C3S2_430a_005",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
-      "hazards": ["Mean air temperature"],
+      "hazards": ["Extreme heat"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-hot-days-v1",
+      "page_url": "ecde-app-hot-days-v1",
+      "identifier": "C3S2_430a_006",
+      "theme": ["Agriculture", "Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/06_hot_days/06_hot_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-warmest-three-day-period-v1",
+      "page_url": "ecde-app-warmest-three-day-period-v1",
+      "identifier": "C3S2_430a_007",
+      "theme": ["Agriculture", "Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/07_warmest_three_day_period/07_warmest_three_day_period_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -61,8 +81,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-climatological-heatwave-days",
-      "page_url": "ecde-app-climatological-heatwave-days",
+      "detail": "ecde-app-climatological-heatwave-days-v1",
+      "page_url": "ecde-app-climatological-heatwave-days-v1",
       "identifier": "C3S2_430a_009",
       "theme": ["Health", "Energy"],
       "hazard_category": "Heat and cold",
@@ -108,6 +128,16 @@
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-extreme-precipitation-total-v1",
+      "page_url": "ecde-app-extreme-precipitation-total-v1",
+      "identifier": "C3S2_430a_014",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Extreme precipitation"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/14_extreme_precipitation_total/14_extreme_precipitation_total_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -158,6 +188,56 @@
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-meteorological-droughts-duration-v1",
+      "page_url": "ecde-app-meteorological-droughts-duration-v1",
+      "identifier": "C3S2_430a_019",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/19_duration_of_meteorological_droughts/19_duration_of_meteorological_droughts_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-meteorological-droughts-magnitude-v1",
+      "page_url": "ecde-app-meteorological-droughts-magnitude-v1",
+      "identifier": "C3S2_430a_020",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/20_magnitude_of_meteorological_droughts/20_magnitude_of_meteorological_droughts_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-mean-soil-moisture-v1",
+      "page_url": "ecde-app-mean-soil-moisture-v1",
+      "identifier": "C3S2_430a_021",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/21b_mean_soil_moisture/21b_mean_soil_moisture_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-mean-wind-speed-v1",
+      "page_url": "ecde-app-mean-wind-speed-v1",
+      "identifier": "C3S2_430a_023",
+      "theme": ["Energy", "Tourism", "Agriculture"],
+      "hazard_category": "Wind",
+      "hazards": ["Mean wind speed"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/23_mean_wind_speed/23_mean_wind_speed_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-extreme-wind-speed-days-v1",
+      "page_url": "ecde-app-extreme-wind-speed-days-v1",
+      "identifier": "C3S2_430a_024",
+      "theme": ["Energy", "Tourism", "Agriculture"],
+      "hazard_category": "Wind",
+      "hazards": ["Severe windstorm"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/24_extreme_wind_speed_days/24_extreme_wind_speed_days_aggregation.zip",
       "version": "1.0"
     },
     {

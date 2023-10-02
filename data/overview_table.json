@@ -28,16 +28,30 @@
                 "identifier": "C3S2_430a_004",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip"
-            },
-            {
-                "indicator_text": "Tropical Nights",
-                "indicator_url": "agriculture/ecde-app-tropical-nights-detail.html",
-                "identifier": "C3S2_430a_005",
-                "zip_text": "Download",
-                "zip_url": "https://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip"
             }
         ],
         "Extreme heat": [
+            {
+                "indicator_text": "Tropical Nights",
+                "indicator_url": "agriculture/ecde-app-tropical-nights-v1-detail.html",
+                "identifier": "C3S2_430a_005",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip"
+            },
+            {
+                "indicator_text": "Hot Days",
+                "indicator_url": "agriculture/ecde-app-hot-days-v1-detail.html",
+                "identifier": "C3S2_430a_006",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/06_hot_days/06_hot_days_aggregation.zip"
+            },
+            {
+                "indicator_text": "Warmest Three-Day Period",
+                "indicator_url": "agriculture/ecde-app-warmest-three-day-period-v1-detail.html",
+                "identifier": "C3S2_430a_007",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/07_warmest_three_day_period/07_warmest_three_day_period_aggregation.zip"
+            },
             {
                 "indicator_text": "Apparent Temperature Heatwave Days",
                 "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days-detail.html",
@@ -47,7 +61,7 @@
             },
             {
                 "indicator_text": "Climatological Heatwave Days",
-                "indicator_url": "health/ecde-app-climatological-heatwave-days-detail.html",
+                "indicator_url": "health/ecde-app-climatological-heatwave-days-v1-detail.html",
                 "identifier": "C3S2_430a_009",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/09_heat_waves_climatological/09_heat_waves_climatological_aggregation.zip"
@@ -103,6 +117,13 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
             },
             {
+                "indicator_text": "Extreme Precipitation Total",
+                "indicator_url": "agriculture/ecde-app-extreme-precipitation-total-v1-detail.html",
+                "identifier": "C3S2_430a_014",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/14_extreme_precipitation_total/14_extreme_precipitation_total_aggregation.zip"
+            },
+            {
                 "indicator_text": "Extreme Precipitation Days",
                 "indicator_url": "agriculture/ecde-app-extreme-precipitation-days-v1-detail.html",
                 "identifier": "C3S2_430a_015",
@@ -140,6 +161,27 @@
                 "identifier": "C3S2_430a_018",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip"
+            },
+            {
+                "indicator_text": "Meteorological Drought Duration",
+                "indicator_url": "agriculture/ecde-app-meteorological-droughts-duration-v1-detail.html",
+                "identifier": "C3S2_430a_019",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/19_duration_of_meteorological_droughts/19_duration_of_meteorological_droughts_aggregation.zip"
+            },
+            {
+                "indicator_text": "Meteorological Drought Magnitude",
+                "indicator_url": "agriculture/ecde-app-meteorological-droughts-magnitude-v1-detail.html",
+                "identifier": "C3S2_430a_020",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/20_magnitude_of_meteorological_droughts/20_magnitude_of_meteorological_droughts_aggregation.zip"
+            },
+            {
+                "indicator_text": "Mean Soil Moisture",
+                "indicator_url": "agriculture/ecde-app-mean-soil-moisture-v1-detail.html",
+                "identifier": "C3S2_430a_021",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/21b_mean_soil_moisture/21b_mean_soil_moisture_aggregation.zip"
             }
         ],
         "Wildfire": [
@@ -156,6 +198,26 @@
                 "identifier": "C3S2_430a_0L6",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l6_fire_weather_index/l6_fire_weather_index_aggregation.zip"
+            }
+        ]
+    },
+    "Wind": {
+        "Mean wind speed": [
+            {
+                "indicator_text": "Mean Wind Speed",
+                "indicator_url": "energy/ecde-app-mean-wind-speed-v1-detail.html",
+                "identifier": "C3S2_430a_023",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/23_mean_wind_speed/23_mean_wind_speed_aggregation.zip"
+            }
+        ],
+        "Severe windstorm": [
+            {
+                "indicator_text": "Extreme Wind Days",
+                "indicator_url": "energy/ecde-app-extreme-wind-speed-days-v1-detail.html",
+                "identifier": "C3S2_430a_024",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/24_extreme_wind_speed_days/24_extreme_wind_speed_days_aggregation.zip"
             }
         ]
     },
