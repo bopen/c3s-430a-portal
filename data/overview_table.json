@@ -2,7 +2,7 @@
     "Heat and cold": {
         "Mean air temperature": [
             {
-                "indicator_text": "Mean Temperature",
+                "indicator_text": "Mean Temperature (uncached)",
                 "indicator_url": "agriculture/ecde-app-mean-temperature-detail.html",
                 "identifier": "C3S2_430a_001",
                 "zip_text": "Download",
@@ -32,21 +32,21 @@
         ],
         "Extreme heat": [
             {
-                "indicator_text": "Tropical Nights",
+                "indicator_text": "Tropical Nights (uncached)",
                 "indicator_url": "agriculture/ecde-app-tropical-nights-v1-detail.html",
                 "identifier": "C3S2_430a_005",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip"
             },
             {
-                "indicator_text": "Hot Days",
+                "indicator_text": "Hot Days (uncached)",
                 "indicator_url": "agriculture/ecde-app-hot-days-v1-detail.html",
                 "identifier": "C3S2_430a_006",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/06_hot_days/06_hot_days_aggregation.zip"
             },
             {
-                "indicator_text": "Warmest Three-Day Period",
+                "indicator_text": "Warmest Three-Day Period (uncached)",
                 "indicator_url": "agriculture/ecde-app-warmest-three-day-period-v1-detail.html",
                 "identifier": "C3S2_430a_007",
                 "zip_text": "Download",
@@ -60,7 +60,7 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/08_heat_waves_health/08_heat_waves_health_aggregation.zip"
             },
             {
-                "indicator_text": "Climatological Heatwave Days",
+                "indicator_text": "Climatological Heatwave Days (uncached)",
                 "indicator_url": "health/ecde-app-climatological-heatwave-days-v1-detail.html",
                 "identifier": "C3S2_430a_009",
                 "zip_text": "Download",
@@ -117,7 +117,7 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
             },
             {
-                "indicator_text": "Extreme Precipitation Total",
+                "indicator_text": "Extreme Precipitation Total (uncached)",
                 "indicator_url": "agriculture/ecde-app-extreme-precipitation-total-v1-detail.html",
                 "identifier": "C3S2_430a_014",
                 "zip_text": "Download",
@@ -156,28 +156,28 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/17_aridity_actual/17_aridity_actual_aggregation.zip"
             },
             {
-                "indicator_text": "Consecutive Dry Days",
+                "indicator_text": "Consecutive Dry Days (uncached)",
                 "indicator_url": "agriculture/ecde-app-consecutive-dry-days-v1-detail.html",
                 "identifier": "C3S2_430a_018",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip"
             },
             {
-                "indicator_text": "Meteorological Drought Duration",
+                "indicator_text": "Meteorological Drought Duration (uncached)",
                 "indicator_url": "agriculture/ecde-app-meteorological-droughts-duration-v1-detail.html",
                 "identifier": "C3S2_430a_019",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/19_duration_of_meteorological_droughts/19_duration_of_meteorological_droughts_aggregation.zip"
             },
             {
-                "indicator_text": "Meteorological Drought Magnitude",
+                "indicator_text": "Meteorological Drought Magnitude (uncached)",
                 "indicator_url": "agriculture/ecde-app-meteorological-droughts-magnitude-v1-detail.html",
                 "identifier": "C3S2_430a_020",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/20_magnitude_of_meteorological_droughts/20_magnitude_of_meteorological_droughts_aggregation.zip"
             },
             {
-                "indicator_text": "Mean Soil Moisture",
+                "indicator_text": "Mean Soil Moisture (uncached)",
                 "indicator_url": "agriculture/ecde-app-mean-soil-moisture-v1-detail.html",
                 "identifier": "C3S2_430a_021",
                 "zip_text": "Download",
@@ -204,7 +204,7 @@
     "Wind": {
         "Mean wind speed": [
             {
-                "indicator_text": "Mean Wind Speed",
+                "indicator_text": "Mean Wind Speed (uncached)",
                 "indicator_url": "energy/ecde-app-mean-wind-speed-v1-detail.html",
                 "identifier": "C3S2_430a_023",
                 "zip_text": "Download",
@@ -213,7 +213,7 @@
         ],
         "Severe windstorm": [
             {
-                "indicator_text": "Extreme Wind Days",
+                "indicator_text": "Extreme Wind Days (uncached)",
                 "indicator_url": "energy/ecde-app-extreme-wind-speed-days-v1-detail.html",
                 "identifier": "C3S2_430a_024",
                 "zip_text": "Download",
