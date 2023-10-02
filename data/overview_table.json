@@ -133,6 +133,13 @@
                 "identifier": "C3S2_430a_017",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/17_aridity_actual/17_aridity_actual_aggregation.zip"
+            },
+            {
+                "indicator_text": "Consecutive Dry Days",
+                "indicator_url": "agriculture/ecde-app-consecutive-dry-days-v1-detail.html",
+                "identifier": "C3S2_430a_018",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip"
             }
         ],
         "Wildfire": [

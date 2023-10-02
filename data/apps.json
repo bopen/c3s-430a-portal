@@ -151,6 +151,16 @@
       "version": "1.0"
     },
     {
+      "detail": "ecde-app-consecutive-dry-days-v1",
+      "page_url": "ecde-app-consecutive-dry-days-v1",
+      "identifier": "C3S2_430a_018",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
       "detail": "ecde-app-high-fire-danger-days",
       "page_url": "ecde-app-high-fire-danger-days",
       "identifier": "C3S2_430a_022",
