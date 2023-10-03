@@ -11,8 +11,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-growing-degree-days",
-      "page_url": "ecde-app-growing-degree-days",
+      "detail": "ecde-app-growing-degree-days-v1",
+      "page_url": "ecde-app-growing-degree-days-v1",
       "identifier": "C3S2_430a_002",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
@@ -71,8 +71,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-apparent-temperature-heatwave-days",
-      "page_url": "ecde-app-apparent-temperature-heatwave-days",
+      "detail": "ecde-app-apparent-temperature-heatwave-days-v1",
+      "page_url": "ecde-app-apparent-temperature-heatwave-days-v1",
       "identifier": "C3S2_430a_008",
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
@@ -91,8 +91,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-high-utci-days",
-      "page_url": "ecde-app-high-utci-days",
+      "detail": "ecde-app-high-utci-days-v1",
+      "page_url": "ecde-app-high-utci-days-v1",
       "identifier": "C3S2_430a_010",
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
@@ -101,8 +101,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-frost-days",
-      "page_url": "ecde-app-frost-days",
+      "detail": "ecde-app-frost-days-v1",
+      "page_url": "ecde-app-frost-days-v1",
       "identifier": "C3S2_430a_011",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
@@ -111,8 +111,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-total-precipitation",
-      "page_url": "ecde-app-total-precipitation",
+      "detail": "ecde-app-total-precipitation-v1",
+      "page_url": "ecde-app-total-precipitation-v1",
       "identifier": "C3S2_430a_012",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
@@ -121,8 +121,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-maximum-five-days-precipitation",
-      "page_url": "ecde-app-maximum-five-days-precipitation",
+      "detail": "ecde-app-maximum-five-days-precipitation-v1",
+      "page_url": "ecde-app-maximum-five-days-precipitation-v1",
       "identifier": "C3S2_430a_013",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
@@ -171,8 +171,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-aridity-actual",
-      "page_url": "ecde-app-aridity-actual",
+      "detail": "ecde-app-aridity-actual-v1",
+      "page_url": "ecde-app-aridity-actual-v1",
       "identifier": "C3S2_430a_017",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
@@ -241,8 +241,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-high-fire-danger-days",
-      "page_url": "ecde-app-high-fire-danger-days",
+      "detail": "ecde-app-high-fire-danger-days-v1",
+      "page_url": "ecde-app-high-fire-danger-days-v1",
       "identifier": "C3S2_430a_022",
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
@@ -251,8 +251,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-snowfall-amount",
-      "page_url": "ecde-app-snowfall-amount",
+      "detail": "ecde-app-snowfall-amount-v1",
+      "page_url": "ecde-app-snowfall-amount-v1",
       "identifier": "C3S2_430a_025",
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
@@ -281,8 +281,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-maximum-temperature",
-      "page_url": "ecde-app-maximum-temperature",
+      "detail": "ecde-app-maximum-temperature-v1",
+      "page_url": "ecde-app-maximum-temperature-v1",
       "identifier": "C3S2_430a_0L1",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
@@ -291,8 +291,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-minimum-temperature",
-      "page_url": "ecde-app-minimum-temperature",
+      "detail": "ecde-app-minimum-temperature-v1",
+      "page_url": "ecde-app-minimum-temperature-v1",
       "identifier": "C3S2_430a_0L2",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
@@ -301,8 +301,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tiger-mosquito-season-length",
-      "page_url": "ecde-app-tiger-mosquito-season-length",
+      "detail": "ecde-app-tiger-mosquito-season-length-v1",
+      "page_url": "ecde-app-tiger-mosquito-season-length-v1",
       "identifier": "C3S2_430a_0L3",
       "theme": ["Health"],
       "hazard_category": "Other",
@@ -311,8 +311,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tiger-mosquito-suitability",
-      "page_url": "ecde-app-tiger-mosquito-suitability",
+      "detail": "ecde-app-tiger-mosquito-suitability-v1",
+      "page_url": "ecde-app-tiger-mosquito-suitability-v1",
       "identifier": "C3S2_430a_0L4",
       "theme": ["Health"],
       "hazard_category": "Other",
@@ -321,8 +321,8 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-fire-weather-index",
-      "page_url": "ecde-app-fire-weather-index",
+      "detail": "ecde-app-fire-weather-index-v1",
+      "page_url": "ecde-app-fire-weather-index-v1",
       "identifier": "C3S2_430a_0L6",
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",

@@ -9,8 +9,8 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/01_mean_temperature/01_mean_temperature_aggregation.zip"
             },
             {
-                "indicator_text": "Growing Degree Days",
-                "indicator_url": "agriculture/ecde-app-growing-degree-days-detail.html",
+                "indicator_text": "Growing Degree Days (uncached)",
+                "indicator_url": "agriculture/ecde-app-growing-degree-days-v1-detail.html",
                 "identifier": "C3S2_430a_002",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/02_growing_degree_days/02_growing_degree_days_aggregation.zip"
@@ -53,8 +53,8 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/07_warmest_three_day_period/07_warmest_three_day_period_aggregation.zip"
             },
             {
-                "indicator_text": "Apparent Temperature Heatwave Days",
-                "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days-detail.html",
+                "indicator_text": "Apparent Temperature Heatwave Days (uncached)",
+                "indicator_url": "health/ecde-app-apparent-temperature-heatwave-days-v1-detail.html",
                 "identifier": "C3S2_430a_008",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/08_heat_waves_health/08_heat_waves_health_aggregation.zip"
@@ -67,15 +67,15 @@
                 "zip_url": "https://ecde-data.copernicus-climate.eu/09_heat_waves_climatological/09_heat_waves_climatological_aggregation.zip"
             },
             {
-                "indicator_text": "High UTCI Days",
-                "indicator_url": "health/ecde-app-high-utci-days-detail.html",
+                "indicator_text": "High UTCI Days (uncached)",
+                "indicator_url": "health/ecde-app-high-utci-days-v1-detail.html",
                 "identifier": "C3S2_430a_010",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/10_high_utci_days/10_high_utci_days_aggregation.zip"
             },
             {
-                "indicator_text": "Maximum temperature",
-                "indicator_url": "agriculture/ecde-app-maximum-temperature-detail.html",
+                "indicator_text": "Maximum temperature (uncached)",
+                "indicator_url": "agriculture/ecde-app-maximum-temperature-v1-detail.html",
                 "identifier": "C3S2_430a_0L1",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l1_daily_maximum_temperature/l1_daily_maximum_temperature_aggregation.zip"
@@ -83,15 +83,15 @@
         ],
         "Cold spells and frost": [
             {
-                "indicator_text": "Frost Days",
-                "indicator_url": "agriculture/ecde-app-frost-days-detail.html",
+                "indicator_text": "Frost Days (uncached)",
+                "indicator_url": "agriculture/ecde-app-frost-days-v1-detail.html",
                 "identifier": "C3S2_430a_011",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/11_frost_days/11_frost_days_aggregation.zip"
             },
             {
-                "indicator_text": "Minimum temperature",
-                "indicator_url": "agriculture/ecde-app-minimum-temperature-detail.html",
+                "indicator_text": "Minimum temperature (uncached)",
+                "indicator_url": "agriculture/ecde-app-minimum-temperature-v1-detail.html",
                 "identifier": "C3S2_430a_0L2",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l2_daily_minimum_temperature/l2_daily_minimum_temperature_aggregation.zip"
@@ -101,8 +101,8 @@
     "Wet and dry": {
         "Mean precipitation": [
             {
-                "indicator_text": "Total Precipitation",
-                "indicator_url": "agriculture/ecde-app-total-precipitation-detail.html",
+                "indicator_text": "Total Precipitation (uncached)",
+                "indicator_url": "agriculture/ecde-app-total-precipitation-v1-detail.html",
                 "identifier": "C3S2_430a_012",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/12_total_precipitation/12_total_precipitation_aggregation.zip"
@@ -110,8 +110,8 @@
         ],
         "Extreme precipitation": [
             {
-                "indicator_text": "Maximum Consecutive Five-Day Precipitation",
-                "indicator_url": "agriculture/ecde-app-maximum-five-days-precipitation-detail.html",
+                "indicator_text": "Maximum Consecutive Five-Day Precipitation (uncached)",
+                "indicator_url": "agriculture/ecde-app-maximum-five-days-precipitation-v1-detail.html",
                 "identifier": "C3S2_430a_013",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip"
@@ -150,7 +150,7 @@
         "Aridity": [
             {
                 "indicator_text": "Aridity Actual",
-                "indicator_url": "agriculture/ecde-app-aridity-actual-detail.html",
+                "indicator_url": "agriculture/ecde-app-aridity-actual-v1-detail.html",
                 "identifier": "C3S2_430a_017",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/17_aridity_actual/17_aridity_actual_aggregation.zip"
@@ -186,15 +186,15 @@
         ],
         "Wildfire": [
             {
-                "indicator_text": "High Fire Danger Days",
-                "indicator_url": "forestry/ecde-app-high-fire-danger-days-detail.html",
+                "indicator_text": "High Fire Danger Days (uncached)",
+                "indicator_url": "forestry/ecde-app-high-fire-danger-days-v1-detail.html",
                 "identifier": "C3S2_430a_022",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/22_days_with_high_fire_danger/22_days_with_high_fire_danger_aggregation.zip"
             },
             {
-                "indicator_text": "Fire Weather Index",
-                "indicator_url": "forestry/ecde-app-fire-weather-index-detail.html",
+                "indicator_text": "Fire Weather Index (uncached)",
+                "indicator_url": "forestry/ecde-app-fire-weather-index-v1-detail.html",
                 "identifier": "C3S2_430a_0L6",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l6_fire_weather_index/l6_fire_weather_index_aggregation.zip"
@@ -224,8 +224,8 @@
     "Snow and ice": {
         "Snow and land ice": [
             {
-                "indicator_text": "Snowfall Amount",
-                "indicator_url": "tourism/ecde-app-snowfall-amount-detail.html",
+                "indicator_text": "Snowfall Amount (uncached)",
+                "indicator_url": "tourism/ecde-app-snowfall-amount-v1-detail.html",
                 "identifier": "C3S2_430a_025",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip"
@@ -255,15 +255,15 @@
     "Other": {
         "Other": [
             {
-                "indicator_text": "Tiger Mosquito Climatic Season Length",
-                "indicator_url": "health/ecde-app-tiger-mosquito-season-length-detail.html",
+                "indicator_text": "Tiger Mosquito Climatic Season Length (uncached)",
+                "indicator_url": "health/ecde-app-tiger-mosquito-season-length-v1-detail.html",
                 "identifier": "C3S2_430a_0L3",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l3_tiger_mosquito_season_length/l3_tiger_mosquito_season_length_aggregation.zip"
             },
             {
-                "indicator_text": "Tiger Mosquito Climatic Suitability",
-                "indicator_url": "health/ecde-app-tiger-mosquito-suitability-detail.html",
+                "indicator_text": "Tiger Mosquito Climatic Suitability (uncached)",
+                "indicator_url": "health/ecde-app-tiger-mosquito-suitability-v1-detail.html",
                 "identifier": "C3S2_430a_0L4",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/l4_tiger_mosquito_suitability_index/l4_tiger_mosquito_suitability_index_aggregation.zip"
