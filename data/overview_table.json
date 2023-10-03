@@ -3,7 +3,7 @@
         "Mean air temperature": [
             {
                 "indicator_text": "Mean Temperature (uncached)",
-                "indicator_url": "agriculture/ecde-app-mean-temperature-detail.html",
+                "indicator_url": "agriculture/ecde-app-mean-temperature-v1-detail.html",
                 "identifier": "C3S2_430a_001",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/01_mean_temperature/01_mean_temperature_aggregation.zip"

@@ -1,8 +1,8 @@
 {
   "indicators": [
     {
-      "detail": "ecde-app-mean-temperature",
-      "page_url": "ecde-app-mean-temperature",
+      "detail": "ecde-app-mean-temperature-v1",
+      "page_url": "ecde-app-mean-temperature-v1",
       "identifier": "C3S2_430a_001",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
