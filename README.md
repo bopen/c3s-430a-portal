@@ -65,7 +65,7 @@ After that, `gsheet_parser.py` will have the information it needs to download th
 
 To add a new indicator follow the following steps:
 
-- add / update the relevant information in data.json
+- add / update the relevant information in apps.json
 - add / update the relevant content indicator Google spreadsheet which is parsed by gsheet_parser
 - run `gsheet_parser.py`
 - run `overview_table.py`
