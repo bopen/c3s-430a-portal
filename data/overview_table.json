@@ -229,6 +229,13 @@
                 "identifier": "C3S2_430a_025",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip"
+            },
+            {
+                "indicator_text": "High Snow Days",
+                "indicator_url": "tourism/ecde-app-high-snow-days-v1-detail.html",
+                "identifier": "C3S2_430a_026",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/26_high_snow_days/26_high_snow_days_aggregation.zip"
             }
         ]
     },
