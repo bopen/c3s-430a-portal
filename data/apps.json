@@ -279,8 +279,8 @@
       "hazards": ["Relative sea level"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip",
       "version": "1.0"
-    },
-        {
+    },        
+    {
       "detail": "ecde-app-extreme-sea-level",
       "page_url": "ecde-app-extreme-sea-level",
       "identifier": "C3S2_430a_028",
@@ -288,6 +288,26 @@
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-dissolved-oxygen-level-v1",
+      "page_url": "ecde-app-dissolved-oxygen-level-v1",
+      "identifier": "C3S2_430a_031",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Biochemical ocean properties"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/31_dissolved-oxygen-level/31_dissolved-oxygen-level_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-ocean-ph-level-v1",
+      "page_url": "ecde-app-ocean-ph-level-v1",
+      "identifier": "C3S2_430a_032",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Biochemical ocean properties"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/32_ocean_ph_level/32_ocean_ph_level_aggregation.zip",
       "version": "1.0"
     },
     {
