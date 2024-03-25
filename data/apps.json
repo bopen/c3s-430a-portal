@@ -261,6 +261,16 @@
       "version": "1.0"
     },
     {
+      "detail": "ecde-app-high-snow-days-v1",
+      "page_url": "ecde-app-high-snow-days-v1",
+      "identifier": "C3S2_430a_026",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and land ice"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/26_high_snow_days/26_high_snow_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
       "detail": "ecde-app-relative-sea-level-rise",
       "page_url": "ecde-app-relative-sea-level-rise",
       "identifier": "C3S2_430a_027",
