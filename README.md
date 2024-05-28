@@ -3,12 +3,12 @@
 To manage the European Climate Data Explorer (ECDE) website being developed by the C3S 430a project.
 
 Example page for an ECDE indicator:
-https://c3s.maris.nl/health/climatic-suitability-of-tiger-mosquito--season-length.html 
+https://c3s.maris.nl/health/climatic-suitability-of-tiger-mosquito--season-length.html
 
 ECDE apps on Toolbox: [Toolbox Editor (shared ecde space)](https://cds.climate.copernicus.
-eu/toolbox-editor/ecde-2) 
-<!-- Oud: [Toolbox Editor (user: 40366)](https://cds.climate.copernicus.eu/toolbox-editor/40366) -->
+eu/toolbox-editor/ecde-2)
 
+<!-- Oud: [Toolbox Editor (user: 40366)](https://cds.climate.copernicus.eu/toolbox-editor/40366) -->
 
 Google sheet containing indicators information:  
 https://docs.google.com/spreadsheets/d/1dOKSdZer1CAcZ9Nmdxzq1qyrNBSv9XXgd5JUmm5gOhs/edit#gid=625032748
@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/1dOKSdZer1CAcZ9Nmdxzq1qyrNBSv9XXgd5JUmm5g
 `src` contains templates, data and generator script \
 `public` contains the generated website \
 `data` contains the JSON data required for generating the website (we use texts & titles from the [C3S_434 github repo](https://raw.githubusercontent.com/cedadev/c3s_434_ecde_page_text/main/content/json/Consolidated.json))
-  
+
 <!-- **Useful links:**
 - [Climate Adapt Indicators - Display Characteristics](https://docs.google.com/spreadsheets/d/1MgG4EkD4U7mcx9XlWXUWNZym_-tEWLzZ0_p_990TISw/edit)
 - [Sector abstracts](https://docs.google.com/document/d/11pHja-EIfQZ1CbP3c3i1Wb_fQG8IZhhd08MWg_n04s0/edit)
@@ -28,13 +28,12 @@ https://docs.google.com/spreadsheets/d/1dOKSdZer1CAcZ9Nmdxzq1qyrNBSv9XXgd5JUmm5g
 - [Drop down box texts](https://docs.google.com/spreadsheets/d/1BHVHR1-3DC-AJ1ZQUtGUOs25fiGrt0adwmZcSNDFMk0/edit#gid=1897667492)
 - [Workflow Checklist](https://docs.google.com/document/d/1iAwrGfDJVWg_NstecLFifOZ4ap7SEyy7ujR4zHEQWwU/edit)
 
-**Submit apps:**  
-- [jira.ecmwf.int CDSAPP-119](https://jira.ecmwf.int/servicedesk/customer/portal/8/CDSAPP-119)  
+**Submit apps:**
+- [jira.ecmwf.int CDSAPP-119](https://jira.ecmwf.int/servicedesk/customer/portal/8/CDSAPP-119)
 
 Alle apps worden gedeeld met user 136 en 13784 -->
 
-
-## Usage ##
+## Usage
 
 ### Collect information from google sheets
 
@@ -59,9 +58,18 @@ The first time you run this, an exception will be raised and you will be prompte
 
 The next time you run `gsheet_parser.py` (**If you are on a machine that can't open a browser, run with the argument `--noauth_local_webserver`**) you'll be prompted with another link. Follow this and sign in with google, you'll be met with a page saying the `Google hasn't verified this app`, click `Advanced`, then `Go to Quickstart (unsafe)`. Then grant permission to view google spread sheets (if you ran with `--noauth_local_webserver` you'll need to copy a code and paste it into the terminal prompt).
 
-
 After that, `gsheet_parser.py` will have the information it needs to download the google sheets content.
 <br />
+
+### Add / update a new indicator
+
+To add a new indicator follow the following steps:
+
+- add / update the relevant information in apps.json
+- add / update the relevant content indicator Google spreadsheet which is parsed by gsheet_parser
+- run `gsheet_parser.py`
+- run `overview_table.py`
+- run `yarn build`
 
 ### Generate HTML pages
 
@@ -70,14 +78,11 @@ Requirements:
 - NodeJS (min v12)
 - Yarn
 
-
 Setup:
-  
-`yarn install` to install dependencies
 
+`yarn install` to install dependencies
 
 Usage:
 
 `yarn dev` to autogenerate pages on file update \
 `yarn build` to generate pages
-

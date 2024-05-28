@@ -229,6 +229,13 @@
                 "identifier": "C3S2_430a_025",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/25_snowfall_amount/25_snowfall_amount_aggregation.zip"
+            },
+            {
+                "indicator_text": "High Snow Days (uncached)",
+                "indicator_url": "tourism/ecde-app-high-snow-days-v1-detail.html",
+                "identifier": "C3S2_430a_026",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/26_high_snow_days/26_high_snow_days_aggregation.zip"
             }
         ]
     },
@@ -249,6 +256,24 @@
                 "identifier": "C3S2_430a_028",
                 "zip_text": "Download",
                 "zip_url": "https://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip"
+            }
+        ]
+    },
+    "Oceanic": {
+        "Biochemical ocean properties": [
+            {
+                "indicator_text": "Dissolved Oxygen Level (uncached)",
+                "indicator_url": "water and coastal/ecde-app-dissolved-oxygen-level-v1-detail.html",
+                "identifier": "C3S2_430a_031",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/31_dissolved-oxygen-level/31_dissolved-oxygen-level_aggregation.zip"
+            },
+            {
+                "indicator_text": "Ocean pH level (uncached)",
+                "indicator_url": "water and coastal/ecde-app-ocean-ph-level-v1-detail.html",
+                "identifier": "C3S2_430a_032",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/32_ocean_ph_level/32_ocean_ph_level_aggregation.zip"
             }
         ]
     },
