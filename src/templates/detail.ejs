@@ -117,22 +117,7 @@
                         <div class="row">
                             <div class="column col-md-12" data-panel="">
 
-                                <div id="eea-application">
-                                </div>
-                                <script src="//unpkg.com/react@18.2.0/umd/react.production.min.js" crossorigin="anonymous"></script>
-                                <script src="//unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-                                <script type="module" crossorigin src="<%= cads_app_entrypoint_url %>"></script>
-                                <script type="module">
-                                    import { r as render } from '<%= cads_app_entrypoint_url %>';
-                                    render(
-                                        document.getElementById('eea-application'),
-                                        {
-                                            apiBase: '<%= cads_api_base %>',
-                                            indicator: '<%= ecde_identifier %>',
-                                            internalAssetsBase: '<%= cads_internal_assets_base %>',
-                                        }
-                                    );
-                                </script>
+                                <iframe src="<%= cads_app_url %>?indicator=<%= ecde_identifier %>" title="<%= page_title %>" style="width: 100%; border: 0; height: min(800px, 80vh);"></iframe>
 
                             </div>
                         </div>

@@ -100,8 +100,7 @@ createOverviewTable(data_git_overview_table);
 //reformat the data_apps object, so it correctly uses key-value pair with the identifier as key
 let data_apps_reformatted = {
   indicators: {},
-  cads_app_entrypoint_url: config.dev.cads_app_entrypoint_url,
-  api_base: config.dev.api_base,
+  cads_app_url: config.dev.cads_app_url,
 };
 
 for (const index in data_apps["indicators"]) {
@@ -206,9 +205,7 @@ function createAppPages(data) {
   for (const index in data["indicators"]) {
     const dataset = data["indicators"][index];
 
-    dataset.cads_app_entrypoint_url = config.url.cads_app_entrypoint_url;
-    dataset.cads_api_base = config.url.cads_api_base;
-    dataset.cads_internal_assets_base = config.url.cads_internal_assets_base;
+    dataset.cads_app_url = config.url.cads_app_url;
 
     dataset.theme.forEach((theme) => {
       // theme directory
@@ -219,8 +216,7 @@ function createAppPages(data) {
 
     createHTMLfiles(dataset);
 
-    delete dataset.cads_app_entrypoint_url;
-    delete dataset.cads_api_base;
+    delete dataset.cads_app_url;
   }
 }
 
