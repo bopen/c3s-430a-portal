@@ -260,6 +260,22 @@
         ]
     },
     "Oceanic": {
+        "Ocean temperature": [
+            {
+                "indicator_text": "Sea Surface Temperature",
+                "indicator_url": "water and coastal/ecde-app-sst-v1-detail.html",
+                "identifier": "C3S2_430a_029",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/29_sst/29_sst_aggregation.zip"
+            },
+            {
+                "indicator_text": "Marine Heatwaves",
+                "indicator_url": "water and coastal/ecde-app-marine-heatwaves-v1-detail.html",
+                "identifier": "C3S2_430a_030",
+                "zip_text": "Download",
+                "zip_url": "https://ecde-data.copernicus-climate.eu/30_marine_heatwaves/30_marine_heatwaves_aggregation.zip"
+            }
+        ],
         "Biochemical ocean properties": [
             {
                 "indicator_text": "Dissolved Oxygen Level (uncached)",

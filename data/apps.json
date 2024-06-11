@@ -320,6 +320,28 @@
       "version": "1.0"
     }, 
     {
+      "detail": "ecde-app-sst-v1",
+      "page_url": "ecde-app-sst-v1",
+      "identifier": "C3S2_430a_029",
+      "ecde_identifier": "29_sst",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Ocean temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/29_sst/29_sst_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-marine-heatwaves-v1",
+      "page_url": "ecde-app-marine-heatwaves-v1",
+      "identifier": "C3S2_430a_030",
+      "ecde_identifier": "30_marine_heatwaves",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Ocean temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/30_marine_heatwaves/30_marine_heatwaves_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
       "detail": "ecde-app-dissolved-oxygen-level-v1",
       "page_url": "ecde-app-dissolved-oxygen-level-v1",
       "identifier": "C3S2_430a_031",
