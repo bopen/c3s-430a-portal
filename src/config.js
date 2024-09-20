@@ -15,7 +15,7 @@ const config = {
   url: {
     cads_app_url:
       process.env.CADS_APP_URL ||
-      "https://ecds-dev.bopen.compute.cci2.ecmwf.int/c3s-apps/ecde/",
+      "https://apps.copernicus-climate.eu/ecde/",
   },
   usage: {
     markdown_texts: false,
