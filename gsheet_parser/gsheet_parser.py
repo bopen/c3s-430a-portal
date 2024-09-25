@@ -4,7 +4,7 @@ import httplib2
 import json
 import simplejson
 
-SPREAD_SHEET = '1dOKSdZer1CAcZ9Nmdxzq1qyrNBSv9XXgd5JUmm5gOhs'
+SPREAD_SHEET = '1iGjBdUPqo1PJ8rzEmf9KuYB_peub2OeG7n9YG1eJS14'
 WORK_SHEETS = ['Consolidated_430a']
 
 
@@ -185,6 +185,26 @@ def parse_google_spreadsheet():
             simplejson.dump(records, writer, indent=4)
 
 
+def save_ecde_information():
+    with open(f'../data/data.json') as f:
+        data = json.load(f)
+    with open(f'../data/apps.json') as f:
+        apps = json.load(f)
+
+    informations = {}
+    for i in range(len(data)):
+        for key, indicator in data[i].items():
+            k = apps["indicators"][i]["ecde_identifier"]
+            information = indicator["ConsolidatedTextGeneral"].replace('\n\n**', '\n\n<br />**')
+            f = open(f'../data/markdown/{k}.md', "w")
+            f.write(information)
+            f.close()
+            informations[k] = information
+                
+    with open(f'../data/ecde_information.json', 'w', encoding='utf-8') as f:
+        json.dump(informations, f, ensure_ascii=False, indent=4)
+
+
 def add_download_link():
     with open(f'../data/data.json') as f:
         data = json.load(f)
@@ -204,4 +224,5 @@ def add_download_link():
 
 if __name__ == '__main__':
     parse_google_spreadsheet()
+    save_ecde_information()
     add_download_link()

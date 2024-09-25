@@ -1,9 +1,10 @@
 {
   "indicators": [
     {
-      "detail": "ecde-app-mean-temperature",
-      "page_url": "ecde-app-mean-temperature",
+      "detail": "ecde-app-mean-temperature-v1",
+      "page_url": "ecde-app-mean-temperature-v1",
       "identifier": "C3S2_430a_001",
+      "ecde_identifier": "01_mean_temperature",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
@@ -11,9 +12,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-growing-degree-days",
-      "page_url": "ecde-app-growing-degree-days",
+      "detail": "ecde-app-growing-degree-days-v1",
+      "page_url": "ecde-app-growing-degree-days-v1",
       "identifier": "C3S2_430a_002",
+      "ecde_identifier": "02_growing_degree_days",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
@@ -24,6 +26,7 @@
       "detail": "ecde-app-heating-degree-days-v1",
       "page_url": "ecde-app-heating-degree-days-v1",
       "identifier": "C3S2_430a_003",
+      "ecde_identifier": "03_heating_degree_days",
       "theme": ["Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
@@ -34,6 +37,7 @@
       "detail": "ecde-app-cooling-degree-days-v1",
       "page_url": "ecde-app-cooling-degree-days-v1",
       "identifier": "C3S2_430a_004",
+      "ecde_identifier": "04_cooling_degree_days",
       "theme": ["Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
@@ -41,19 +45,43 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tropical-nights",
-      "page_url": "ecde-app-tropical-nights",
+      "detail": "ecde-app-tropical-nights-v1",
+      "page_url": "ecde-app-tropical-nights-v1",
       "identifier": "C3S2_430a_005",
+      "ecde_identifier": "05_tropical_nights",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
-      "hazards": ["Mean air temperature"],
+      "hazards": ["Extreme heat"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/05_tropical_nights/05_tropical_nights_aggregation.zip",
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-apparent-temperature-heatwave-days",
-      "page_url": "ecde-app-apparent-temperature-heatwave-days",
+      "detail": "ecde-app-hot-days-v1",
+      "page_url": "ecde-app-hot-days-v1",
+      "identifier": "C3S2_430a_006",
+      "ecde_identifier": "06_hot_days",
+      "theme": ["Agriculture", "Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/06_hot_days/06_hot_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-warmest-three-day-period-v1",
+      "page_url": "ecde-app-warmest-three-day-period-v1",
+      "identifier": "C3S2_430a_007",
+      "ecde_identifier": "07_warmest_three_day_period",
+      "theme": ["Agriculture", "Health"],
+      "hazard_category": "Heat and cold",
+      "hazards": ["Extreme heat"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/07_warmest_three_day_period/07_warmest_three_day_period_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-apparent-temperature-heatwave-days-v1",
+      "page_url": "ecde-app-apparent-temperature-heatwave-days-v1",
       "identifier": "C3S2_430a_008",
+      "ecde_identifier": "08_heat_waves_health",
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
@@ -61,9 +89,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-climatological-heatwave-days",
-      "page_url": "ecde-app-climatological-heatwave-days",
+      "detail": "ecde-app-climatological-heatwave-days-v1",
+      "page_url": "ecde-app-climatological-heatwave-days-v1",
       "identifier": "C3S2_430a_009",
+      "ecde_identifier": "09_heat_waves_climatological",
       "theme": ["Health", "Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
@@ -71,9 +100,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-high-utci-days",
-      "page_url": "ecde-app-high-utci-days",
+      "detail": "ecde-app-high-utci-days-v1",
+      "page_url": "ecde-app-high-utci-days-v1",
       "identifier": "C3S2_430a_010",
+      "ecde_identifier": "10_high_utci_days",
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
@@ -81,9 +111,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-frost-days",
-      "page_url": "ecde-app-frost-days",
+      "detail": "ecde-app-frost-days-v1",
+      "page_url": "ecde-app-frost-days-v1",
       "identifier": "C3S2_430a_011",
+      "ecde_identifier": "11_frost_days",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
@@ -91,9 +122,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-total-precipitation",
-      "page_url": "ecde-app-total-precipitation",
+      "detail": "ecde-app-total-precipitation-v1",
+      "page_url": "ecde-app-total-precipitation-v1",
       "identifier": "C3S2_430a_012",
+      "ecde_identifier": "12_total_precipitation",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Mean precipitation"],
@@ -101,9 +133,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-maximum-five-days-precipitation",
-      "page_url": "ecde-app-maximum-five-days-precipitation",
+      "detail": "ecde-app-maximum-five-days-precipitation-v1",
+      "page_url": "ecde-app-maximum-five-days-precipitation-v1",
       "identifier": "C3S2_430a_013",
+      "ecde_identifier": "13_maximum_five_days_precipitation",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
@@ -111,9 +144,21 @@
       "version": "1.0"
     },
     {
+      "detail": "ecde-app-extreme-precipitation-total-v1",
+      "page_url": "ecde-app-extreme-precipitation-total-v1",
+      "identifier": "C3S2_430a_014",
+      "ecde_identifier": "14_extreme_precipitation_total",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Extreme precipitation"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/14_extreme_precipitation_total/14_extreme_precipitation_total_aggregation.zip",
+      "version": "1.0"
+    },
+    {
       "detail": "ecde-app-extreme-precipitation-days-v1",
       "page_url": "ecde-app-extreme-precipitation-days-v1",
       "identifier": "C3S2_430a_015",
+      "ecde_identifier": "15_frequency_of_extreme_precipitation",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
@@ -124,6 +169,7 @@
       "detail": "ecde-app-river-discharge",
       "page_url": "ecde-app-river-discharge",
       "identifier": "C3S2_430a_016b",
+      "ecde_identifier": "16b_mean_river_discharge_regridded",
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
@@ -134,6 +180,7 @@
       "detail": "ecde-app-river-flood",
       "page_url": "ecde-app-river-flood",
       "identifier": "C3S2_430a_016",
+      "ecde_identifier": "16_flood_recurrence_regridded",
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
@@ -141,9 +188,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-aridity-actual",
-      "page_url": "ecde-app-aridity-actual",
+      "detail": "ecde-app-aridity-actual-v1",
+      "page_url": "ecde-app-aridity-actual-v1",
       "identifier": "C3S2_430a_017",
+      "ecde_identifier": "17_aridity_actual",
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
@@ -151,9 +199,54 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-high-fire-danger-days",
-      "page_url": "ecde-app-high-fire-danger-days",
+      "detail": "ecde-app-consecutive-dry-days-v1",
+      "page_url": "ecde-app-consecutive-dry-days-v1",
+      "identifier": "C3S2_430a_018",
+      "ecde_identifier": "18_consecutive_dry_days",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-meteorological-droughts-duration-v1",
+      "page_url": "ecde-app-meteorological-droughts-duration-v1",
+      "identifier": "C3S2_430a_019",
+      "ecde_identifier": "19_duration_of_meteorological_droughts",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/19_duration_of_meteorological_droughts/19_duration_of_meteorological_droughts_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-meteorological-droughts-magnitude-v1",
+      "page_url": "ecde-app-meteorological-droughts-magnitude-v1",
+      "identifier": "C3S2_430a_020",
+      "ecde_identifier": "20_magnitude_of_meteorological_droughts",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/20_magnitude_of_meteorological_droughts/20_magnitude_of_meteorological_droughts_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-mean-soil-moisture-v1",
+      "page_url": "ecde-app-mean-soil-moisture-v1",
+      "identifier": "C3S2_430a_021",
+      "ecde_identifier": "21b_mean_soil_moisture",
+      "theme": ["Agriculture"],
+      "hazard_category": "Wet and dry",
+      "hazards": ["Aridity"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/21b_mean_soil_moisture/21b_mean_soil_moisture_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-high-fire-danger-days-v1",
+      "page_url": "ecde-app-high-fire-danger-days-v1",
       "identifier": "C3S2_430a_022",
+      "ecde_identifier": "22_days_with_high_fire_danger",
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
@@ -161,9 +254,32 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-snowfall-amount",
-      "page_url": "ecde-app-snowfall-amount",
+      "detail": "ecde-app-mean-wind-speed-v1",
+      "page_url": "ecde-app-mean-wind-speed-v1",
+      "identifier": "C3S2_430a_023",
+      "ecde_identifier": "23_mean_wind_speed",
+      "theme": ["Energy", "Tourism", "Agriculture"],
+      "hazard_category": "Wind",
+      "hazards": ["Mean wind speed"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/23_mean_wind_speed/23_mean_wind_speed_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-extreme-wind-speed-days-v1",
+      "page_url": "ecde-app-extreme-wind-speed-days-v1",
+      "identifier": "C3S2_430a_024",
+      "ecde_identifier": "24_extreme_wind_speed_days",
+      "theme": ["Energy", "Tourism", "Agriculture"],
+      "hazard_category": "Wind",
+      "hazards": ["Severe windstorm"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/24_extreme_wind_speed_days/24_extreme_wind_speed_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
+      "detail": "ecde-app-snowfall-amount-v1",
+      "page_url": "ecde-app-snowfall-amount-v1",
       "identifier": "C3S2_430a_025",
+      "ecde_identifier": "25_snowfall_amount",
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
       "hazards": ["Snow and land ice"],
@@ -171,29 +287,87 @@
       "version": "1.0"
     },
     {
+      "detail": "ecde-app-high-snow-days-v1",
+      "page_url": "ecde-app-high-snow-days-v1",
+      "identifier": "C3S2_430a_026",
+      "ecde_identifier": "26_period_with_snow_water_equivalent_above_a_threshold",
+      "theme": ["Tourism"],
+      "hazard_category": "Snow and ice",
+      "hazards": ["Snow and land ice"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/26_high_snow_days/26_high_snow_days_aggregation.zip",
+      "version": "1.0"
+    },
+    {
       "detail": "ecde-app-relative-sea-level-rise",
       "page_url": "ecde-app-relative-sea-level-rise",
       "identifier": "C3S2_430a_027",
+      "ecde_identifier": "27_relative_sea_level_rise_gridded",
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Relative sea level"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip",
       "version": "1.0"
-    },
-        {
+    },        
+    {
       "detail": "ecde-app-extreme-sea-level",
       "page_url": "ecde-app-extreme-sea-level",
       "identifier": "C3S2_430a_028",
+      "ecde_identifier": "28_extreme_sea_level_gridded",
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
       "zip_url": "https://ecde-data.copernicus-climate.eu/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip",
       "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-sst-v1",
+      "page_url": "ecde-app-sst-v1",
+      "identifier": "C3S2_430a_029",
+      "ecde_identifier": "29_sst",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Ocean temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/29_sst/29_sst_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-marine-heatwaves-v1",
+      "page_url": "ecde-app-marine-heatwaves-v1",
+      "identifier": "C3S2_430a_030",
+      "ecde_identifier": "30_marine_heatwaves",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Ocean temperature"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/30_marine_heatwaves/30_marine_heatwaves_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-dissolved-oxygen-level-v1",
+      "page_url": "ecde-app-dissolved-oxygen-level-v1",
+      "identifier": "C3S2_430a_031",
+      "ecde_identifier": "31_dissolved_oxygen_level",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Biochemical ocean properties"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/31_dissolved-oxygen-level/31_dissolved-oxygen-level_aggregation.zip",
+      "version": "1.0"
+    }, 
+    {
+      "detail": "ecde-app-ocean-ph-level-v1",
+      "page_url": "ecde-app-ocean-ph-level-v1",
+      "identifier": "C3S2_430a_032",
+      "ecde_identifier": "32_ocean_ph_level",
+      "theme": ["Water and Coastal"],
+      "hazard_category": "Oceanic",
+      "hazards": ["Biochemical ocean properties"],
+      "zip_url": "https://ecde-data.copernicus-climate.eu/32_ocean_ph_level/32_ocean_ph_level_aggregation.zip",
+      "version": "1.0"
     },
     {
-      "detail": "ecde-app-maximum-temperature",
-      "page_url": "ecde-app-maximum-temperature",
+      "detail": "ecde-app-maximum-temperature-v1",
+      "page_url": "ecde-app-maximum-temperature-v1",
       "identifier": "C3S2_430a_0L1",
+      "ecde_identifier": "l1_daily_maximum_temperature",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
@@ -201,9 +375,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-minimum-temperature",
-      "page_url": "ecde-app-minimum-temperature",
+      "detail": "ecde-app-minimum-temperature-v1",
+      "page_url": "ecde-app-minimum-temperature-v1",
       "identifier": "C3S2_430a_0L2",
+      "ecde_identifier": "l2_daily_minimum_temperature",
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
@@ -211,9 +386,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tiger-mosquito-season-length",
-      "page_url": "ecde-app-tiger-mosquito-season-length",
+      "detail": "ecde-app-tiger-mosquito-season-length-v1",
+      "page_url": "ecde-app-tiger-mosquito-season-length-v1",
       "identifier": "C3S2_430a_0L3",
+      "ecde_identifier": "l3_tiger_mosquito_season_length",
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
@@ -221,9 +397,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-tiger-mosquito-suitability",
-      "page_url": "ecde-app-tiger-mosquito-suitability",
+      "detail": "ecde-app-tiger-mosquito-suitability-v1",
+      "page_url": "ecde-app-tiger-mosquito-suitability-v1",
       "identifier": "C3S2_430a_0L4",
+      "ecde_identifier": "l4_tiger_mosquito_suitability_index",
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
@@ -231,9 +408,10 @@
       "version": "1.0"
     },
     {
-      "detail": "ecde-app-fire-weather-index",
-      "page_url": "ecde-app-fire-weather-index",
+      "detail": "ecde-app-fire-weather-index-v1",
+      "page_url": "ecde-app-fire-weather-index-v1",
       "identifier": "C3S2_430a_0L6",
+      "ecde_identifier": "l6_fire_weather_index",
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
