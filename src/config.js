@@ -11,11 +11,11 @@ const config = {
     outdir: "./public",
     source: "./src",
     maris_css: "./src/assets/css/style-maris.css",
-    toolbox_version: "latest",
   },
   url: {
-    toolbox_app:
-      "https://cds.climate.copernicus.eu/workflows/c3s/%APP%/master/configuration.json",
+    cads_app_url:
+      process.env.CADS_APP_URL ||
+      "https://apps.copernicus-climate.eu/c3s-apps/ecde/",
   },
   usage: {
     markdown_texts: false,

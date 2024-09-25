@@ -11,7 +11,8 @@
     "glob": "^7.1.6",
     "marked": "^2.0.0",
     "rimraf": "^3.0.2",
-    "sync-request": "^6.1.0"
+    "sync-request": "^6.1.0",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "dev": "npm-run-all -p nodemon browser-sync",
