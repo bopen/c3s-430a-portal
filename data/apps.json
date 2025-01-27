@@ -8,7 +8,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/01_mean_temperature/01_mean_temperature_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -19,7 +18,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/02_growing_degree_days/02_growing_degree_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -30,7 +28,6 @@
       "theme": ["Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/03_heating_degree_days/03_heating_degree_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -41,7 +38,6 @@
       "theme": ["Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Mean air temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/04_cooling_degree_days/04_cooling_degree_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -52,7 +48,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/05_tropical_nights/05_tropical_nights_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -63,7 +58,6 @@
       "theme": ["Agriculture", "Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/06_hot_days/06_hot_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -74,7 +68,6 @@
       "theme": ["Agriculture", "Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/07_warmest_three_day_period/07_warmest_three_day_period_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -85,7 +78,6 @@
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/08_heat_waves_health/08_heat_waves_health_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -96,7 +88,6 @@
       "theme": ["Health", "Energy"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/09_heat_waves_climatological/09_heat_waves_climatological_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -107,7 +98,6 @@
       "theme": ["Health"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/10_high_utci_days/10_high_utci_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -118,7 +108,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/11_frost_days/11_frost_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -129,7 +118,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Mean precipitation"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/12_total_precipitation/12_total_precipitation_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -140,7 +128,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/13_maximum_five_days_precipitation/13_maximum_five_days_precipitation_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -151,7 +138,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/14_extreme_precipitation_total/14_extreme_precipitation_total_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -162,7 +148,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Extreme precipitation"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/15_frequency_of_extreme_precipitation/15_frequency_of_extreme_precipitation_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -173,7 +158,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/16b_maximum_river_discharge/16b_maximum_river_discharge_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -184,7 +168,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Wet and dry",
       "hazards": ["River flooding"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/16_flood_recurrence/16_flood_recurrence_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -195,7 +178,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/17_aridity_actual/17_aridity_actual_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -206,7 +188,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/18_consecutive_dry_days/18_consecutive_dry_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -217,7 +198,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/19_duration_of_meteorological_droughts/19_duration_of_meteorological_droughts_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -228,7 +208,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/20_magnitude_of_meteorological_droughts/20_magnitude_of_meteorological_droughts_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -239,7 +218,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Wet and dry",
       "hazards": ["Aridity"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/21b_mean_soil_moisture/21b_mean_soil_moisture_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -250,7 +228,6 @@
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/22_days_with_high_fire_danger/22_days_with_high_fire_danger_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -261,7 +238,6 @@
       "theme": ["Energy", "Tourism", "Agriculture"],
       "hazard_category": "Wind",
       "hazards": ["Mean wind speed"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/23_mean_wind_speed/23_mean_wind_speed_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -272,7 +248,6 @@
       "theme": ["Energy", "Tourism", "Agriculture"],
       "hazard_category": "Wind",
       "hazards": ["Severe windstorm"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/24_extreme_wind_speed_days/24_extreme_wind_speed_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -283,7 +258,6 @@
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
       "hazards": ["Snow and land ice"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/25_snowfall_amount/25_snowfall_amount_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -294,7 +268,6 @@
       "theme": ["Tourism"],
       "hazard_category": "Snow and ice",
       "hazards": ["Snow and land ice"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/26_high_snow_days/26_high_snow_days_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -305,7 +278,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Relative sea level"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/27_relative_sea_level_rise/27_relative_sea_level_rise_aggregation.zip",
       "version": "1.0"
     },        
     {
@@ -316,7 +288,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Coastal",
       "hazards": ["Coastal flooding"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/28_extreme_sea_level/28_extreme_sea_level_aggregation.zip",
       "version": "1.0"
     }, 
     {
@@ -327,7 +298,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Oceanic",
       "hazards": ["Ocean temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/29_sst/29_sst_aggregation.zip",
       "version": "1.0"
     }, 
     {
@@ -338,7 +308,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Oceanic",
       "hazards": ["Ocean temperature"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/30_marine_heatwaves/30_marine_heatwaves_aggregation.zip",
       "version": "1.0"
     }, 
     {
@@ -349,7 +318,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Oceanic",
       "hazards": ["Biochemical ocean properties"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/31_dissolved-oxygen-level/31_dissolved-oxygen-level_aggregation.zip",
       "version": "1.0"
     }, 
     {
@@ -360,7 +328,6 @@
       "theme": ["Water and Coastal"],
       "hazard_category": "Oceanic",
       "hazards": ["Biochemical ocean properties"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/32_ocean_ph_level/32_ocean_ph_level_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -371,7 +338,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Extreme heat"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/l1_daily_maximum_temperature/l1_daily_maximum_temperature_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -382,7 +348,6 @@
       "theme": ["Agriculture"],
       "hazard_category": "Heat and cold",
       "hazards": ["Cold spells and frost"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/l2_daily_minimum_temperature/l2_daily_minimum_temperature_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -393,7 +358,6 @@
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/l3_tiger_mosquito_season_length/l3_tiger_mosquito_season_length_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -404,7 +368,6 @@
       "theme": ["Health"],
       "hazard_category": "Other",
       "hazards": ["Other"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/l4_tiger_mosquito_suitability_index/l4_tiger_mosquito_suitability_index_aggregation.zip",
       "version": "1.0"
     },
     {
@@ -415,7 +378,6 @@
       "theme": ["Forestry", "Tourism"],
       "hazard_category": "Wet and dry",
       "hazards": ["Wildfire"],
-      "zip_url": "http://ecde-data.service.compute.cci2.ecmwf.int/l6_fire_weather_index/l6_fire_weather_index_aggregation.zip",
       "version": "1.0"
     }
   ]

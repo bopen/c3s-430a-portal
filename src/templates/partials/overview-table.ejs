@@ -8,7 +8,6 @@
       <th>Hazard category</th>
       <th>Hazard type</th>
       <th>Indicator</th>
-      <th>Zip download</th>
     </tr>
   </thead>
 
@@ -17,7 +16,7 @@
       Object.entries(data).forEach(([hazard_category, hazard_types], hc_index) => {
         const outerSpan = Object.values(hazard_types).reduce((acc, { length }) => acc + length, 0);
         Object.entries(hazard_types).forEach(([hazard_type, indicators], ht_index) => {
-          indicators.forEach(({ indicator_text, indicator_url, zip_text, zip_url }, i_index) => {
+          indicators.forEach(({ indicator_text, indicator_url}, i_index) => {
 
     %>
     <tr>
@@ -46,20 +45,6 @@
             <%= indicator_text %>
           </a>
         
-      </td>
-
-      <td data-grid="<%= `${hc_index}-${ht_index}-${i_index}` %>">
-        <%
-             if (zip_url.startsWith('http')) {
-        %>
-                <a href="<%= zip_url %>"><%= zip_text %></a>
-        <%
-             } else {
-        %>
-                <%= zip_text %>
-        <%
-             }
-        %>
       </td>
     </tr>
     <%
