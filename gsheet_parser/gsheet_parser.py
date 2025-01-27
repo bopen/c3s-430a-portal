@@ -214,7 +214,7 @@ def add_download_link():
     for i in range(len(data)):
         for key, indicator in data[i].items():
             if "Data download" not in indicator["ConsolidatedTextGeneral"]:
-                indicator["ConsolidatedTextGeneral"] = indicator["ConsolidatedTextGeneral"] + f"\n\n**Data download**\n\nThe aggregated data shown on the map can be downloaded through app below.\n"
+                indicator["ConsolidatedTextGeneral"] = indicator["ConsolidatedTextGeneral"] + f"\n\n**Data download**\n\nThe aggregated data shown on the map can be downloaded through the application below.\n"
                 data[i] = {key: indicator}
                 
     with open(f'../data/data.json', 'w', encoding='utf-8') as f:
