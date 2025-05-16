@@ -16,7 +16,7 @@ More information about the dataset can be found in the corresponding [CDS docume
 
 <br />**Supporting Information**
 
-Further information about this application can be found in the [ECDE application User Guide](https://confluence.ecmwf.int/display/CKB/European+Climate+Data+Explorer%3A+User+Guide) and the [Data and datasets underpining the ECDE](https://confluence.ecmwf.int/display/ECDE/Input+data+underpinning+the+European+Climate+Data+Explorer%3A+Description+of+the+datasets+and+variables).
+Further information about this application can be found in the [ECDE application User Guide](https://confluence.ecmwf.int/display/CKB/European+Climate+Data+Explorer%3A+User+Guide) and the [Data and datasets underpining the ECDE](https://confluence.ecmwf.int/display/CKB/Input+data+underpinning+the+European+Climate+Data+Explorer%3A+Description+of+the+datasets+and+variables).
 Related information also be found in other sections of the EEA site:
 The Index based interactive EEA report: Open ocean - Marine heatwaves
 ([link](https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1/open-ocean/open-ocean-marine-heatwave)).
